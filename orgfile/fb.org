@@ -1,0 +1,454 @@
+# -*- coding: utf-8; -*-
+#+LAST_MOBILE_CHANGE: 2011-02-25 10:18:33
+#+STARTUP: hidestars
+#+STARTUP: logdone
+#+PROPERTY: Effort_ALL  0:10 0:20 0:30 1:00 2:00 4:00 6:00 8:00
+#+COLUMNS: %38ITEM(Details) %TAGS(Context) %7TODO(To Do) %5Effort(Time){:} %6CLOCKSUM{Total}
+#+PROPERTY: Effort_ALL 0 0:10 0:20 0:30 1:00 2:00 3:00 4:00 8:00
+
+* Minutes riunioni FB
+** Meeting <2010-01-20 Wed>
+   :PROPERTIES:
+   :on:       <2010-01-20 Wed 11:57>
+   :with:     Monica Gianluca Barbara Emanuele Silvia Emilio Roberto
+   :at:       Aula Riunione Primo Piano
+   :END:
+
+   1) Proposte attivita' per dottorato
+      * Realizzazione ed utilizzo tesa di misura per manipolatore veloce con inclusione della misura di corrente media
+      * Una attivita sul Litio (con LLL e misura di modifica bordo)
+   2) Suggerita una attivita sulle ETB da coordinare con Riflettometro
+   3) Proposte per IAEA 2010: Suggerito un lavoro di edge che include flow & isole m=0, g-modes & drift-modes da eventualmente includere con RFP-Tyr, profili esterni
+
+* Manipolatori
+** STARTED [6/6] Modifica sistema di movimentazione manipolatori
+:PROPERTIES:
+:ID: 22FC3F79-A839-4C05-A15C-D8A365DE96F0
+:END:
+   - [X] Leggere nota di Andrea 
+   - [X] Piccola ricerca di mercato su sistema di movimentazione
+   - [X] Rispondere ad Andrea
+   - [X] Indagare possibilita di spesa
+   - [X] Chiedere a Marco Boldrin per ~ 9000 euro spesa in conto
+     aperto RS + Electroingross
+   - [X] Centro-stella per variazione velocita motore0
+** TODO Verifica chiusura valvola Gate per we
+   SCHEDULED: <2010-10-01 Fri .+7d>
+   - State "DONE"       from "TODO"       [2010-09-24 Fri 14:51]
+   - State "DONE"       from "TODO"       [2010-07-13 Tue 19:46]
+   :PROPERTIES:
+   :LAST_REPEAT: [2010-09-24 Fri 14:51]
+   :ID:       EC6F9D86-350A-4993-8837-69BAEAD398C0
+   :END:
+
+** TODO Check List
+:PROPERTIES:
+:ID: 59E25C80-E983-4179-B5D7-93A901AED590
+:END:
+  - [X] Check list di attivazione per <2010-05-27 Thu> 
+  - [ ] Modifica check list con attivazione scatola sonda tripla anche
+	con solo manipolatore portacampioni
+** Shutdown Ottobre 2010
+*** DONE Smontaggio Manipolatori
+DEADLINE: <2010-09-23 Thu> CLOSED: [2010-10-18 Mon 12:58]
+   - [X] Talk @ Andrea 
+   - [X] Determina giorni per smontaggio
+* ISIS
+** DONE Numero di FE installati fra manipolatori ed ISIS con distinzione fra FE-S e FE-M 
+CLOSED: [2012-09-10 Mon 10:09] DEADLINE: <2011-04-21 Thu>
+:PROPERTIES:
+:ID: D5231B4E-6FDF-421C-9150-F70F82368179
+:END:
+* Call for proposal Tokamaks
+** DONE TCV
+   DEADLINE: <2010-09-15 Wed> CLOSED: [2010-09-15 Wed 16:59]
+
+* DONE Rapporto attivita 2010
+CLOSED: [2011-02-25 Fri 10:18]
+** DONE [3/3] Paragrafi da fare
+   CLOSED: [2010-11-29 Mon 14:10]
+  - [X] 2.5.3 Turbulence and momentum (2p)
+  - [X] 4.7.1 Asdex (1p)
+  - [X] 6.7 Arcless (1/2 pagina)
+** Paragrafo 2.5.3: Turbulence and edge momentum transport studies (2p)
+*** Da contributo IAEA introdurre:
+   - [X] Flow: Gundestrup + ISIS (helical flow + dynamo estimate)
+   - [X] Helical plasma wall interaction from Vf + and HFS/LFS
+     H_alpha. Dipendenza da Delta e dDelta/dPhi
+   - [X] 
+** Paragrafo 4.7.1 Asdex
+*** TODO [0/3] da inserire
+:PROPERTIES:
+:ID: 6DD35D82-EFCD-4890-8681-8E6092F32598
+:END:
+  - [ ] Confronto fra mono-dipolo simulato esperimento
+  - [ ] Nuova figura con la stima della corrente
+  - [ ] Statistica
+** Pargrafo 6.7 Arcless
+* Tesi
+
+* DONE Call for proposals 2011 & Workshop di programma
+DEADLINE: <2011-02-01 Tue> CLOSED: [2011-02-25 Fri 10:18]
+:PROPERTIES:
+:dowith: Me
+:ID: 7DD53246-5C49-422A-8B9F-59CD0A66C7AC
+:END:
+** DONE Proposte da fare [5/6]
+CLOSED: [2011-02-01 Tue 10:23]
+  - [X] Riferimenti non nulli a bassa corrente e misura di j//
+  - [X] Campo elettrico di dynamo in QSH
+  - [X] RFX-tok: zonal flows
+  - [X] RFX-tok: filamenti
+  - [X] E dinamo e j parallel
+
+** DONE Presentazione workshop sul flow
+CLOSED: [2011-02-04 Fri 14:50]
+** DONE To be read [8/11]
+CLOSED: [2011-02-25 Fri 10:18]
+:PROPERTIES:
+:ID: 27230575-9B23-4EB4-89A5-BA698B83D1C9
+:END:
+  - [X] Piovesan
+  - [X] Bonomo
+  - [X] Camenen and up-down asymmetry [[file:~/Documents/RFX/Papers/2010/Camenen/CamenenPlasma%20Physics%20and%20Controlled%20Fusion-52-2010-1.pdf][TCV]].--> Non e' interessante penso
+  - [X] IDA and LHD [[file:~/Documents/RFX/Papers/2008/Ida/IdaJ.%20Phys.%20Conf.%20Ser.-123-2008.pdf][review]]
+  - [ ] Leggi articolo Le haye [[file:~/Documents/RFX/Papers/2010/La%20Haye/La%20HayePhys.%20Plasmas-17-2010.pdf][article]]
+  - [ ] Leggi articolo [[file:~/Documents/RFX/Papers/2008/Cole/ColePhys.%20Plasmas-15-2008.pdf][Cole]]
+  - [X] Leggi articolo [[file:~/Documents/RFX/Papers/2010/Nave/NavePhys.%20Rev.%20Lett.-105-2010.pdf][Nave]]
+  - [X] Leggi IAEA [[file:~/LN/rhome/Fisica/RFX/RFX-mod-Programme-WS-2011/to%20be%20read/ov_4-3.pdf][Callen]]
+  - [ ] Leggi IAEA [[file:~/LN/rhome/Fisica/RFX/RFX-mod-Programme-WS-2011/to%20be%20read/ov_5-4.pdf][Peeters]]
+  - [X] Leggi articolo Garofalo PRL 1010
+  - [X] Leggi articolo [[file:~/Documents/RFX/Papers/2007/Spong/SpongNuclear%20Fusion-47-2007.pdf][Spong]]. Troppo specifico su DKES e PENTA per la
+    determinazione del flow
+*** Nave
+ The presence of a magnetic ripple breaks the toroidal symmetry so
+ that the motion of individual particles may lead to nonambipolar
+ transport that can affect the plasma rotation through the
+ neoclassical toroidal viscosity. During NBI magnetic ripple has an
+ effect as the ripple transport of fast ions induces edge
+ counterrotation in plasmas. Experiment in JET performed in Ohmic
+ plasmas where CXRS angular frequency consistent with MHD propagation
+ (*different from our cases*). Results is that in the core in the core
+ where is naturally countercorrent, toroidal rotation becomes more
+ negative whereas at the edge corotation decreases and for ripple of 1
+ % it becomes counter-current. Theory suggest that toroidal field
+ ripple, by breacking toroidal simmetry, induces radial particle
+ diffusion which could be different for ions and electrons. This
+ non-ambipolar transport gives rise to a charge separation that
+ relaxes the radial electric field and the toroidal rotation toward a
+ steady state where particle flux is ambipolar. In TORE SUPRA
+ analogous experiment reveal the consequence of too high ripple in
+ term of magnetic well.
+*** Garofalo
+- Esiste un neoclassical offset toroidal rotation associated with a
+  Torque T_{NR}\propto (V_{\phi}-V_{\phi}^0) driven by static
+  nonresonant fields. Comparable to ion diamagnetic drift but opposite direction
+- Existence of offset toroidal rotation proven by looking the
+  \omega_{\phi} vs torque density (zero torque --> 50 km/s)
+- Modification of flow profile modifies \omega_E = E_r/RB_{\theta} and
+  lead to confinement improvement consistent with microturbulence stabilization
+- V_{\phi}^{0,NC} \approx (k_c/Z_ieB_{\theta})(\partial
+  T_i/\partial_r) with k_c depending on collisionality
+*** Callen IAEA
+- Si scrive una equazione di trasporto del toroidal angular momentum
+  density con diversi contributi 
+  \frac{\partial L}{\partial t} = NTV + resonant FE + cl,neo,pal +
+  Reynolds + momentum source
+  - *Collision-induced toroidal torque* Proporzionale alla
+    perturbazione normalizzata ed alla differenza fra flow toroidale e NC toroidal
+    rotation offset (quest'ultimo proporzionale al gradiente di
+    temperatura ionica). C'e' una costante chiamata toroidal viscosity
+    frequency che dipende dal regime collisionale. The presence of 3D
+    fields introduce radial drifts of the center of trapped-ion banana
+    orbits with a drift velocity proportional to the normalized perturbation.
+
+*** Spong
+Troppo specifico. Tratta di DKES e PENTA. Interessante secondo me e'
+la frase per cui in stellarator ions and electron loss rates are not
+automatically ambipolar leading to electric field formation.
+** DONE Presentation outline
+CLOSED: [2011-02-04 Fri 14:50]
+1. Motivation and outline
+2. Core measurements: passive from BV and CV (figura del 1D impurity
+   transport model). Toroidal and Poloidal rotation profile. Hints we
+   have intrinsic toroidal rotation
+3. Core measurements: Helical pattern determined through the
+   application of non-zero reference for most internal mode with
+   convective cell (fig poloidal cross section)
+4. Shearing rate (location around the barrier with \omega_E \approx \gamma_{MT}) dependence on amplitude of the perturbation. Confronto
+   con Nave PRL fig 2(b) (although in that case NR perturbation are
+   applied and we are dealing with toroidal rotation). Different behavior core (naturally counter-current and
+   becomes more negative) to edge (naturally co-rotation decreases and
+   becomes even counter-current). Simmetry breaking cause non-ambipolar
+   electron-ion diffusion and consequently E_r builds up to 
+5. Comparison with theory MHD (but not always inconsistent) we should
+   consider some other things
+6. How we locate in the general momentum framework which is now aware
+   of 3D effect. Angular toroidal momentum model with 3D field from Callen
+   1. low n non-resonant \delta b torques (fig. garofalo)
+   2. medium n ripple (richiama Nave)
+   3. low n resonant \delta b torque --> plasma breaking (fig 8
+      Callen) or in general Tsang (PoF 19 1976) magnetic field ripple
+      lead to a non ambipolar ion flux (--> E_r)
+   4. effects which comes from reynolds stress: which is divided in
+      toroidal reynolds stress, convective flux and residual stress
+      which convect part of the heat flux into toroidal flow (Diamond,
+      Gurcan)
+   5. Toroidal and poloidal rotation are linked together (see Callen)
+   6. Beware this is done from a perturbed 2D equilibrium of a
+      tokamak.
+7. Stellarator (Spong & Helander & Ida --> we should deal with
+   turbuelence and zonal flow). Rimanda al talk di Marco Gobbin
+8. Edge: parallel flow inversion (rifare figura) and toroidal flow ripple
+9. Edge: estimate of the dynamo pattern--> estimate of the dynamo
+   field ( hints on the possibility to infer j_{\parallel} )
+10. Comparison with theory: pure MHD (with no pressure and zero-velocity
+    at the edge) consistent in the core but not at the edge
+11. 
+
+* EFDA TTG Meeting
+:PROPERTIES:
+:on: <2011-05-11 Wed 13:34>
+:at: Remote meeting
+:with: All Efda
+:END:
+ - V. Naulin  : Description of 2012-2013 EFDA activities and time frame
+ - N. Vianello: beta/parallel electron legth & normalized collisional frequency
+ - M. Spolaore: RFX-mod proposal: TJ-II, Comparison between
+   AUG/Compass/RFX-mod-tokamak, RFX-mod as RFP
+ - A. Kirk: 6 coils in the upper row and 12 coils in the lower
+   row. Measurements RP & BES, flows, Er, T_i (from RFEA) and
+   magnetics, Resistive/linear vacuum code. Two RFEA for ion energy distribution
+ - XU: GPI installed for blobs studies in DED up to 500 kHz looking at
+   LCFS EDGE-SOL transition
+ - Willensdorfer: Li-Beam on AUG feasibility studies of Zeeman effect
+   for current measurements
+ - Kramer-Flechen: Correlation reflectometer in Textor. Perpendicular
+   velocity, decorrelation time, density fluctuation level and
+   correlation lenght in all the three dimension. Use of RMP. RMP
+   combined with probes, BES. Scan on I_ded. Poloidal resolution (0,
+   and > 90 degree). Compare with ATTEMPT code. Experiments partly performed.
+ - D. Carralero:
+ - I. Furno: Feasibility studies of a 3D configuration in
+   Torpex. Levitron
+ - J. Adamek:
+ - Zoletnik: ITG scale turbulence at the edge of Textor with
+   Li-Beam. In principle all the three components of velocity. Typical
+   edge turbulence disappears with DED. Edge GAMs disappear as well
+   whereas at r/a=0.85 increase in amplitude.
+ - Kendl: E. Kendl et al PoP vol 17, 072302 (2010)
+ - V. Naulin: Riso contribution
+ - Key parameter:
+   * size
+   * radial velocity
+   * generation rate
+   * Temperature inside the blob
+   * Shearing rate
+   * paacking fraction
+   * vorticity/current
+   * 2D maps
+ - define measurebles and methodology to be shared
+ - RMP on type of turbulence on the EDGE
+
+
+* Asdex Campaign 20-23 November 2012
+** <2012-11-20 Tue>. See email from Daniel for a complete logbook
+ |  Shot | parity | XMEM | Strokes                                | Comment                                                                          |
+ | 28855 | even   | 1721 |                                        | Short, ICRH not working. Problem with BT                                         |
+ | 28856 | even   | 1721 | 2.0-2.5, 3.57-3.94 5.48-5.80 6.98-7.3  | Nice, 4 strokes with different density/magnetic perturbation                     |
+ | 28857 | even   | 1721 | 2.0-2.4, 3.57-3.94, 5.48-5.80 6.98-7.3 | Very Nice, seems to be differences between mitigated in high density/low density |
+ | 28858 | odd    | 1721 | 2.0-2.4, 3.57-3.94, 5.48-5.80 6.98-7.3 | odd parity less effective also the last part with higher density and no control  |
+ | 28859 | odd    | 1721 | 2.0-2.4, 3.57-3.94, 5.48-5.80 6.98-7.3 | odd parity less effective                                                        |
+ | 28860 | even   |      |                                        | Closer to the separatrix                                                         |
+ | 28861 | even   |      |                                        | Intermidiate position with in between the two previous. Nice                     |
+
+** Stroke ramp for profiles
+|  Shot | Stroke Number |  tstart |    tend |
+|-------+---------------+---------+---------|
+| 28860 |             1 |   2.070 |   2.160 |
+| 28860 |             2 | 3.58021 |    3.66 |
+| 28860 |             3 |  5.4801 | 5.55994 |
+|-------+---------------+---------+---------|
+| 28857 |               |         |         |
+
+**  <2012-11-22 Thu> Fluctuations during L-H transition
+ |  Shot | X Manipulator |   | Strokes times                                     | Comment |
+ | 28870 |               |   | 2.14-2.175, 3.135-3.171, 4.136-4.174, 4.835-4.870 |         |
+ | 28871 |               |   | 2.14-2.175, 2.835-2.89, 3.53-3.5899               |         |
+ | 28872 |               |   | 2.14-2.175, 2.83-2.9, 3.533-3.6                   |         |
+ | 28873 |               |   | 2.14-2.175, 2.83-2.9, 3.533-3.6                   |         |
+ | 28874 |          1773 |   |                                                   |         |
+ | 28875 |               |   |                                                   |         |
+ | 28876 |               |   |                                                   |         |
+ | 28877 |               |   |                                                   |         |
+
+** Remote meeting with V.Naulin, J.J.Rasmussen and S.Costea
+ - Check the modification of edge \beta in between mitigated, uneffective
+   magnetic perturbation and mitigated phase
+ - Ask if using high flux probe similar observation resulted on ion
+   saturation current signal
+ - Check if Doppler reflectometer observe a similar mode on flow
+   during the mitigated phase. Beware that the different density could
+   caouse a different loss of thermal particle and a consequent
+   different torque
+ - Check if available the spatial phase relation between the
+   perturbation and the manipulator
+ - It is possible to execute vacuum shots with manipulator to see if
+   it is possible to reconstruct vacuum RMP perturbation?
+
+
+** Analisi da includere nel report EFDA
+ - [X] DOP nel caso mitigato e non mitigato
+
+
+** ELM identificati
+ |  Shot | RMP |     tmin |      tmax |
+ | 28859 |   0 |  2.17948 |   2.18014 |
+ | 28859 |   1 | 5.575654 | 5.5763551 |
+ |       |     |          |           |
+
+* EFDA IPH2013
+** Proposals from FB group:
+*** A02 Shaping and Controlling Performance Limiting instabilities
+ - Deliverables WP13-IPH-A02-P1: First demonstration of 3D MHD control
+   in existing European tokamak
+ - Deliverables WP13-IPH-A02-P2: Breakthroughts in understanding 3D
+   magnetic and kinetic effects development in new scenario. 
+   1. Experiments and modelling dedicated to understanding the
+      influence of 3D magnetic field on MHD stability (EMILIO?
+      Priority/Baseline. Extension of previous task). calcolo q
+      elicoidale in scariche con modo dominante anche NTM
+
+*** A04 Plasma rotation
+ - Proposed activity on WP13-IPH-04-P1
+   1. Effects of 3D magnetic field on Reynolds/Maxwell residual stress
+      in low-current Ohmic tokamak (BS support/ Extension of previous task)
+   2. Compare 3D effects on modification of edge radial electric field
+      in tokamak and RFP plasmas (BS support/ Extension of previous task)
+   3. Experimental validation of turbulence driven perpendicular flow
+      (Limit Cycle Oscillations) in RFP and tokamaks and impacts of 3D
+      fields on turbulence driven flow (PS? Eventualmente Io, Monica,
+      Gianluca de Masi. New task)
+*** A05 Electron heat transport and Multi-scale physics
+- Deliverables WP13-IPH-A05-P1:
+  1. Priority support for diagnostic development: Cluster magnetic
+     probe for high-k measurements in RFPs. Following first
+     experimental observation of rho_i scale fluctuations due to
+     microtearing instabilities a diagnostic is proposed for
+     measurement of high toroidal and poloidal wave number
+     fluctuations measurements to be installed in RFX-mod. analysis of
+     the results (0.2 ppy PS (?) + stima costi realizzazione 3
+     kEuro). -> M. Zuin e chi altri? 
+
+*** A06 Pedestal intsabilities (ELMs) Mitigation and heat loads
+- Deliverables WP13-IPH-A06-P1:
+  1. Scrape OFF layer investigation of electromagnetic turbulence and
+     transport in COMPASS-D. PS 0.2 ppy M. Spolaore and N. Vianello
+  2. Design and eventual exploitation of probe for flow and
+     electromagnetic turbulence for TCV SOL analysis (BS support)
+  3. Activitiy on blobs and filaments and impact on transport in
+     helical plasmas: comparative studies between stellarator Tj-II
+     Helical RFP plasmas and RMP experiment in RFX-mod tokamak (BS support)
+- Deliverables WP13-IPH-A06-P2: Active control of ELMs and associated
+  divertor heat load:
+  1. RMP experiments in AUG with rotating perturbation. Analysis of
+     electromagnetic turbulence and comparison with RFA SOL estimate
+     (PS 0.05 ppy) 
+*** A08 Physics of the Pedestal and H-Mode
+ - Deliverables WP13-IPH-A08-P1: Edge current density mesurements
+   during RMP experiments in low-current Ohmic tokamak and comparison
+   with edge magnetic topology in helical RFP plasmas (0.15 ppy PS)
+
+*** A11 Operation with metallic plasma facing components including High Power ICRH
+- Deliverables WP13-IPH-A11-P1: Qualification of tungsten as
+  plasma-facing material for the ITER divertor
+  1. Tungsten deposition on Graphite tiles for RFX-mod. BS support
+  
+** Meeting EFDA con capigruppo
+ <2012-12-11 Tue>
+
+*** TODO A02
+ - Sviluppare una proposta per il progetto P1 dell'area A02. Da
+   chiedere PS.
+ - Villone si propone per Project Leader
+ - Per area A02 P2 chiederebbe Villone PS. L'attivita di Emilio
+   rientrerebbe in questo sotto progetto. Creare proposte con richiami
+   fra CREATE ed RFX-mod
+ - Lo scorso anno A02/PS il task di Anton Soppelsa e il task di
+   Tommaso. Nessuna richiesta per il task che era di Anton, mentre
+   Tommaso voleva una richiesa di attivita sull'attivita di riduzione
+   del numero di bobine di controllo su scariche TOKAMAK
+ - P1. 
+   1. first demonstration of 3D MHD control in existing European tokamak
+   2. Improved realtime infrastructure. Real Time Control hardware
+      request (?)
+ - Tommaso si propone di vestire da P1 la parte di riconfigurazione su
+   cui chiedere supporto prioritario. Su P2 una proposta da coordinare
+   con Villone anche qui con PS
+ - Esistono dei vantaggi economici ad avere il BaseLine?
+ - Per venerdi' una lista di titoli con supporti BS/PS
+
+*** A11 
+- Da combinare con P. Innocente per una proposta unica sui materiali
+  per A11-P1 (punto 1)
+
+** Proposal on Task Agreement WP13-IPH-04
+
+*** WP13-IPH-04-P1
+*3D effects on plasma rotation: comparative studies in Tokamak and
+Reversed Field Pinches*
+RFX-mod is a flexible device which offers the valuable possibility to
+operate both as a Reversed Field Pinch with plasma current up to 2MA
+or as a low-current ohmic circular tokamak. Furthermore it is equipped
+with a state-of-the-art system for MHD control with 192 indipendent
+coils (48 toroidal x 4 poloidal position), covering the entire torus, 
+indipendently powered. The system is equipped with a full set of flow
+measurements, including multi-cord passive spectroscopy system, plus
+edge measurements for the estimate of the various components of the
+flows at the edge in low-current discharges. The probe system, which
+combines electrostatic and magnetic fluctuations has been conceived in
+order to provide information also on turbulence induced perpendicular
+flow component, including Reynolds and Maxwell stress tensor,
+convective turbulent flow measurement with an high spatial and
+temporal resolution. Moreover a full toroidal array of electrostatic
+pins embedded in the first wall offers the possibility to obtain the
+full toroidal map of the toroidal flow at the edge.
+Experimental results already obtained both in tokamak and RFPs have
+demonstrated a strong correlation between natural and stimulated
+non-axysimmetric magnetic field and plasma flow. Indeed MHD flow
+associated to helical deformation in RFPs revealed a strong
+correlation with poloidal flow [Piovesan et al]. At the edge the small
+residual helical ripple modulates the edge radial electric field
+through a modification of the rate of ion-to-electron diffusion rate
+determining a perpendicular flow with the same helicity of the
+dominant perturbation [Vianello IAEA 2012]. Also tokamak investigation 
+with the application
+of an $n=2$ perturbation has shown effects on the toroidal flow which
+has been interpreted as a combination effect between NTV and
+stochastic dominated flow. The activity proposed represents an
+extension of the present partial experimental observation. Experiment
+and analysis are proposed on the following topics:
+ 1. MP experiment in Ohmic tokamak: studies of the effects  of magnetic
+    pertubation both resonant and non resonant both on the toroidal and
+    poloidal components of the flow. The analysis is done in terms of
+    amplitude, rotation frequency and helicity of the perturbation. Core
+    measurements obtained from passive spectroscopy will be combined with
+    edge information obtained from probe which will offer the possibility
+    to have information both on toroidal flow and on the poloidal one,
+    the latter with the added values of decomposing all the information
+    related to turbulence induced perpendicual flow. Interpretation will
+    be corroborated both with simple 1D momentum diffusivity equation
+    plus hamiltonian code for the analysis of the edge radial electric field
+2.  MP experiment in RFPs: studies of the effects of magnetic
+    perturbation, both resonant and non resonant on parallel and
+    perpendicular flow in RFPs. Focus will be devoted on collisionality
+    dependece, and on the determination of the various components of
+    the stress tensor, already measured in Multiple Helicity low
+    current regime [Vianello PRL2005] at the edge by means of 
+    insertable probe. Effects
+    of amplitude, rotation frequency and helicity will be analyzed
+    focusing the attention on the spatial distribution of the various
+    quantities with respect to the magnetic field perturbation
+
+
+

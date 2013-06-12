@@ -1,0 +1,84 @@
+#    -*- mode: org -*-
+
+
+Archived entries from file /Users/nicola/.emacs.d/orgfile/fb.org
+* APS2010
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2010-11-29 Mon 14:25
+  :ARCHIVE_FILE: ~/.emacs.d/orgfile/fb.org
+  :ARCHIVE_CATEGORY: fb
+  :END:
+** DONE [#A] Sottomissione Abstract 
+   DEADLINE: <2010-07-16 Mon 5pm> CLOSED: [2010-08-25 Wed 09:43]
+** DONE Prenota albergo
+   CLOSED: [2010-11-24 Wed 11:11]
+** DONE Rinnovo Passaporto
+   CLOSED: [2010-11-24 Wed 11:11]
+
+* Tesi Alberto Mazzi
+:PROPERTIES:
+:ARCHIVE_TIME: 2011-07-25 Mon 11:21
+:ARCHIVE_FILE: ~/.emacs.d/orgfile/fb.org
+:ARCHIVE_OLPATH: Tesi
+:ARCHIVE_CATEGORY: fb
+:END:
+** Outline
+1. Introduction Chapter:
+   1. Fusione termonucleare controllata
+   2. Confinamento magnetico del plasma & configurazione RFP
+   3. Esperimento RFX-mod
+2. Il problema fisico del limite di densita
+   1. Nei tokamak
+   2. Negli RFP con accenni al limite operativo per la QSH
+3. Diagnostica e tecnica di analisi
+   1. Potenziale Flottante
+   2. ISIS
+   3. Fluttuazione di velocita da wavelet time delay
+4. Analisi dei dati:
+   1. Velocita da S(k,f) vs n/n_g con le sondine triple
+   2. Inversione della velocita con pellet
+   3. Inversione della velocita con scariche ad alta densita
+   4. Scaling dell'ampiezza del modo dominante di velocita con n/ng
+   5. Eventualmente scaling in Lundquist con sottoinsieme di impulsi
+   6. Eventualmente Stima del campo di dynamo corrispondente
+
+** Lista degli impulsi da analizzare
+|  Shot | Caratteristiche         |
+| 26506 | Pellet                  |
+| 26364 | Iniezione di Neon       |
+| 26317 | Impulso ad alta densita |
+| 26309 |                         |
+| 26310 |                         |
+| 26312 |                         |
+| 26314 |                         |
+| 19955 |                         |
+| 26303 |                         |
+
+
+** TODO Ancora da fare 
+    - [X] calcolo dell'ampiezza del massimo di velocita. Ancora meglio
+    definire masssimo come media fra i due zeri
+
+* Vedi Mail [[message://auto-000005565640@igi.cnr.it][Fwd: Studente triennale interessato ad una tesi proposta]] per laurea triennale su distribuzione toroidale di velocita e limite di densita
+:PROPERTIES:
+:ARCHIVE_TIME: 2011-07-25 Mon 11:22
+:ARCHIVE_FILE: ~/.emacs.d/orgfile/fb.org
+:ARCHIVE_OLPATH: Tesi
+:ARCHIVE_CATEGORY: fb
+:END:
+** DONE mail @ alberto.mazzi                                          :MAIL:
+CLOSED: [2011-01-20 Thu 14:01]
+* DONE Mail @ eugenio.calabrese@yahoo.it                               :MAIL:
+   CLOSED: [2010-11-29 Mon 14:23]
+:PROPERTIES:
+:ARCHIVE_TIME: 2011-07-25 Mon 11:22
+:ARCHIVE_FILE: ~/.emacs.d/orgfile/fb.org
+:ARCHIVE_OLPATH: Tesi
+:ARCHIVE_CATEGORY: fb
+:ARCHIVE_TODO: DONE
+:END:
+
+
+
+
+

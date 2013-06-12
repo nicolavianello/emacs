@@ -1,0 +1,375 @@
+# -*- coding: utf-8; -*-
+#+STARTUP: hidestars
+#+STARTUP: logdone
+#+PROPERTY: Effort_ALL  0:10 0:20 0:30 1:00 2:00 4:00 6:00 8:00
+#+COLUMNS: %38ITEM(Details) %TAGS(Context) %7TODO(To Do) %5Effort(Time){:} %6CLOCKSUM{Total}
+#+PROPERTY: Effort_ALL 0 0:10 0:20 0:30 1:00 2:00 3:00 4:00 8:00
+#+LaTeX_CLASS:amsart
+#+LaTeX_CLASS_OPTIONS:11pt
+#+LATEX_HEADER:\usepackage{amssymb} 
+#+LATEX_HEADER:\usepackage{graphicx}
+#+LATEX_HEADER:\usepackage{geometry}
+#+LATEX_HEADER:\geometry{a4paper}
+#+LATEX_HEADER:\usepackage{colorx}  
+
+* PAP/SPE-368473
+** Questions
+   The authors provide an interesting numerical work on non-linear
+   simulation of ELMs using BOUT++ code. Apart from an initial
+   benchmarking of the code against linear ideal MHD code in order to
+   ensure the reliability of the reduced high-beta MHD approach used
+   and of the numerical scheme, the authors concentrate on non-linear
+   simulation.The problems arising from high-k structures are resolved
+   including diamagnetic drifts and furthermore using hyper-resistive
+   terms. The work is worth publishing basically in the present form,
+   although I suggest the authors to address 
+   the following points:
+
+  1. Which would be the role of a non uniform resistivity profile in
+     current evolution?
+  2. Fig 4 (a). It is not clear the evolution of the inward displacement in the late non-linear regime (t > 60 \tau_a)
+  3. Fig. 4 will results much more clear as a function of \psi rather than in SI
+  4. In both fig 4 and 5 panel (c) different color lines would help the
+     reader in following the evolution of the profiles
+  5. How the profile evolution compare with experimental results coming
+     for example from HRTS diagnostic or reflectometer? (although I
+     understand the temporal resolution is lower than in the simulation)
+  6. For the sake of clarity it would be useful to define \omega^{*}
+  7. Fig (8b) suggests the presence of a certain degree of
+     stochasticity: the authors, according to my opionion, should
+     comment the issue, also considering their last comment on
+     reconnection in the late stage of ELM eruption. 
+
+* PPCF/383014/PAP. F.Sommer et al.
+** The authors reports on various experimental evidences which help in characterizing a relatively new 
+MHD modes arising during Elmy H-mode named Edge Snakes.
+The paper is well written and complete in describing the experimental
+evidences although a few open issues exhisit on the theoretical
+interpretation: but the authors correctly point out this part leaving
+space for further investigation. The paper basically deserves
+publications although before final acceptance the authors must add/clarify the following points
+1. Paragraph 2.1. The authors refer to a spectrogram which might be
+   included for a better understanding of the rich harmonic spectrum described
+2. The authors might included a better explanation of the way they
+   deduce the current from Biot-savart law indicating with more
+   accuracy the radial distance from the probe location and the
+   location of the current layer
+3. The flattening of the density inside the magnetic islands which the
+   authors claim to be associated to Edge Snakes should be discussed
+   in term of particle sources, as edge particle sources coming from
+   the first wall recycling could in principle lead to a density peaking.
+   Furthermore it should be
+   better, if possible, if plot 3(b) and 3(c) should refer to the same time instants
+   so that one could image Edge Snakes in term of pressure perturbation
+4. It could be interesting to know if the distribution of current in
+   the Edge Snakes is co or counter current. Is there a way to
+   determine it? Another point of interest could be if the current observed is
+   located at the O or X point of the island but the authors already
+   claims in the text that this require further measurements. Finally
+   is this current layer (also considering its width) related
+   to some reconnecting processes? I would suggest the authors to
+   include some comments on the text or, if they repute this is beyond
+   the scope of the article, if they could include some comments in
+   the answer to the referee.
+
+* PPCF/383344/PAP
+The paper reports detailed analysis of edge properties comparing
+discharges with type-II ELMs with discharges obtained in type-I ELMs or
+in Nitrogen mitigated regimes. The article is basically well written
+and interesting, in terms of experimental observation although not so
+clear in terms of explanation or interpretation (but maybe this is
+beyond the scope of the work). I think the article is worth of
+publishing once the authors have clarified the following points
+1) At page 6 in describing figure 3 the authors claim of transition
+   from type-II to N-mitigated type I ELMS and adfirm that detailed
+   analysis of magnetic pick-up coils have been carried out to
+   distinguish from possible type-III ELMs. They adfirm the existence
+   of 30 kHz oscillation without precursors. The existence of this 30
+   kHz oscillation returns afterwords in the text but I think that a
+   spectrogram of a magnetic pick-up coil could improve the
+   understanding (although it appears later in the text) also because
+   a very small variation in divertor current or power load can be
+   inferred from figure 3.
+2) In commenting fig. 6 (a) at page 8 the authors claims of an
+   increase of the power spectrum during type-I ELM in the range 0-150
+   kHz. Actually I think this figure is somehow misleading or prone to
+   misunderstanding. I  do not understand if the 10 ms time
+   window cited is composed joining different time slices including 1 single
+   ELM event or if it is just a single time window including a single
+   type-I ELM. In any case as type I exhibits a bursty behavior on
+   magnetics (with duration less than 10 ms), a power spectrum
+   will spread up in frequency causing the increase on all the
+   range. I suggest the authors to cut this also as it does not
+   include any further information in the comprehension. If other
+   explanation can be done, far from what I've understood please clarify
+3) Concerning figure 5 when type-I ELM appears? It is not so clear
+   from the figure. Also I personally
+   suggest to cut the part below 10 kHz (it's something different from
+   what you want to highlight) as the color-code otherwise does not
+   highlight sufficiently the component you are referring to
+4) From Fig. 13 I can barely see the claimed increase of Ti in
+   N-mitigated discharge in all the profile. Maybe a change of the
+   y-scale for Ti measurement could help. I actually can't see any
+   variation of the toroidal profile which can be inferred beyond the
+   error bars. I suggest the authors to mitigate further any
+   conclusion drawn from toroidal flow profile
+5) In the conclusion, when the authors comment on fig. 9 the authors
+   use the term structures but this is not the case as the figures are
+   obtained with a time integration. So this is just the pattern of
+   the fluctuations but can't be thought in terms of structures (nor
+   in terms of propagation but this is clarified in the text)
+6) Finally if possible I suggest he authors to include an error bars
+   in the figure with the time evolution of the gradients of density
+   temperature and pressure (at least an estimate)
+* NF/414827/SPE
+The article proposes analysis coming from a database of momentum
+transport as collected by five different tokamaks, trying to establish
+parametric dependence on adimensional parameter, highlightning
+differences and similarities. The objective of this paper is
+remarkable in this sense but in my opinion the paper proposes a list of
+analysis without merging them in a comprehensive framework (although
+this could be beyond the scope of the paper) but just as a
+mere list. I think that, considering the importance of
+this type of intermachine comparison, the paper should be published but
+I suggest the authors to review it in order to merge all the analysis
+in a more unitary overview. 
+In particular I would like to point out the following points:
+1) All the momentum studies have been done in the limit of
+   Diffusive-Convective terms, and the authors correctly state on page
+   4 that
+   terms of the type of residual stress are neglected. I think it
+   should be better to add a comment on the limit of this assumption
+   and eventually what one would expect if considering a more complete
+   form of the momentum flux
+2) In the case of NSTX, if I understand correctly, you have included
+   data where effects of Neoclassical toroidal viscosity should be
+   evident. These data are not treated differently with respect to NBI
+   blibs or other. Could you comment on this? Do you think there could
+   be some differences in the two methods of perturbative momentum variation?
+3) In commenting figure 3 I think the authors should mention that only
+   NSTX exhibit a sufficient wide variation of Chi_i to observe a
+   scaling, and that the claimed scaling can be derived only on a
+   multi-machine comparison. I would like to point out the attention
+   that the increase of \Chi_{\phi} with \Chi_i is exhibit an almost
+   exponential behavior than a power law. Any comment on this?
+4) In commenting figure 4 the authors claim differences in the ration
+   \Chi_{\phi}/\Chi_i between the different machine with \Chi_{\phi}
+   sometimes greater, sometimes smaller than \Chi_i. Any comment or
+   possible interpretation is given on this fact. Could you provide
+   some explanation?
+5) I would suggest the authors to clarify why the observed decreasing
+   of \Chi_{\phi}/\Chi_i with \rho_{pol}^{*} does not hold for low
+   T_e/T_i in JT-60U. It is not clear to me.
+6) Just a small point. In section 6 I would refer to Hamm's and
+   Peeters's theory citing again the corresponding papers in line 5
+   from the top. I makes the reading much more clear
+7) Considering figure (14), if I interpet it correctly, as the two
+   theories provide suitable interpolation for lower value of pinch
+   velocity that the role played by the normalized density gradient is
+   marginal. Could you comment on that? By the way, in particular in
+   this case, I would appreciate that the data would appear with the
+   corresponding error bars.
+8) Again any comment is given to the inconsistency with the scaling
+   with q_{95}.
+
+Concluding I think that the subject of the paper and the data
+available deserve the publication, but I think the authors should try
+to make the paper somehow more fluent than the present form. I think
+the suggestion given will help in this.
+* PPCF/ /PAP S. Sugita et al. 
+** Ballistic propagation of turbulent front in tokamak Edge plasmas
+ The authors report on the analysis performed on flux-driven resistive balloning mode non linear simulations
+ focusing on the dynamics of transport processes and in particular on the ballistic nature of heat flux propagation.
+ I found the argument of the article interesting, but the paper does not apper in a proper form for
+ publication. Indeed it results of difficult reading and appears much more as a report than an article
+ with the different parts substantially disconnected one from the other. I suggest the authors to go deeply
+ through the text trying to make it more fluent (with a special attention on the English which is
+ somewhere poor) and to bind the different part of the text. I provide in the following some points which I
+ think the authors should address to improve the paper.
+ 
+ 1. In the introduction the authors make a rather strong statement "the scheme of control may be modified
+    depending on whether the changes propagate in a ballistic manner or diffusive manner". Although I can
+    somehow agree on these sentence I think that for proposing it in a published paper it must be justified
+    more properly. First of all which scheme of control the authors refer to? How could they change according
+    to the different type of transport? And if reasonably will be the case the transport process is just a mix
+    of diffusive/non-diffusive transport?
+ 2. Also in the introduction the authors claimed that experimental observations [references 9 and 10] claims of
+    ballistic radial propagation. Actually at least for the measurements on TJII it should be mentioned that
+    ballistic nature has been claimed to depend on amplitude of the fluctuations
+ 3. Also I will be a little skeptic in claiming the blobs transport is purely a ballistic process. Convection
+    of particles trough the motion of coherent structures is just one of the process which has to be combined
+    with coalescence and diffusion of plasma blobs already described by Horton in his book
+    W. Horton and Y.-H. Ichikawa, Chaos and Structures in Nonlinear Plasmas.
+ 4. Can the authors explain more clearly the physical reason while they decide to switch from considering
+    the heat flux to its gradient? I think that explaining from the dynamical point of view the reason for
+    this change could improve the clarity of the paper
+ 5. Is the observations on Lissajous plot always confirmed: indeed the two plots show a sort of anticorrelation
+    (better an anticorrelation of the time derivative maybe) but looking at the plot show in figure 3 it is not clear
+    to me if this is a behavior which can be always observed. Furthermore is this information used or useful for
+    the rest of the paper? I think so but I believe that this part should be enlarge.
+ 6. On page 9 the authors claim that "the fluctuations level is weak in front of the propagation front
+    and strong in the rear of the front" claiming that this can be argued from figure 8. I can barely see what
+    the authors refer to with this sentence. Also considering fig 10 up panel on the left where Flux is shown
+    referring to red line in the top panel of figure 8 I actually recognized a stronger fluctuations level in the more
+    external part whereas the location of the bump of pressure is at 0.835 r/a. I'm not claiming that the authors are
+    stating something wrong but I'm saying it is not clear at all from the figure shown that fluctuations levels
+    behave differently in the front and in the rear of the turbulent front from the figures provided. Furthermore if
+    a different exists between front and rear a physical explanation should be provided.
+ 7. What is the peak in the distribution shown in figure 12 (a) at negative values? The authors claims that positive and
+    negative bursts are just equal in number and distribution (or better quasi-symmetric) but do not provide any
+    explanation in the rather clear peak around -50. As this peak is further claimed to depend on the source can
+    the author explain or add some more information on that? Furthermore, although it is difficult to compare because
+    of superposition of the distribution (see fig 12. (b)) it seems to me that the PDF of elapsing time change
+    its kurtosis (and maybe the skewness) in dependence of the source. Could the author comment on that?
+ 8. How the velocity is of the pulses is calculated? It is possible to provide a distribution of this velocity? How this
+    distribution change with the Source?
+
+    
+
+* FIRB 2013: Protocollo RBFR13MXVQ
+** Innovativita' e originalita della proposta e della sua metodologia:
+La proposta scientifica verte sull'interpretazione teorica/numerica
+del problema del trasporto di momento angolare in plasmi astrofisici e
+di laboratorio. L'argomento proposto risulta di rilievo
+scientifico sia in ambito astrofisico si per
+plasmi di laboratorio. 
+La descrizione sintetica suggerisce l'opportunita' di applicare un
+modello basato su instabilita' di tipo balloning
+suggerito come meccanismo per l'ATM nei dischi
+di accrescimento sottili: questo modello, a differenza di modelli
+basati su MRI, non necessiterebbe di postulare condizioni di
+alto numero di Prandtl per essere soddisfatto. Il progetto prevede di
+utilizzare il medesimo approccio per plasmi di laboratorio
+inserendosi quindi nel filone di studio noto come rotazione
+spontanea. Di fatto quindi l'argomento potrebbe essere di notevole
+rilevanza ma la proposta cosi' come redatta appare debole
+e scarsamente motivata, in particolare per quanto riguarda il
+collegamento con i plasmi di laboratorio. A mio parere i maggiori
+punti di debolezza sono i seguenti:
+1. Vi  e' uno scarso riferimento alle attuali 
+   teorie riguardo il trasporto di momento [si veda ad esempio
+   Diamond, P. H. et al. Nuclear Fusion 49, 045002 (2009]. Non viene
+   fatta menzione di possibili effetti diffusivi/non diffusivi e
+   neanche su quali sia il ruolo di stress non diagonali della matrice
+   degli sforzi che risultano ormai di assodata rilevanza. Per quanto
+   riguarda i plasmi di laboratorio vengono indicati riferimenti a
+   lavori di indubbia qualita' scientifica ma che scarsamente
+   affrontano in maniera completa il problema del trasporto
+   angolare. Uno di questi (citazione 2 del punto 8) dichiara
+   esplicitamente "One of the major issues, which was not mentioned in
+   this work, is toroidal angular momentum transport [...]". 
+   L'associazione poi fra inversione di momento angolare e transizioni
+   in stati a confinamento avanzato e' solo parzialmente vera dal
+   momento che non si tiene conto poi che tali fenomeni 
+   possano avvenire anche in regimi Ohmici (si veda ad esempio Bortolon,
+   A. et al Phys. Rev. Lett. 97, 4 (2006)). 
+2. Vedo il legame suggerito fra plasmi astrofisici e plasmi di
+   laboratorio non chiaramente sviscerato. Pur essendo convinto che
+   via siano molti punti di contatto, apprezzando una
+   proposta che possa stimolare un fruttuoso scambio di conoscenze
+   scientifiche, in realta' non risulta chiaro 
+   quale approccio il PI intenda utilizzare. L'approccio MHD
+   dei plasmi astrofisici potrebbe essere solo parzialmente
+   applicabile nei plasmi di laboratorio, dove effetti girocinetici o
+   drift-cinetici risultano importanti. E' pur vero che nella proposta
+   si fa riferimento, con scarsa chiarezza, all'utilizzo di codici
+   girocinetici (includendo anche altre instabilita' non menzionate
+   precedentemente come onde di deriva o instabilita' alfveniche
+   diverse dai modi balloning o balloning collisionali) ma
+   se questo e' il caso trovo non chiaro di quale approccio il PI
+   intenda avvalersi.
+3. Vi e' una eccesiva vaghezza sui metodi e codici numerici che si
+   intendono utilizzare: vengono nominati codici MHD, codici
+   girocinetici, codici due e tre dimensionali alludendo al fatto che debbano essere
+   adattati. Credo che, pur nei limiti imposti sulla lunghezza della
+   proposta, una puntualizzazione su quale sia
+   l'approccio/metodo/codice che si intenda utilizzare fosse
+   necessario per comprendere al meglio limiti/potenzialita' della proposta
+4. Noto inoltre che sia nella forma che in alcuni casi nella sostanza
+   la proposta e' stata redatta, a mio parere, frettolosamente. Ad
+   esempio vengono accostate erroneamente i termini anomalo e
+   neoclassico, descrivendo come il trasporto "anomalo" di particelle sia "ben"
+   spiegato da teorie neoclassiche. Il termine anomalo infatti viene
+   utilizzato appositamente per indicare un tasso di trasporto che non
+   possa venire spiegato da meccanismi collisionali classici, e
+   nemmeno da termini che includano effetti toroidali come quelli
+   neoclassici. 
+   
+
+Valutazione complessiva 3
+
+
+** Qualificazione del coordinatore scientifico e dei responsabili di unita'
+ - Il Dr. Benini presenta un curriculum scientifico di sicuro rilievo
+   in ambito cosmologico ed astrofisico. Una ricerca bibliografica
+   rivela come le sue ricerche in ambito cosmologico astrofisico abbiamo una buona
+   rilevanza scientifica e risultano anche suscitare un buon interesse
+   da parte della comunita' scientifica. Viceversa non sembra esserci
+   adeguata competenza riguardo l'analisi di plasmi di
+   laboratorio. Reputo che tali competenze debbano venire colmate da
+   parte dei due ricercatori ENEA coinvolti nel progetto, ma
+   chiaramente questa deduzione non puo' essere confermata o smentita
+   mancando le informazioni a riguardo.
+
+Valutazione complessiva 3
+
+
+* PRIN 2012: Protocollo 2012XAS7WZ
+** Innovativita e originalita della proposta e della sua metodologia:
+Il progetto si propone una indagine su sistemi dusty plasma che
+coniuga una ricerca sperimentale ad avanzati metodi di analisi dati
+coaudivati dal supporto di modelli numerici. Il
+progetto di ricerca prevede di ampliare lo studio, gia parzialmente in
+essere presso le unita' operative, mediante l'inclusione di effetti
+dovuti ai campi magnetici, quindi considerando dusty magnetized
+plasmas. L'argomento e' di sicuro interesse scientifico, visto i
+diversi ambiti in cui i "plasmi polverosi" sono coinvolti dagli
+ambienti astrofisici (Interstallar Medium, Cometary dusts and
+planetary rings per fare un esempio) ai plasmi industriali, ai plasmi
+di interesse fusionistico, dove l'utilizzo di pareti metalliche in
+esperimenti presenti e futuri richiede necessariamente di considerare
+l'effetto di contaminanti [Si veda ad esempio Krasheninnikov et al
+Plasma Physics and Controlled Fusion 53, 083001 (2011).] o dust che
+possono determinare fenomeni noti con il termine di UFO (particelle
+con un elevato grado 
+di impurezze che subiscono
+detachment principalmente dai materiali di prima parete). 
+Il progetto prevede di utilizzare tecniche avanzate sia in termini di
+diagnostiche (particolarmente interessante a mio avviso la
+possibilita' di una misura di velocimetria con la mappatura due
+dimensionale del pattern di velocita) sia in termini di analisi dati e
+supporto numerico. Nel progetto viene correttamente sottolineato anche
+il fatto che, sistemi di misura in genere relativamente semplici come
+le sonde di langmuir, possano risultare complicati sia nell'hardware
+che nella loro interpretazione se utilizzati insieme a sistemi a
+radiofrequenza. Il loro sviluppo potrebbe avere ricadute interessanti
+in tutti gli ambiti in cui le sorgenti a radiofrequenza sono
+utilizzati, ad esempio in ambito biomedico o in sorgenti per accelleratori.
+Da un punto di vista di indagine dinamica il progetto si propone lo
+studio di fenomeni non lineari e turbolenti: visto l'indubbio ruolo
+della turbolenza nel determinare le proprieta' di trasporto in plasmi
+("polverosi" o meno) la proposta verte su un argomento di grossa
+rilevanza ed attualita' scientifica. 
+Trovo anche un valore aggiunto l'intenzione da parte dei proponenti di
+sviluppare il sistema (sia il device, che i sistemi di misura che i
+sistemi numerici) a partire da un base pre esistente. Questo indica
+continuita' nella ricerca (che come si evince dalla bibliografia ha
+dimostrato una valenza scientifica) ed anche una attento utilizzo
+dell'esistente il tutto pur introducendo elementi di novita' che
+rendono la proposta all'avanguardia. 
+
+** Qualificazione del coordinatore scientifico e dei responsabili di unità:
+ - Sia il coordinatore scientifico che i responsabili di unita'
+   presentano un curriculum scientifico di buon rilievo. Trovo
+   particolarmente interessante, scorrendo i rispettivi curriculum
+   ed approfondendo la relativa bibliografia che parzialmente gia
+   conoscevo e stimavo, il fatto che abbiamo
+   unito specifiche e differenti competenze nell'ambito di una
+   proposta univoca. Il fatto poi che ciascuno di essi abbia un
+   background differente (dai plasmi di interesse fusionistico, ai
+   plasmi non neutri, ai
+   plasmi astrofisici con particolare riferimento ai plasmi solari,
+   alle sorgenti ed accelleratori) a mio avviso fornisce un punto di
+   forza della proposta dal momento che permette di ampliare i
+   confronti e suggerire possibili collegamenti con gli altri ambiti
+   della fisica in cui i dusty plasmas sono coinvolti. 

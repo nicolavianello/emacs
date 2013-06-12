@@ -1,0 +1,295 @@
+* Diary of the work done at JET
+** Filaments in L-diverted mode at different densities
+   List of signals to be considered for shot 81473 and 81477, 81486, 81490. 
+   Remember the all signal is of the form Subsystem/node:subnode
+
+   | Name | Pulse file | Subsystem | Node     | Subnode |
+   | VF1  | JPF        | de        | y3b-bad2 |     005 |
+   | VF2  | JPF        | de        | y3b-bad2 |     006 |
+   | IS3  | JPF        | de        | y3b-bad2 |     001 |
+   | IS4  | JPF        | de        | y3b-bad2 |     002 |
+   | IS5  | jpf        | de        | y3b-bad2 |     003 |
+   | mov  | jpf        | de        | y3-cdcb  | <mov    |
+   
+   Signals can be read from IDL using jpfget routine
+   jpfget,node='subsystem/node:subnode',pulno=#,data=data,tvec=tvec,title=title,unit=unit,ier=ierjet
+   How can I infer if they are inward or outward shifted?
+   I've found the signal for the centroid of the plasma but does not seem to vary very much
+*** Analysis to be included in the main program [4/5]
+   - [X] Profiles
+   - [X] scaling of the pdf
+   - [X] fit of the exponential stretched function
+   - [X] Profile of the packing fraction
+   - [ ] Intermittent structures also including parallel mach number
+
+*** Pulse summary
+    |  Shot | ne |    tmin |    tmax | n/ng | rmin | rmax | Comment |
+    | 81473 |    |   49.36 |   49.77 | 0.22 |      |      |         |
+    | 81473 |    | 52.8479 | 53.2684 | 0.32 |      |      |         |
+    | 81473 |    | 56.3597 | 56.7695 | 0.38 |      |      |         |
+    | 81477 |    | 56.8164 | 57.2692 | 0.66 |      |      |         |
+    | 81486 |    |  49.317 | 49.7797 | 0.31 |      |      |         |
+    | 81486 |    | 53.3489 | 53.7786 | 0.41 |      |      |         |
+    | 81486 |    | 56.3698 | 56.7721 | 0.45 |      |      |         |
+    | 81490 |    | 51.8024 | 52.2680 | 0.58 |      |      |         |
+    | 81490 |    | 55.3270 | 55.7679 | 0.56 |      |      |         |
+
+** M-mode
+*** Talk with E. Solano
+    - M-mode accompained by an oscillation of the order of 1 kHz with
+      some harmonics to be checked with hilbert function (see C. Maszl thesis)
+    - Differences exhists from ICRH and NBI plasmas
+*** Shotlist      
+   
+    |  SHOT | COMMENT                                                                               |
+    |-------+---------------------------------------------------------------------------------------|
+    | 82277 | ICRH 2.5 MW                                                                           |
+    | 82278 | ICRH 2.5 MW steps up to 3.6 MW                                                        |
+    | 82279 | ICRH 4.5 MW with kiks                                                                 |
+    | 82628 | 2MA/2T NBI                                                                            |
+    | 82629 | 2MA/2T NBI                                                                            |
+    | 82636 | 1.3MA/1.3T NBI                                                                        |
+    | 82637 | 1MA/1T NBI                                                                            |
+    | 82645 | 1MA/1T NBI                                                                            |
+    | 80730 | ICRH 1.3MW                                                                            |
+    | 80908 | ICRH power ramp up to 4MW                                                             |
+    | 80909 | ICRH power ramp up to 4MW                                                             |
+    | 80910 | ICRH power ramp up to 4 MW                                                            |
+    | 80911 | ICRH power ramp up to 4MW                                                             |
+    | 80912 | ICRH power ramp up to 4 MW                                                            |
+    | 80913 | ICRH power ramp up to 4 MW                                                            |
+    | 80951 | ICRH power ramp up to 4MW                                                             |
+    | 81881 | NBI power steps up to 6 MW low density                                                |
+    | 81884 | NBI power steps to 6 MW low density                                                   |
+    | 82276 | ICRH 1.5 MW                                                                           |
+    | 82353 | ICRH 3 MW low frequency M-mode and KIKs                                               |
+    | 82358 | NBI and KIKS                                                                          |
+    | 82459 | ICRH                                                                                  |
+    | 82630 | 2MA/2T NBI                                                                            |
+    | 82647 | 2MA/2T                                                                                |
+    | 82897 | NBI 2.4T 2MA                                                                          |
+    | 82898 | NBI 2.4T 1.6MA                                                                        |
+    | 82900 | NBI 2.4T 1.3 MA                                                                       |
+    | 82901 |                                                                                       |
+    | 80956 | Interesting both on density and Te around 57 [s]. Continues up to 63 s                |
+    | 81232 | Bello                                                                                 |
+    | 81236 | Bello chiaro in densita e temperatura                                                 |
+    | 81137 | Bello ma chiaro solo sulla temperatura non sulla densitay                             |
+    | 81240 | Bellissimo molto chiaro sia su densita che temperatura in cui si vede la biforcazione |
+    | 82278 | Bellissimo e molto chiaro su densita e temperatura che presenta biforcazione          |
+    | 82279 | Anche questo bello al di la dei Kiks                                                  |
+    | 83076 | Qui si vede sulla densita non sulla temperatura                                       |
+    | 83078 | Anche questo molto evidente con la densita meno con la temperatura                    |
+    | 83080 | Simile ai due precedenti                                                              |
+    | 83082 | Much more evident on density rather than on temperature                               |
+    | 82550 | NBI                                                                                   |
+    | 83597 | NBI                                                                                   |
+
+*** Notes on DALPHA channels    
+    - We can have different channels for Dalpha, berillium and Carbon which are
+      + PPF/EDG8/DAI for inner dalpha oscillations 10 LOS
+      + PPF/EDG8/DAO for outer dalpha oscillations 10 LOS
+      + PPF/EDG8/BEI for berillium II inner divertor oscillations 10 LOS
+      + PPF/EDG8/BEO for berillum II outer divertor oscillations 10 LOS
+      
+*** Notes on FAST ECE data
+    There exhists data which are collected with fast
+    acquisition. These are JPF/DE/KK3F-TE:001-096
+*** TODO [0/3]
+- [ ] Determine shotlist from webpage and global analysis on the
+  scaling of the frequency with the pedestal temperature
+- [ ] Verify consistency of Langmuir probes and eventually of triple
+  probes if available to see if M-mode is seen also from that. Try
+  floating potential map to see if oscillations is so local that they
+  can be seen from probes
+- [ ] Verify presence/absence on the Ni-seeding experiments
+*** Observation
+- NBI shots different with respect to ICRH shots. The latter always
+  start with divertor oscilallations and mode is found to increase in
+  time and then remain almost stationary without any dependence from
+  Te. Generally start with inner/outer out of phase and when Inner
+  drop and Wdia increase they become in phase
+- No divertor oscillations before NBI shots. Among the database
+  actually these are different
+*** Meeting on M-Mode
+:PROPERTIES:
+:on: <2012-05-09 Wed 16:18>
+:at: JET
+:with: Solano, Maggi, Rimini, Beurskens alias
+:END:
+Observation and planning activities
+1. # Shot 80951 with density ramp and variation of M-mode frequency
+2. GAM should exhibits a q-dependence. Why?
+3. Reference to Schmitz predator-prey mode
+4. Look at dependence on density and eventually on dependence on pressure
+5. Automatically find KK3F channel with maximum correlation
+6. Look at Ohmic M-Mode # 82635
+
+** Divertor oscillations
+   | shot list |  tmin |  tmax | Configuration |
+   |     80907 | 53.06 |  55.1 | HT3R          |
+   |     80908 |  53.5 |    55 | HT3R          |
+   |     80913 |  53.5 |    55 | HT3L          |
+   |     80970 |  54.6 | 55.65 | HT3R          |
+   |     80971 |  60.5 | 64.14 | HT3R          |
+   |     81199 |  56.1 |  56.5 | HT3L          |
+   |     81201 |  53.1 | 54.12 | HT3R          |
+   |     81202 | 55.72 |  57.2 | HT3R          |
+   |     81207 | 54.12 | 55.79 | HT3R          |
+   |     81208 |  54.1 | 55.45 | HT3R          |
+   |     81211 |    54 | 56.24 | V5            |
+   |     81212 | 56.87 | 57.53 | V5            |
+   |     81229 | 60.25 |  61.7 | V5            |
+   |     81231 | 52.95 | 57.92 | HT3R          |
+   |     81233 | 57.16 |  57.9 | V5            |
+   |     81234 | 57.13 |  57.5 | V5            |
+   |     81234 |    62 |  64.9 | V5            |
+   |     81808 |    59 |    61 | HT3R          |
+
+Se consideriamo il PRL di Loarte o meglio in generale la condizione di
+Detachment e' raggiunta ad alta densita, quando la temperatura ai
+plate e' molto bassa dell'ordine di alcuni eV, CX collisions become
+important, remove momemntum and plasma can recombine before reaching
+the target.
+
+  
+
+*** Probe system on the divertor of JET
+    Talk to S. Marsen, responsible office for Divertor and Target probes.
+    From Pulses from january 2012 there exhists triple probes which
+    can be accessed as raw data  from JPF files Diagnostic DE, Y4-TRI
+    in particular we have probe system (A,B,C) with A and B as double
+    probe and C as floating potential. They can be accessed as:
+    - JPF/DE/Y4-TRI1:#probe for the current of the double probe
+    - JPF/DE/YA-TRV2:#probe for the voltage of the double probe
+    - JPF/DE/Y4-TRV3:#probe for the floating potential
+    In particular on Tile 5 probe 15,16,19,20,21,24 are triple probes
+    (actually presently on <2012-03-02 Fri> 19,21,24). on tile 3 probe
+    5 and 8   
+    
+** EFCC Experiment
+   Nota bracking sembra sempre appena dopo ELM
+   |  Shot | EFCC | Note                                                               |
+   | 82410 | 53.5 | bracking of plasma with \delta omega/\delta t = 14.3 e3 s^-2       |
+   | 82411 | 53.5 | bracking of the plasma with \delta omega/\delta t = 5e3 s^-2       |
+   | 82412 | 53.5 | No evidence of bracking effect                                     |
+   | 82413 | 53.5 | Interesting breaking +accelleration (slower) Internal mode present |
+   | 82414 | 53.5 | bracking withouth accelleration                                    |
+   | 82460 |      |                                                                    |
+   | 82462 |      |                                                                    |
+   | 82463 |      |                                                                    |
+   | 82465 |      |                                                                    |
+   | 82466 |      |                                                                    |
+   | 82467 |      |                                                                    |
+   | 82468 |      |                                                                    |
+   | 82469 |      |                                                                    |
+   | 82470 |      |                                                                    |
+   | 82471 |      |                                                                    |
+   | 82472 |      |                                                                    |
+   | 82473 |      |                                                                    |
+   | 82474 |      |                                                                    |
+   |       |      |                                                                    |
+*** Toroidal and poloidal flow modification
+   - Toroidal bracking from high-frequency pick-up coil
+   - Poloidal variation from variation of foundamental frequency of washboard mode (??)
+   - A questo proposito ho chiesto a Lorenzo di produrre i profili di ne,te e pe in coordinate di
+     flusso per due impulsi. I profili nel tempo sono definiti dai seguenti private/ppf file
+     |  Shot | ppf DDA |  tmin |  tmax |   <t0> |
+     | 82472 | T005    |  53.5 |  53.7 |   53.6 |
+     | 82472 | T006    |  53.9 | 54.13 | 54.015 |
+     | 82472 | T007    |  54.2 |  54.3 |   54.1 |
+     | 82472 | T008    |  54.5 |  54.7 |   54.6 |
+     | 82474 | T013    |  53.1 |  53.4 |  54.25 |
+     | 82474 | T014    | 53.86 |  54.1 |  53.98 |
+     | 82474 | T015    |  54.2 |  54.4 |   54.3 |
+     | 82474 | T016    | 54.79 |    55 | 55.105 |
+*** Fluctuations from Reflectometry
+    - Talk to A. Sirenelli for the measurements which can be done on fluctuations
+
+** Pellet Pacing experiment
+   Sessione del 29 Febbraio 2012 da 82435 a 82449
+
+** Washboard Modes
+*** Lettura P. Smeulders, PPCF 41 1303 (1999)
+
+
+** Summary of the work performed
+Analysis of electrostatic fluctuations from RLP during L mode, ohmic discharges at different values of n/nG: determination of the difference in statistical features and typical pattern of blob observed. Analysis toroidal flow breaking in EFCC experiments with different FCC current and different gas injection rate. Analysis of Langmuir probe and D alpha signals during the so called M-Mode phase. Identification of sort o precursors in divertor oscillations and analysis of the scaling of the mode frequency with density and temperature.
+* JET C31 Campaign 2013
+** List of interesting experimental proposals
+- M13-04 Impact of triangularity on pedestal and confinement
+- M13-13 Power width, ELM heat load and pedestal scaling
+- M13-23 L-H transition studues
+- B13-17 Power fall-off width scaling in L-mode and evolution accross
+  L-H and H-L transitions
+- B13-19 Investigation of M-mode
+
+** Competences
+- EPS Edge Pedestal, ELM and H-Mode expert
+- Probes + Quartz PQMB
+- TRB Turbulence analysis expert
+
+** Plan:
+- M-Mode and divertor oscillation studies
+- Role of SOL in LH-HL transition through the use of RLP
+- Modification of SOL flow and SOL turbulence properties during ELM
+  controlled experiments, Kiks/ECFF
+- Studies difference in SOL properties (Dalpha, probes, floating
+  potential, saturation current) during LH transition also at
+  different divertor geometry
+- 
+
+** Skype meeting w E. Solano
+- Check the density dependence of the frequency in particular for
+  shot # 80951
+- Share the code for following the mode structure
+- R. Cohelo started a new analysis to check the phase difference in
+  particular between B_p and \nabla p in order to check if a phase
+  transition occur
+- Check the mode frequency scaling with Bt
+- Power threshold for the M-Mode seems to be similar to that of L-H transition
+- How to check if we are in a high recycling regime (?)
+** M-Mode presentation at the TF meeting
+<2013-03-07 Thu>
+- Slide 8: The present data set consists of approximately 45
+  discharges almost entirely at 2.4 T with just few pulses at higher
+  and lower toroidal magnetic field. We have observed M-Mode primarly
+  in ICRH plasmas but we also have examples a low-density NBI and
+  cases in Ohmic state
+- Slide 9: As Emilia told you M-Mode is observed both in pedestal plasma
+  parameter and in SOL signals. Often in ICRH plasmas M-Mode is
+  preceed by the so-called Divertor Oscillations, which have also been
+  seen in the past in Carbon wall. From the experimental point of
+  view, DO can be seen as oscillations at few tens of Hz in the D-alpha signals, with
+  inner-outer channel in counter-phase as can be deduced by
+  cross-correlation analysis between inner and outer Dalpha
+  signals. After a final drop in the Dalpha M-Mode start and its
+  frequency increases
+** M-Mode presentation at TF and JET meeting
+- [ ] Define the team member
+- [ ] Prepare two different pulse lists one in the case ICRH only is
+  available one with also NBI
+- [ ] Define the diagnostic list: Li-Beam is mandatory, ICRH is
+  incompatible with ICRH operation
+- [ ] See last campaign pulse list
+- [ ] If NBI available 1MW NBI power for diagnostics could also give
+  the additional power to perform a slow L-M-H transition
+* Notes on diagnostics and programs
+** IDL PPF files
+*** Writing IDL PPF files
+- Nella vecchia versione il modo semplice era questo:
+  IDL> ppfopn,shot=20981,ppfuid='JETUID',ierr=ierr 
+  IDL> ppfwri,shot=20981,dda='test',dtype='sig',data=datarr,t=time,ierr=ierr
+  IDL> ppfclo,shot=20981,ierr=ierr
+- Nella nuova versione ragionevolmente dovrebbe essere questo
+  IDL> idlppf_ppfuid, userid=nvian, rw=w
+  IDL> idlppf_ppfopn, shot=shot, seq=tseq, lun=lun, nrmax=nrmax,
+  indat=indat, comment=comment, ierr=ierr. Qui usi solo  lo shot penso
+  IDL> idlppf_ppfsetdevice, device=device (qui dai il nome del
+  device). Anche se non sono sicuro sia necessario
+  IDL> idlppf_ppfwri, shot=shot, dda=dda, dtype=dtype, data=data, x=x, t=t, irdat=irdat, $
+                 ihdat=ihdat, iwdat=iwdat, ierr=ierr. Qui servono shot,dda,dtype,data,x,t
+  IDL> idlppf_ppfclo, shot=shot, seq=seq, prgnam=prgnam, pvers=ipvers, ierr=ierr
+
+
+

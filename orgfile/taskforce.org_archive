@@ -1,0 +1,275 @@
+#    -*- mode: org -*-
+
+
+Archived entries from file /Users/nicola/elisp/orgfile/taskforce.org
+
+
+
+
+* RFX-mod Programme Workshop 2010
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2010-02-19 Fri 16:57
+  :ARCHIVE_FILE: ~/elisp/orgfile/taskforce.org
+  :ARCHIVE_CATEGORY: taskforce
+  :END:
+** DONE Fissare meeting con R.Lorenzini, A.Alfier and A.Fassina	       :MAIL:
+   CLOSED: [2010-01-27 Wed 17:31]
+** DONE Layout and brainstorming for the presentation
+   CLOSED: [2010-01-27 Wed 18:16]
+   
+** DONE Meeting for presentation
+   CLOSED: [2010-02-04 Thu 00:24]
+   - State "TODO"       from "DONE"       [2010-02-04 Thu 00:24]
+   :PROPERTIES:
+   :on:       <2010-01-28 Thu 14:46>
+   :at:       II Piano
+   :with:     AAlfier RLorenzini
+   :END:
+   Risultati discussione ed action list
+   *Internal Transport Barrier*
+   + Anzitutto se flow & sheared flow sono collegati all'insorgere
+     delle ITB bisogna trovare un modo per misurare questo flow &
+     sheared flow. La rotazione dei modi non e' lo strumento adatto
+     perche' (da verificare con P.Zanca) il modo non e' congelato nel plasma
+   + Ci si chiede l'andamento del dominante e/o secondari e/o
+     persistenza in funzione della densita --> ask @ M.Zuin
+   + Sostenibilita con la densita: esempi di pellet sostiene/crash
+     (cfr 24551 con densita mantenuta fuori e temperatura con ancora
+     gradienti sensibili). Sottolineare la necessita di ottenere
+     informazioni temporali sul mantenimento del grad Te da DSXC
+   + Sul plateu piatto sottolineare le 3 ipotesi di lavoro
+     * Doppia risonanza dei secondari vista la presenza del massimo di
+       q --> ask @ M.Gobbin
+     * Comprimibilita' del flow ExB vista la disomogeneita' del campo
+       B (ask @ F.Sattin)
+     * Power deposition & q profile. La deposizione di potenza sembra
+       piccarsi alla barriera ma ridursi al suo interno
+     * io tenderei a sottolineare che non ci si puo' appellare
+       ragionevolmente ad ITG che stabili (o marginalmente instabili
+       con L_T_i=L_T_i cosa poco realistica sopratutto a questi
+       livelli di densita')
+     * Question *Are SHAx sustainable at high density?*
+   + Mandatory role of flow and viscosity (increase with
+     density/decrease with temperature)
+   + Rimane eventualmente da considerare il trasporto globale di
+     momento edge/core
+   *External Transport Barrier*
+   + Density dependence on the appearence of ETB? (A.Fassina)
+   + Ricostruzione FLiT di almeno uno/due casi di barriere per capire
+     se possono dipendere da isole m=0. (R.Lorenzini?)
+   + ISIS + delta m=0,n=1 per vedere se si giustifica la
+     localizzazione toroidale 
+   + To be done Thomson di bordo 4 impulsi/1ms in associazione a Riflettometro
+
+*** Incontro per considerazioni su plateu
+    :PROPERTIES:
+    :on:       <2010-01-29 Fri 10:13>
+    :at:       Sala Controllo
+    :with:     RLorenzini EMartines
+    :END:
+    Considerazioni riguardo la deposizione di potenza. Emilio conferma
+    che la deposizione di potenza cosi' come calcolata dalla medie
+    delle superfici di flusso. In realta' ci sono alcuni drawbacks: il
+    calcolo e' fatto secondo il modello \alpha-\Theta_0 (quindi non
+    tiene conto di modifiche al profilo di corrente), si usa un
+    profilo di Z che non tiene conto del fatto che sembra che le
+    impurezze non penetrino l'isola (da verificare). L'effetto visto
+    in questi termini e' un puro effetto di variazione della
+    resistivita per la modifica della temperatura
+
+** DONE Analisi Shot # 24936 per vedere se c'e' una modifica del bordo per effetto del pellet
+   CLOSED: [2010-01-29 Fri 11:57]
+   Si vede chiaramente il current sheet formarsi all'edge con ISIS
+   elettrostatico. NB non si vede nessuna variazione sensibile del
+   pattern prima come evidenti propagazioni come nei casi di ETB
+
+** DONE Ask @ alberto commento su figura 24551. Qui il pellet e' esterno e sta ablando ancora
+   CLOSED: [2010-02-08 Mon 12:04]
+
+** DONE Database of ETB: current, density, n/n_g
+   CLOSED: [2010-02-05 Fri 14:31]
+
+** DONE [4/4]Proposte da risottomettere
+   CLOSED: [2010-02-08 Mon 12:04]
+   - [X] ESD-DN tokamak, 
+   - [X] Shafranov shift scan for flow asymmetry, 
+   - [X] Da aggiungere scan in F a bassa corrente e confronto con RFP-Tyr. 
+   - [X] Scan in F con inserzione di impurezze per vedere effetti di bordo combinati con isole m=0.
+
+** Slides per presentazione
+*** Slide 2
+    The motivation of this talk is to provide the status of art
+    of the present knowledge regarding thermal barrier observed both
+    in the core and at the edge of RFX-mod. Some of the things that I
+    will show you are already known, someother maybe less widely
+    accepted some represent my personal view and are inserted in order
+    to stimulate discussions. 
+    + First of all we all know that thermal transport barrier are
+      observed associated to a topological transition
+    + We are all aware that presently these states, the SHAx, are
+      detected only at low value of electron density and a great
+      effort is devoted in determining the way to fill the helical
+      core with a substantial improvement of the confinement and the $\beta$
+    + We have evidences of phenomena at the edge which resembles a
+      pedestal establishment which we have dubbed *External Transport
+      Barrier* but they need to be investigated
+    + As said this talk wish to make more questions than answers
+*** Slide 3
+    Just as summary for our guests the phenomenology which accompaigns
+    our ITBs is ruled by the ratio between dominant and secondary
+    modes. As bdominant over dsecondary increase we observe a
+    modification from an axysimmetric equilibrium with a perturbation
+    associated to radially localized thermal islands, to a new
+    topology, due the expulsion of the separatrix, which is resilient
+    to residual perturbation and is associated to a wide thermal
+    structure, which occupies a significant fraction of the total
+    volume of the plasma
+*** Slide 4
+    It has been shown that temperature and density lies on constant
+    helical magnetic flux surfaces and also that from a combination of
+    transport and equilibrium code a reconstructed electron thermal
+    diffusivity is found to reduced to value up to 10 m to the minus
+    one or even lower. At the same time the temperature characteristic
+    length increases and its inverse reaches values of about 20 meters
+    to the minus one and the temperature at the top of barrier up to
+    1.4 keV
+*** Slide 5
+    The density is a strong issues as presently spontaneous SHAx are
+    observed at values of normalized of the order of .1. The island
+    has been fueled up to now only by pellet injection although it is
+    very sensible to the angle of penetration respect to the island
+    O-point. Here you see three different cases with island feeded or
+    pellet which creates a strongly hollow profile. The zoology is
+    even larger with cases where the ablation of the pellet seems to
+    sustain a decreasing of a QSH (maybe through a channeling of the
+    core during the pellet deposition), other cases where magnetic and
+    thermal structure survives even with a strong hollow profile, or
+    other where the pellet ablates, the QSH is sustained and then
+    destroied by a decrease of dominant mode, an increase of secondary
+    ones and MHD events which seem not to perturb the edge chords of
+    the interferometer. Although we know that QSH crashes are
+    determined by reconnecting current sheets which are observed to be
+    strongly edge localized. Here you see the perturbation of a
+    toroidally propagating current sheet as seen from the array of
+    floating potential measurements, thus by strongly edge localized measurements.
+*** Slide 6 
+    Another issue regards the role of the flow and in particular of a
+    sheared profile flow. MHD simulations suggest the presence of a
+    peaked shear at the location of the maximum of $q$. Measurements
+    from passive, line integrated spectroscopy have revealed a
+    correlation between the poloidal flow and the dominant mode. But
+    from edge measurements we know that the shear of ExB flow is found
+    to increase in correspondance of the well conserved magnetic
+    surface around the O-point of the m=0 island (without the
+    necessity of a zero of q prime). Thus sheared flow may appear as a
+    consequence of well conserved flux surface (rather than as a
+    triggering). Mechanism has been proposed for stellarator for
+    example through an amplification of RS mechanism induced by vacuum
+    magnetic islands, but this is just an example (other could be for
+    example $k$ space symmetry breaking)
+*** Slide 7
+    Let's now focus on a foundamental, still unclear issue. The
+    temperature profile in SHAx state, exhibits a clear gradient, but
+    also a wide region of plateau. Different mechanisms have been
+    proposed in order to explain this behaviour.
+    + The existence of a double resonance of the second more internal
+      resonating mode caused by the maximum in /q/
+      profile. This could provoce a chain of islands in the inner/outer
+      region with respect to the location of the island /O/-point
+      which would enhance the diffusivity. This task has not yet been
+      analyzed in details. 
+    + A modification of the power deposition, which according to SHEq
+      code would provide an hollow deposition profile, mainly induced
+      by a reduction of resistivity. This effect can be further
+      enhanced by the inhability of the impurity to penetrate the island.
+    + Electrostatic instabilities, like ITG, which however have been
+      found marginally unstable only at the barrier and also supposing
+      electron and ione temperature scale equal. Preliminary
+      indication of micro-tearing instability has been found by
+      gyrokinetic simulation
+    + An electrostatic effect induced by the modification of profile,
+      and consequently perturbed heat source and the compressibility
+      term, induced by grad B and compressibility of electric drift
+      flow. Numerical simulations reveal the possibility to simulate
+      profile resembling those experimentally found.
+    + For almost all of these proposed explanation, the knowledge of
+      flow profile appears as a mandatory task.
+*** Slide 8
+    Let's now move to what has been dubbed as *External transport
+    Barrier*. 
+    + We have several examples. Here you got one where temperature of
+      1 keV are obtained for normalized radius of 0.8. The
+      corresponding poincare in the toroidal radial plane revela this
+      is not a shax and that the top of this "pedestal" is located in
+      where well conserved flux surfaces disappear
+    + These barriers are much clear in the temperature than in the density
+    + The absolute edge temperature gradient are found at lower
+      density. This, together with other evidences that I will show
+      you, may suggest a sort of viscous effect.
+    + Calculation reveals that these events are found both at positive
+      and negative values of the m=0 shift (some also at deeper F than
+      usual). On the contrary they seem to be associated to positive
+      values of the m=1 shift. As a personal point of view, they might
+      be related to a sort of compression of conserved flux surface,
+      coupled to divertor-like configuration with m=0 islands
+      intercepting the wall.
+    + But the main answer remain: what are they?
+*** Slide 9
+    In order to interpret some of the observation I think it might be
+    important to remember that the edge of RFPs are dominated by a
+    relative high value of ExB shear. From low current discharge we
+    know this shear is sustained through a Reynolds stress mechanism
+    and it could be interesting to find experimental evidences that
+    this mechanism persists at higher current.
+*** Slide 10
+    Here you find some new evidences associated to ETBs. On the top
+    the temperature profile, in this case the top of the pedestal is
+    found a little bit more inside. In the bottom a countour plot of
+    the floating potential as obtained from toroidally distributed
+    internal sensor. The vertical line indicate the time of the
+    Thomson. Just before it, an a few ms after it you can observe
+    these stripes which propagates in the toroidal direction at an
+    high velocity (50-60 km/s) and which are not generally
+    observed. The calculated m=0 and m=1 shift reveal for both of them
+    positive values. As a possible naive and personal interpretation,
+    I would like to propose this: positive value of m=1 shift is
+    equivalent to a compression of the magnetic surface. When these
+    are well conserved they cause an enhancement of electric drift
+    gradient which may act as in tokamak for turbulent suppression and
+    confinement enhancement. This vision is far from being proved up
+    to now.
+*** Slide 11
+    + Electron transport barriers are obtained as a consequence of
+      topological transition. But at the observed density we can't
+      imagine of having an equivalent barrier on ion.
+    + We know that the fueling is an issue, and an entire day will be
+      devoted to it. This issue is determined by:
+      + The wall condition/technique of wall conditioning
+      + We have (not always) overcome the problem with the pellet but
+        it has a strong dependence on the injection angle and not
+        always succesfull
+      + I think we have to keep in mind that an increase of density,
+        in particular at the edge may facilitate reconnecting events
+    + We have indication of a relation with sheared flow although it
+      might be not so clear if it is a cause or a consequence of the
+      appearence of well conserved flux surface
+    + Concerning the temperature plateau we have proposed different
+      mechanisms without any clear evidence of a dominant one
+    + Concerning what have been called as *ETB* it is not clear if
+      they are barrier or transient events
+    + We have indication they are related to topology: in particular a
+      change of a configuration from a divertor/limiter like, might be
+      related to shifted well conserved flux surfaces
+    + Finally higher gradients appear at lower density and hints of a
+      relation with fast propagation have been provided.
+* DONE Talk with R.Lorenzini per linee guida task forces
+  CLOSED: [2010-02-10 Wed 00:32]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2010-02-19 Fri 16:57
+  :ARCHIVE_FILE: ~/elisp/orgfile/taskforce.org
+  :ARCHIVE_CATEGORY: taskforce
+  :ARCHIVE_TODO: DONE
+  :END:
+
+
+

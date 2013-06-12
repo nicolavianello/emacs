@@ -1,0 +1,1769 @@
+#    -*- mode: org -*-
+
+
+Archived entries from file /disk1/home/vianello/org/work.org
+
+
+* DONE Tesi Alessandro Scaggion					       :ARCHIVE:
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2008-02-05 Tue 15:10
+  :ARCHIVE_FILE: /disk1/home/vianello/org/work.org
+  :ARCHIVE_CATEGORY: work
+  :END:
+** DONE finire lettura tesi				       :reading:ARCHIVE:
+   CLOSED: [2007-11-28 Wed 16:48]
+** DONE Incontro Alessandro per commenti tesi		       :MEETING:ARCHIVE:
+   SCHEDULED: <2007-11-29 Thu> CLOSED: [2007-11-29 Thu 12:16]
+** DONE Mappa toroidal e poloidale delle fluttuazioni		  :work:ARCHIVE:
+   SCHEDULED: <2007-11-28 Wed> CLOSED: [2007-11-28 Wed 15:45]
+** DONE Riverificare calcolo angolo poloidale perturbazione	  :work:ARCHIVE:
+   CLOSED: [2007-12-07 Fri 17:46]
+*** MAYBE Confronto analisi modale con la vecchia			  :work:
+
+
+* DONE Lezione Turbolenza					       :ARCHIVE:
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2008-02-05 Tue 15:10
+  :ARCHIVE_FILE: /disk1/home/vianello/org/work.org
+  :ARCHIVE_CATEGORY: work
+  :END:
+** DONE [#A] Preparare lezione turbolenza per Tommaso		  :WORK:ARCHIVE:
+   DEADLINE: <2007-12-06 Thu> CLOSED: [2007-12-06 Thu 12:04]
+
+
+* DONE [#A] Presentazione momento				  :WORK:ARCHIVE:
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2008-02-05 Tue 15:10
+  :ARCHIVE_FILE: /disk1/home/vianello/org/work.org
+  :ARCHIVE_CATEGORY: work
+  :END:
+  Preparare presentazione sul trasporto di Momento per il workshop di
+  programma
+** DONE [#A] Presentazione momento					  :WORK:
+   DEADLINE: <2007-12-12 Wed> CLOSED: [2007-12-17 Mon 10:36]
+** DONE Stampare articoli momento					  :WORK:
+   SCHEDULED: <2007-12-06 Thu> CLOSED: [2007-12-07 Fri 17:47]
+** DONE Prepare slides per Stefano Martini				  :WORK:
+   SCHEDULED: <2007-12-06 Thu> CLOSED: [2007-12-06 Thu 18:47]
+
+
+* DONE Complete report on EFDA-TF-2009				       :WORK:
+  CLOSED: [2010-01-07 Thu 15:30]
+  - State "DONE"       from "STARTED"    [2010-01-07 Thu 15:30]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2010-01-11 Mon 12:01
+  :ARCHIVE_FILE: ~/elisp/org/work.org
+  :ARCHIVE_CATEGORY: work
+  :ARCHIVE_TODO: DONE
+  :END:
+** DONE Compila modulo per task force MHD
+   DEADLINE: <2010-01-07 Thu 15:00> CLOSED: [2010-01-07 Thu 15:30]
+   - State "DONE"       from "STARTED"    [2010-01-07 Thu 15:30]
+   Vedi [[file:~/LN/rhome/Fisica/EFDA-TG-2009/WP09-MHD-04%20(Scientific%20Monitoring).doc][file]] spedito da Lionello e [[message://auto-000004586003@igi.cnr.it][Fwd: reporting on  EFDA MHD TAsk   "ELMs" WP09-MHD-04/01]]
+   Completato. Vd. [[file:~/LN/rhome/Fisica/EFDA-TG-2009/ReportOnElm.doc][file]] completato.
+
+* Response to Ivo Mail					 :WORK:MAIL:ANALYSIS:
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2010-01-25 Mon 17:37
+  :ARCHIVE_FILE: ~/elisp/orgfile/work.org
+  :ARCHIVE_OLPATH: Torpex Cluster Probe
+  :ARCHIVE_CATEGORY: Projects
+  :END:
+  vd mail [[message://4B4DF7C2.8040000@epfl.ch][first ideas on magnetic measurements in TORPEX plasmas]]
+  + Verifica se possibile modificare il pitch della linea di campo (# of turns)
+  + Puo' essere interessante porsi nella condizione di linee di campo aperte/chiuse ?
+  + Ruotare di 90 gradi la sonda con trigger sempre a diversi z e misurando la corrente diamagnetica/polarizzazione
+  + Ask to Alessandro for null current in the middle of the field line
+* DONE Realizzazione ed installazione Cluster probe
+  CLOSED: [2009-12-28 Mon 12:00]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2010-01-25 Mon 17:37
+  :ARCHIVE_FILE: ~/elisp/orgfile/work.org
+  :ARCHIVE_OLPATH: Torpex Cluster Probe
+  :ARCHIVE_CATEGORY: Projects
+  :ARCHIVE_TODO: DONE
+  :END:
+
+* DONE Shax and Electrostatic Turbulence			    :PROJECT:
+  CLOSED: [2010-01-19 Tue 18:22]
+  - State "TODO"       from "STARTED"    [2010-01-07 Thu 14:57]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2010-01-25 Mon 17:38
+  :ARCHIVE_FILE: ~/elisp/orgfile/work.org
+  :ARCHIVE_CATEGORY: work
+  :ARCHIVE_TODO: DONE
+  :END:
+** Read article from Fabio					  :WORK:READ:
+   Leggi [[file:~/LN/rhome/Fisica/articoli_con_fabio/TeAndShaxProfile-GAM/SHAx%20v3.pdf][articolo]] collegato a mail [[message://auto-000004637632@igi.cnr.it][SHAx v3.pdf]]
+* DONE Article DKA						    :PROJECT:
+  CLOSED: [2010-04-30 Fri 10:36]
+  - State "DONE"       from "STARTED"    [2010-04-30 Fri 10:36]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2010-04-30 Fri 10:36
+  :ARCHIVE_FILE: ~/elisp/orgfile/work.org
+  :ARCHIVE_CATEGORY: work
+  :ARCHIVE_TODO: DONE
+  :END:
+** DONE Response to Referee
+   DEADLINE: <2010-02-17 Wed> CLOSED: [2010-02-22 Mon 10:50]
+   Vedi [[message://OF9A19BD47.E770E450-ON802576B1.00398165@iop.org][Our decision on your article from Nucl. Fusion -
+   NF/338405/LET/72895]] mail. I report sono [[file:~/LN/fbinprogress/Lavoro-Vortici-DKA/IOP-version/RefereeReport/RefereeI.pdf][ReportI]] e [[file:~/LN/fbinprogress/Lavoro-Vortici-DKA/IOP-version/RefereeReport/RefereeII.pdf][ReportII]].
+** DONE Proof Correction					  :WORK:READ:
+   DEADLINE: <2010-03-24 Wed> CLOSED: [2010-03-23 Tue 15:59]
+* DONE High Density Limit					    :PROJECT:
+  CLOSED: [2010-08-27 Fri 08:52]
+  - State "DONE"       from "STARTED"    [2010-08-27 Fri 08:52]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2010-08-27 Fri 08:52
+  :ARCHIVE_FILE: ~/elisp/orgfile/work.org
+  :ARCHIVE_CATEGORY: work
+  :ARCHIVE_TODO: DONE
+  :END:
+** DONE Read draft paper [[file:~/LN/fbinprogress/Paper_density_limit/matteon13.pdf][ZuinCarati]]				  :WORK:READ:
+   CLOSED: [2010-02-25 Thu 14:50]
+** Minute meeting 11/01/10
+   :PROPERTIES:
+   :doat:     meeting 11/01 aula riunioni I Piano
+   :on:       <2010-01-11 Mon 12:07>
+   :dowith:   Cappello, Carraro, Puiatti, Scarin, Agostini, Spizzo, Cavazzana
+   :END:
+   [[file:/Volumes/Disk%20R/public/RFX/hidensity/meetings/10.01.11/meeting_TF2.ppt][Presentazione]] Gianluca. In particolare vengono sottolineate le
+   seguenti osservazioni
+   - Isole (0,7) di dimensioni uguali fra high/low density cases    
+   - le perturbazioni dei secondari in QSH rispetto alle isole m=0 e'
+     trascurabile 
+   - il trasporto in caso QSH rimane *ambipolare* con \tau_{loss}^2
+     \approx \tau_{loss}^i ma senza modulazionie (0,1).
+   - Si osserva al crescere di n/n_g (> 0.4) che l'ampiezza
+     normalizzata degli m=0 cresce ed analogamente per n/n_g > 0.5 le
+     isole cocciano con la parete 
+** DONE Calcolare b_m=0 normalizzato in funzione della temperatura di bordo con Sonda tripla fissa :WORK:ANALYSIS:
+   CLOSED: [2010-03-01 Mon 18:23]
+*** Vedi calcolo shift e database in /scratch/spitzer/nico/ su raserver2
+    Su suggerimento di Gianluca per trovare gli intervalli
+    interessanti posso guardare l'imaging di Vf e dove scompare il
+    pattern m=0,n=7 calcolo li l'ampiezza del deltam=0 e la temperatura
+** DONE Analisi impulso 26361 (vd [[message://auto-000004644335@igi.cnr.it][sparo con neon con densità elettronica   molto cava..]]) :WORK:ANALYSIS:
+   CLOSED: [2010-01-25 Mon 17:38]
+   - State "DONE"       from "STARTED"    [2010-01-25 Mon 17:38]
+   Cominciata l'analisi che pero' non da nessun significativa evidenza
+   sulla velocita calcolata con la crossCorrelazione
+** DONE Shot # 26506
+   CLOSED: [2010-01-21 Thu 17:35]
+   - State "DONE"       from "STARTED"    [2010-01-21 Thu 17:35]
+   Crea una figura del tipo Ip-n/ng-Bt m=1,n=7,Image floating potential
+** Meeting on Neon Inject					    :MEETING:
+   :PROPERTIES:
+   :on:       <2010-01-26 Tue 12:05>
+   :at:       CarraroOffice
+   :with:     Carraro Menmuir Spizzo
+   :END:
+  + Agree to review paper send by Sheena on Neon Injection. Adding for
+    shot # 26327 the vertical bars for poincare
+  + To reconsider shot 26361 on a different time intervals up to 180 ms
+** Meeting on Neon Inject
+   :PROPERTIES:
+   :on:       <2010-03-02 Tue 12:20>
+   :at:       Lorella's Office
+   :with:     Gianluca Lorella Sheena Nicola
+   :END:
+   Agree to produce a new figure # 13 with Vf from floating potential and Poincare.
+** DONE Spedire a P.Scarin 2 file eps con esempio Neon e scomparsa QSH
+   CLOSED: [2010-02-25 Thu 14:50]
+* APS2010
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2010-11-24 Wed 11:07
+  :ARCHIVE_FILE: ~/.emacs.d/orgfile/work.org
+  :ARCHIVE_CATEGORY: work
+  :END:
+** Filaments
+   Abstract [[file:~/LN/fbinprogress/APS2010/filaments/aps-vianello-filaments.pdf][filamenti]]
+   Outline & WTBD (*)
+   - [ ] Universal presence of current filaments
+   - [X] RFX-mod
+     - [X] Device, Diagnostic, plasma condition
+     - [X] Current and vorticity measurement
+     - [X] Parallel and perpendicular wave number
+     - [X] Interpretation DKA
+   - [X] Asdex
+     - [X] Device, diagnostic, plasma condition
+     - [X] DOP analysis
+     - [X] Hodogram 2D/3D
+     - [X] Current estimate
+   - [X] Torpex
+     - [X] Device, Diagnostic, Plasma condition
+     - [X] 2D current estimate (*) [fn:7]
+     - [X] Current balance (*)
+** RFX-mod
+   Abstract [[file:~/LN/fbinprogress/APS2010/flow/aps-vianello-rfx.pdf][flow]]. 
+   Outline & work to be done (indicato con *):
+   - [X] Introduction & motivation.
+   - [X] MHD topology at the edge: Dominant n=7 & \Delta. m=0 islands 
+   - [X] Ripple of various quantities: P_e, H_alfa,n_e
+   - [X] Floating potential pattern
+   - [X] Parallel and perpendicular flow pattern and relation with island location
+   - [ ] Relation with X-O points of both electric field (*)
+   - [ ] Edge flow scaling: vd scaling \nabla Te vs v_{\phi}. Attempt of S scaling of velocity ad a given position and of the dominant/secondary (*)
+   - [ ] Crash (?)
+
+** Appunti
+*** Lunedi 08 Novembre
+**** MST Helical measurements (3D Session)
+   - Polarimeter + interferometer measurements
+   - Non axysimmetric profile woth SXR tomography
+**** Spong (3D Session). Energetic particles in helical states
+   - Helical ripple dependence of fast ion losses
+   - TBM in ITER
+   - Alfven continumm estimated for RFX-mod (??)
+   - MeV NBI. Not looked at till now
+**** DIII-D session
+*** Martedi 09 Novembre
+**** Edge & Stability session 
+    <2010-11-09 Tue> 
+    1. Zweben:
+       + H-mode like /quiet periods/ with no blob formation associated to poloidal zonal flows
+       + L-mode has turbulence ~ 3-4 cm sized
+       + H-mode quiescient inside the saparatrix
+       + Quiet periods are periodic with f ~ 3 kHz
+       + Non hanno nulla a che fare con la transizione LH
+       + LRC for velocity < 3 kHz --> zonal flow
+    2. LaBombard:
+       + \lambda_a ~ 1/Ip
+       + \lambda_q no dependence on Pdiv,Bphi,q95
+*** Mercoledi 10 Novembre
+**** NSTX & other tokamak
+   - Maingi:
+     + H-mode can be
+       * Triggered by large ELM also through n=3 pulse
+     + EP H-mode with spahr pedestal correlated with v_phi locked
+     + Thermal barried: increase Te,Ti reuction in the edge n_e gradient and increase in v_{\phi} shear (zero/no-zero at the edge)
+     + Momentum diffusivity much more varied with respect to ion-diffusivity
+     + radial shear in v_{\phi} correlated with large region of E_r shear during EP H-Mode
+     + Linear relation T_i(ped) vs d_{\phi}/dr interpreted in terms of enhancment of dE_r/dr
+     + 3D field used for ELM pace-making. After switching off 3D field transition towards EP H mode
+     + Similarities with other Confinmenet regime
+       * VH mode:EP triggered by an ELM and initiziate with localized drag on v_{\phi}
+   - Diallo:
+     + ELITE predicts enhanced edge stability at low R/a (Maingi PRL 2009)
+     + Higher R/a have shown the pedestal height increases with triangularity and plasma current
+     + Pedesta pressure ~ Ip^2 & triangularity
+     + Continoues increase of the density fluctuations at the top of the pedestal and cascade
+     + Increase of pressure in the inter-ELM phase (before crash)
+     + P \propto I_p^2
+     + Pedestal pressure height increases with triangularity
+     + Fluctuations through reflectometry and GPI
+       * increase in the spectrum around 10 kHz moving towards lower frequency on density & potential (no on Mirnov)
+       * from GPI extracth the flutuating brighness and project on wavenumber and obtain information on flow shear
+       * Coherent modes moving towards smaller frequency. Using the advection-diffusion equation the rms of |k| can be linked to the flow shear
+       * flow shear peak just after ELM crash and then die away
+   - Sontag:
+     + Type V elm with \detal W_{MHD}<1%
+     + Tpe I Stabilizaion observed with change in Triangularity
+     + Difference between type I and V on ion pressure wherease toroidal rotation or rotation shear are comparable
+     + Edge collisionality increase in the type-V case
+     + Slight modification of current profile and boostrap current
+     + Tpe V closer to balloning boundary
+     + Type V cases have increased pedestal pressure
+**** Solar wind mini-conference morning: IDEAS
+   - Bhattarcharijee: (!!)
+     + Smith Vasquez & Hamilton 2006. scaling of \delta B_{\perp}^2/\delta B_{\parallel}^2 vs \beta (log-log)[fn:8]
+     + Predicted scaling for \detal b_{\perp} & \deltab_{\parallel} from scaling properties of governing equations
+   - Wan:
+     + Servidio PRL 2009 & PoP 2010. Reconnection points
+
+**** Poster on MST:
+   - HIBP on MST (ambipolar E_r during PPCD reduced maybe)
+   - Flow & m=0 islands at MST
+**** Energy & Momentum transport
+   - Muller:
+     + Contribution of Reynolds stress = 0 up to 1 cm inside the separatrix
+     + RS tries to sustains edge co-rotation layer
+     + Fluid stresses inconsistent with change of core angular momentum --> postulate the existence of a large kinetic stress
+     + Kinetic stresses might be due to ion orbit losses
+     + Narrow co-current rotation layer observed at separatrix in correlation with buil-up of intrinsic core rotation
+     + Measured fluid turbulent stresses not consistent with core spin-up --> kinetic stresses to be included
+**** C-Mod
+   - AE in C-Mod
+     + n=0 GAE damping rate is insensitive to T_{fast}
+     + n=0 modes do not show interaction with fast ions as expected
+   - Bader:
+     + Compact neutral particle analyzer (CNPA) measurements
+   - Hubbard: I-Mode (!!)
+     + regime with edge energy barrier but no particle barrier
+     + Drawback of H-Mode: ELMs caused by \nabla p_e which are also necessary for particle expulsion (impurity accumulation)
+     + I-mode has T_e and T_i pedestal without density barrier (T_e/T_e gradients comparable to H-Mode)
+     + I-mode can be maintained for many \tau_E
+     + They are usually ELM-free
+       * Some ELM's occur triggered by large sawtooth heath pulses which can be controlled
+     + Impurity confinement time comparable to L-mode but with high energy confinement
+     + Characteristic changes in edge fluctuations
+       * Decrease in edge broadband turbuence in mid-f range
+       * Peak in turbulence at higher f weakly coherent
+     + The phenomenology appears similar to improved L-mode or two-phase transition but C-Mod have greatly extended the duration of the pedestal T_e
+     + Obtained with unfavorable B\times\nabla B drift (reversed B LSN or normal B USN)
+     + Recently obtained with lower triangularity and ICRF lower but close to H-mode threshold
+     + Energy confinement in the range of H-Mod
+     + Edge thermal barrier formation appears correlated with low-f turbulence decrease
+     + Weakly coherent mode is seen in density and magnetics localized at the barrier transition
+     + I-mode plasmas help identify edge \nabla T_e as the drive for intrinsic rotation !!
+
+*** Giovedi 11 Novembre 
+**** Energetic particlees
+   - Van Zeeland (!!)
+     + Pre 2009-AE in DII-D are common and observed to cause large core fast ion transport
+     + Pre 2009-AUG AE studies focused on RF driven
+     + 2009-2010:
+       * Measured through FILD diagnostic both in DIII-D and AUG
+       * Measured through FIDA--> talk w/ A.Bortolon
+       * AE in DIII-D driven by 80 keV with v_b/v_a ~ 0.4
+       * Delaying Beam injection alters AE stability. Dipende dal current ramp-up
+       * AUG: Early 60 kV NBI create RSAE accompained by large neutron deficit
+       * AUG: FIDA indicate large reduction in Core FI during RSAE activity
+       * AUG Fida measures a Drop in Central fast ion population as q_min passes through an integer wit no fast ion losses
+       * Increasing beam energy drove spectrum both of RSAE and TAE which causes fast ion losses (with energy close to the injected energy)
+       * ORBIT used to calculate transport and additional COM (constants of motion) based calculation follows particles
+       * Reduction of Fast ion losses at high current induced by the fact that fewer modes extend at large radii
+   - Y Chen: kinetic stability of alpha driven TAEs in ITER
+     + Fluid electron model implemented in GEM
+     + GEM is an electromagnetic delta-f PIC turbulence code
+     + Alpha profile for Iter. Gorelenkov NF 2003
+**** Mini conference on momentum transport
+   - Xu: (!!)
+     + Experimental estimatetion of a NL energy transfer term using a 3x3 probe array to masure Vorticity and energy transfer term
+     + Vorticity Flux drives shear flow
+     + Shear layer is amplified by Vortex Merger
+     + Possible influence if one consider hole-density-propagation inside the separatrix
+   - Dif-Pradalier
+     + full-f flux driven gyrokinetic
+     + Gyrokinetic where turbulence and mean profile develops self-consistently
+     + Poloidal rotation written as NeoClassical + RS term
+     + L-mode plasma: poloidal rotation roughly comparable to Neo Classical with a small contribution from Turbulent stress
+     + At lower collisionality the turbulent stresses increases its contribution (even higher in barrier regime)
+     + Cerca PRE 2010 dell'autore (Phys. Rev. E 82, 025401(R) (2010) & Phys. Rev. Lett. 103, 065002 (2009) )
+     + Coherent persisten jet-like pattern of ExB indipendent on collisionality (no Zonal Flows)
+   - Munsat: velocimetry technique
+     + Niente di interessante
+   - Ding:
+     + Solite cose su MST a cui ha aggiunto qualcosa sullo stress di Reynolds al bordo
+   - Wang: turbulence nonlinearly driven flows
+   - Jang: Rotation and ITB
+     + intrinsic rotation in ITB and possible cancellation due to extearnl momentum input
+     + TRB code (--> tell Fabio)
+     + Strong co-current rotation is generated in heat-flux driven ITB plasmas with reversed magnetic shear
+     + intrinsic rotation generated via the residual stress
+     + generated near the ITB head and initially propagates into the core (inward momentum transport)
+     + PDF of heat flux and Reynolds stress distinct within ITB region with inward Reynolds flux and long outward tail in heat flux
+     + Observed cancellation of intrinsic rotation in correspondance to the application of exteranl tourque
+ 
+** Contatti
+*** DONE Spedire poster						       :MAIL:
+    CLOSED: [2010-11-24 Wed 11:07]
+  - [X] Myra
+  - [X] D'Ippolito
+  - [X] lzheng@mail.utexas.edu
+* DONE Elm Filaments Article                                        :PROJECT:
+CLOSED: [2011-02-25 Fri 10:12] 
+- State "DONE"       from "STARTED"    [2011-02-25 Fri 10:13]
+:PROPERTIES:
+:CATEGORY: Projects
+:ID: 59897993-4DEB-4D29-A27D-D5247CFEB691
+:ARCHIVE_TIME: 2011-04-21 Thu 17:14
+:ARCHIVE_FILE: ~/.emacs.d/orgfile/work.org
+:ARCHIVE_CATEGORY: Projects
+:ARCHIVE_TODO: DONE
+:END:
+** DONE Answer to Referee Comments			:MAIL:ANALYSIS:WRITE:
+   CLOSED: [2010-01-14 Thu 11:19]
+   - State "DONE"       from "STARTED"    [2010-01-14 Thu 11:19]
+   See file [[file:~/Documents/RFX/Fisica/Asdex/Letter/Resubmission/responseToRefereeA.pdf][Response]]
+   Introduciamo anche le [[file:~/Documents/RFX/Fisica/Asdex/Letter/Resubmission/responseToRefereeA_vona.pdf][modifiche]] di Volker <2010-01-07 Thu 11:24>
+   
+** CANCELLED Eventualmente pensa ad un test Chi2 per fit mono/dipolar :ANALYSIS:
+   CLOSED: [2010-02-19 Fri 14:15]
+** DONE [#A] Comincia revisione testo PRL
+   SCHEDULED: <2010-01-10 Sun> CLOSED: [2010-01-14 Thu 11:19]
+   - State "DONE"       from "STARTED"    [2010-01-14 Thu 11:19]
+** DONE Time-frequency correlation br-Isat		      :WORK:ANALYSIS:
+   SCHEDULED: <2010-01-08 Fri> CLOSED: [2010-01-14 Thu 11:19]
+   - State "DONE"       from "STARTED"    [2010-01-14 Thu 11:19]
+   Completa la routine [[file:~/LN/linuxHome/LN/fb/nicolalib/signalprocessing/spectra.pro][spectra]] per il calcolo della coerenza in
+   funzione dello spazio e del tempo in maniera analoga a quanto fa
+   spectrogram tenendo conto della Hanning window (senza sottrazione lineare)
+** DONE Analisi in frequenza senza spettrogramma unendo gli intervalli :WORK:ANALYSIS:
+   CLOSED: [2010-01-14 Thu 11:19]
+   | type  |      tmin |      tmax | nslices/nsmoot |
+   |-------+-----------+-----------+----------------|
+   | ELM   | 4.1999993 | 4.2028031 | 4/3            |
+   | NOELM | 4.1697192 | 4.1760740 | 7/3            |
+ 
+** DONE Includi commenti Roman and Codrina			       :WORK:
+   CLOSED: [2010-01-27 Wed 17:26]
+   - State "DONE"       from "STARTED"    [2010-01-27 Wed 17:26]
+** DONE Sottomissione articolo rivisto				       :WORK:
+   CLOSED: [2010-02-19 Fri 14:16]
+** DONE [1/1] Rispondi ad ulteriori commenti referee		       :WORK:
+   CLOSED: [2010-08-27 Fri 08:53]
+   - [X] Rivedi figura 6 con le barre di incertezza sulla posizione e sulla corrente in base alla larghezza a meta altezza della distribuzione di vr dell'articolo di Andrea Schmidt
+   - [X] Aggiungi anche la statistica degli angoli di rotazione rispetto alla direzione radiale sempre alla figura 6
+   - [X] Aggiungi anche il fit con la funzione 1/sqrt(x^2 + y^2) per far vedere la differenza
+   - [X] Aggiungi una stima delle velocita dalla cross-correlazione sovracampionando i segnali ad una frequenza maggiore
+   - [X] Rispondi al commento di Volker and Jens sulla propagazione toroidale
+   - [X] Aggiungi propagazione da velocita ExB
+   - [ ] Calculate the poloidal rotation of the filaments from Bwall mounted probe
+   - [X] Ricalcolare corrente riconsiderando la velocita totale come somma quadratica fra velocita radiale e poloidale
+   - [X] L'angolo di rotazione deve essere ricalcolato tenendo conto che noi identifichiamo solo la direzione e non il verso e quindi si deve calcolare l'arcotangente della componente che presenta il massimo all'istante zero
+   - [X] Includi considerazioni sulla velocita totale di propagazione nel lavoro
+   - [ ] Calcola propagazione toroidale e poloidale da wall-mounted probe. Chiedi ad Hans Werner
+
+*** Figura 6
+   Per la figura 6 includiamo i due fit. 
+   - Fit A = (\alpha/\sqrt{(t-\beta)^2+gamma^2} - delta)*exp(-zeta*(t-\beta)). Funzione squarerootexp della libreria di IDL con valori iniziali
+     [5.9670774e-07       4.2369099   6.1362281e-05    0.0039248963       2082.4248]
+   - Fit B = (\alpha/((t-\beta)^2+\gamma^2) - \delta) * exp(-zeta*(t\beta)) con valori iniziali. Funzione Lorentzian della libreria di IDL
+     [-403.502    0.0259806  4.23357e-06      4.23690  0.000365301      2125.53]
+*** Verifica validita odogrammi Alessandro
+  | Shot | tmin | tmax |
+  |      |      |      |
+
+** DONE Figure nuove per Volker per contributo PSI		       :WORK:
+   DEADLINE: <2010-05-07 Fri> Lista figure CLOSED: [2010-05-06 Thu 15:53]
+    - [X] Figura 3 PRL con 0 line 
+    - [X] Figura 4 PRL rotated in the other way around
+    - [X] Combine figure 3 and figure 4
+** DONE Includi i commenti per il lavoro [2/2]
+CLOSED: [2011-02-25 Fri 10:12]
+   - [X] Commenti Jens [[message://CA703655D571CF49A2E6DAED3FF5A4930CE93F@EXCHG-VS1.risoe.dk][RE: PRL]]
+   - [X] Commenti Volker [[message://CA703655D571CF49A2E6DAED3FF5A49303D983ED@EXCHG-VS1.risoe.dk][RE: PRL]]
+
+** Fourth revision
+*** Answer to referee (vd mail [[message://657547300.1282586211952.JavaMail.www@eop-batch.ridge.aps.org][Your_manuscript LK11993 Vianello]]) [4/4]
+    - [X] Ricalcolo velocita radiale e poloidale con metodo WTD [fn:5]
+    - [X] Spedisci dati a Marc per calcolo con sonde esterne della velocita poloidale
+    - [X] Marc ti fornira una velocita angolare in rad/s. A quel punto ti calcoli allo R,Z del manipolatore la velocita in m/s
+    - [X] Calcola la velocita toroidale e poloidale con la cross-correlazione senza rimappare tenendo conto dello shift per tutta la scarica e salva i dati
+*** Per la velocita con la cross-correlazione dalle wavelet 
+|  Shot | tstart | tend |
+| 23158 |   2.18 | 2.28 |
+| 23158 |   4.18 | 4.28 |
+| 23159 |   2.18 | 2.28 |
+| 26159 |   4.18 | 4.28 |
+| 26160 |   1.49 | 1.59 |
+| 26160 |   2.96 | 3.08 |
+| 26160 |   3.99 | 4.09 |
+| 26161 |   1.49 | 1.59 |
+| 26161 |   2.96 | 3.08 |
+| 26161 |   3.99 | 4.09 |
+| 26163 |   1.49 | 1.59 |
+| 26163 |   2.96 | 3.08 |
+| 26163 |   3.99 | 4.09 |
+
+*** DONE Riscrivi testo con velocita poloidale
+    CLOSED: [2010-12-28 Tue 16:04]
+* DONE IAEA2010                                                     :PROJECT:
+CLOSED: [2011-04-01 Fri 11:52]
+- State "DONE"       from "STARTED"    [2011-04-01 Fri 11:52]
+  - State "STARTED"    from "DONE"       [2010-10-27 Wed 14:45]
+  - State "DONE"       from "STARTED"    [2010-10-18 Mon 12:59]
+:PROPERTIES:
+:ID: DEDD25D9-00FF-4E80-AD34-74793B8D8E0D
+:ARCHIVE_TIME: 2011-04-21 Thu 17:14
+:ARCHIVE_FILE: ~/.emacs.d/orgfile/work.org
+:ARCHIVE_CATEGORY: work
+:ARCHIVE_TODO: DONE
+:END:
+** IAEA2010 RFX-Edge
+*** Kick-Off Meeting
+    :PROPERTIES:
+    :on:       <2010-03-18 Thu 17:08>
+    :at:       Aula Riunioni II Piano
+    :with:     PaoloS GianlucaS MatteoA Me
+    :END:
+    + Analisi Potenziale Flottante vs time con shift b(m=1,n=7) e con B_r (m=1,n=7)
+    + Analisi della Temperatura della sonda tripla con Tempo e shift b(m=1,n=7)
+    + Analisi Floating potential poloidale
+    + Determinare ampio database in funzione di corrente,n/n_g,f etc.
+*** CANCELLED Analisi temporale Te TP per Shot # 27362,27829,27833,26303
+    CLOSED: [2010-05-18 Tue 09:52]
+    - State "CANCELLED"  from "STARTED"    [2010-05-18 Tue 09:52]
+*** DONE Analisi P vs time per shot # 26557 26558 28004 28200 
+    DEADLINE: <2010-05-12 Wed> CLOSED: [2010-05-26 Wed 11:12]
+    - State "DONE"       from "STARTED"    [2010-05-26 Wed 11:12]
+    - State "TODO"       from "STARTED"    [2010-05-13 Thu 11:40]
+    - State "STARTED"    from "DONE"       [2010-05-12 Wed 17:20]
+
+    - Sonda tripla Fissa: \theta=312 \phi=82.5
+    - Aggiungiamo il confronto anche della Vf ISIS piu vicina: che e' a \theta= 340.7 ES178
+    - Aggiungiamo anche il confronto con Vf ISIS a \phi=173.9 con due valori di theta
+      1. ES355 \phi=173.9 \theta=-173.57
+      2. ES357 \phi=173.9 \theta=-83.57
+    - Creiamo per ogni shot i seguenti grafici: P & \delta_m0, P & \delta_m1
+    - Dar rifare calcolando lo shift br all'angolo theta corrispondente --> talk @ D. Terranova. Si verifica che lo shift deve essere modifcato se \theta e l'angolo della misura ed \alfa l'arcotangente fra shift verticale ed orizzontale allora il nuovo shift e' $\sqrt(\Delta V^{2} + \Delta H^{2}) * cos(\theta+\alfa)$ con entrambi gli angolo fra 0 e 360
+    - Mha .....
+    - Da rifare ricalcolando lo shift totalte contando l'm=0 ed anche lo shift totale m=1 con i secondari
+
+*** DONE [#A] Scaling globale te da sonda tripla in condizione QSH da database di Matteo
+    CLOSED: [2010-06-04 Fri 18:09]
+    - State "DONE"       from "STARTED"    [2010-06-04 Fri 18:09]
+    - State "SOMEDAY"    from "DONE"       [2010-05-28 Fri 17:38]
+    - State "DELEGATED"  from "DONE"       [2010-05-28 Fri 17:38]
+    - State "SOMEDAY"    from "STARTED"    [2010-05-28 Fri 17:38]
+
+*** Meeting
+    :PROPERTIES:
+    :on:       <2010-07-02 Fri 13:20>
+    :with:     Paolo Gianluca MatteoA MatteoZ Monica
+    :at:       Aula II Piano
+    :END: 
+**** Analisi identificate [4/9]
+     CLOCK: [2010-08-31 Tue 13:42]
+    - [X] Variazione di momento toroidale durante i crash 
+    - [ ] Variazione di velocita con b_m0, e con b_m1 sec e con shift br1
+    - [X] Velocita poloidale / elicoidale da ISIS e confronto con Gundestrup
+    - [X] Analisi posizione toroidale comparsa crash, angolo toroidale locking e confronto con posizione X/O del dominante
+    - [ ] High frequency fluctuations con ISIS magnetic e confronto con shift locale
+    - [ ] Creare routine shift m=0,m=1 con dipendenza poloidale e toroidale
+    - [X] Creare Database Crash
+    - [ ] Mappa toroidale del campo di dynamo totale [fn:4]
+    - [ ] Calcolo della dynamo nel punto della sonda tripla e determinazione della variazione di flusso. In particolare si usano  
+*** Outline
+**** Introduction
+     - Generale descrizione esperimento e regimi MH/QSH
+       + Attuale conoscenza: QSH inducono una PWI elicoidale
+       + QSH decadono nel tempo con crash
+       + Regime operazionale limitato in densita
+       + Unknown role del flow di edge anche nella generazione del sistema: evidenze di flow elicoidale
+     - Outline del documento
+**** Magnetic boundary
+     - Isole m=0
+     - Ruolo delle isole divertor/limiter condition
+     - Ruolo delle isole nella determinazione del Er ambipolare 
+     - Ruolo dello shift del dominante nella modulazione del profilo di pressione
+     - Ruolo dello shift del dominante nella modulazione del potenziale flottante (phi/tempo + phi a tempo fissato)
+     - Modulazione del flow elicoidale Gundestrup/ISIS
+     - Ripple flow toroidale
+**** QSH crashes
+     - Statistica rispetto a \partial \Delta b_r{1,7} 
+     - Analoga statistica per particle influx
+     - Analoga statistica per la velocita
+     - Si riesce a fare la variazione di momento al crash in funzione della corrente [??]
+**** Blobs [????]
+*** Poster [3/3]
+    Figure da fare
+    - [X] Figura doppia con \partial\delta/\partial\phi vs \Delta con scala graduata in colore con la PDF
+    - [X] Figura con lo spettro della velocita? e l'imaging?
+    - [X] Figura in funzione dell'angolo \zeta = atan(n\Delta/\partial\Delta/\partial\phi) [0,360]
+*** Nuclear Fusion article:
+   - [X] scatter plot \delta V_f vs \partial\Delta/\partial\Phi with colors with \Delta
+   - [X] # crashes/ms as a function of n/n_g
+   - [X] Vf vs theta e tempo per shot 24937
+   - [X] PdF dei crash con il delta massimo poloidalmente
+   - [X] T_e sonda tripla vs n/ng
+   - [X] PdF \Delta vs Theta (\Delta Max)
+   - [X] 2D PdF Te vs \delta & d\Delta/d\Phi
+   - [X] Calcolo \delta* = \delta_i/\delta_{SP}
+   - [X] Scaling #crashes/ms binnando i dati (box&whiskers) e con q(a)
+
+**** Appunti sulla riconnessione
+** IAEA2010 RFX-Barrier
+*** Edge Barrier from A. Scaggion
+    Ha cominciato un lavoro trovando impossibile distinguere ad occhio barriere da non barriere
+    Prova uno scaling dei gradienti con chirikov isole m=0. Suggerito distinzione fra touching/not touching
+*** Lista di Impulsi da A.Scaggion. Sono impulsi con T_e(0) > 800 eV e con profilo piatto fino a 380 mam
+    |  Shot | Instant | Commenti                                                                                         |
+    | 26524 |   104.8 | Filtrato a 20 kHz --> propagazione. Sembra vagamente accellerata intorno all'impulso del Thomson |
+    | 26524 |   179.6 |                                                                                                  |
+    | 26562 |   43.68 | Non si vede benissimo                                                                            |
+    | 27619 |   196.3 | E' in uno stato QSH in cui la rotazione con ISIS non si vede bene                                |
+    | 27829 |   39.98 | Non si vede quasi nulla                                                                          |
+    | 27829 |      65 | Una propagazione probabilmente si vede ma e' mascherata dal colore. Siamo in QSH                 |
+    | 27829 |      90 | Siamo in blanda QSH. Si vede bene la propagazione con una accellerazione (?)                     |
+    | 27829 |     140 | 22.5 keV/m L_te = 2 cm. Propagazione evidente!                                                   |
+    | 23825 |   44.98 | Siamo in QSH. Propagazione non evidente                                                          |
+    | 23940 |   69.98 |                                                                                                  |
+    | 24121 |   98.98 | Non si vede nulla.                                                                               |
+    | 24233 |   73.98 |                                                                                                  |
+    | 24522 |   98.98 | E' mascherato da una forte interazion a phi=200. Forse propaga                                   |
+    | 24526 |   73.98 | tutto mascherato dalla perturbazione attorno ai 180 gradi. Siamo in QSH                          |
+    | 24256 |     199 | Non si vede nulla ma il profilo del Thomson mostra piedistallo piu barriera interna              |
+    | 24539 |  123.98 |                                                                                                  |
+    | 24638 |  148.98 |                                                                                                  |
+    | 25216 |    52.7 | si intravede qualcosa. bel gradiente (600 eV in 4 cm)                                            |
+    | 25216 |   75.75 | Bello si vede abbastanza bene ruotare e non siamo in QSH. Da fare Poincare                       |
+    | 25216 |  152.68 |                                                                                                  |
+    | 25419 |   127.5 | Gradiente non ripidissimo ma ottimo esempio di acellerazione                                     |
+    | 25419 |   77.48 |                                                                                                  |
+    | 25597 |   98.98 |                                                                                                  |
+    | 25669 |   48.98 |                                                                                                  |
+    |       |         |                                                                                                  |
+    Su questi prova ad applicare la routine di Emilio per stabilire se stiamo o meno intercettando isole e confrontati con Bt locale di ISIS. Aspettare un database piu ampio contando cosa si determina sulla pressione
+*** DONE Analisi temperatura di Bordo in spari con barriera
+CLOSED: [2011-03-01 Tue 13:21]
+- State "DONE"       from "STARTED"    [2011-03-01 Tue 13:21]
+:PROPERTIES:
+:ID: FDDBF55F-944F-42AB-805E-17462DBAE2A3
+:END:
+*** DONE Leggere ITPA results
+CLOSED: [2011-03-01 Tue 13:21]
+:PROPERTIES:
+:ID: 1FE15295-F1CF-4A76-A81E-17116367055B
+:END:
+    Vedi mail [[message://auto-000004913952@igi.cnr.it][ITPA/Transort  Culham Session on ITB's march 22-25 2010 ]]
+ 
+*** DONE Analisi poincare
+    CLOSED: [2010-07-20 Tue 17:48]
+    Per gli esempi individuati da Alessandro provo ad usare la routine di Emilio e creo i corrispondenti poincare semplificati 
+    solo per individuare se siamo nella region toroidale degli O-point o X-point.
+*** DONE Analisi velocita con WTD
+    CLOSED: [2010-06-28 Mon 18:18]
+    - State "DONE"       from "STARTED"    [2010-06-28 Mon 18:18]
+    <2010-06-17 Thu 14:23>
+    Implementata una analisi delle velocita locali da WTD technique con 3 sonde e corrispondente fit. Mandato in batch per 
+    verificare se si vede qualcosa di quantitativo.
+*** DELEGATED Idea for ITB
+    CLOSED: [2010-09-08 Wed 09:21]
+    Vtor & vpol vs \nabla_te da DSXC
+*** DONE Referaggio Lavoro Ester & Marco			  :WORK:READ:
+    CLOSED: [2010-09-17 Fri 12:06]
+    - State "DONE"       from "STARTED"    [2010-09-17 Fri 12:06]
+** IAEA2010 Long-range correlation
+*** DONE [#A] [3/3] 
+    CLOSED: [2010-08-31 Tue 14:09]
+    Le analisi sono da fare utilizzando la definizione fornita in Pedrosa PRL vol 100 pag 215003 (2008).
+    Bisogna sottolineare che le sonde sono ragionevolmente non sulla stessa linea di campo visto l'alto grado di stocasticita in MH
+    riscontrato e la correlazione va fatta con pin a diverse inserzioni. Si puo' provare a fare una stima della lunghezza parallela con il
+    q esistente e con F e Theta?
+    - [X] Talk w/ Emilio-Monica-Gianluca su risultati esistenti
+    - [X] Analisi cross-correlation Vf su F-step experiments through wavelet cross-spectrum
+    - [X] Analisi cross-correlation Vf su esperimenti con Edge stocastico
+*** Shot list per le analisi della cross-correlazione
+|  Shot | tmin [ms] | tmax |
+| 24835 |        40 |   80 |
+| 24845 |        50 |  110 |
+| 24848 |        30 |   70 |
+| 24860 |        50 |   80 |
+| 24862 |        70 |  100 |
+| 24873 |        50 |  100 |
+| 24878 |        40 |   80 |
+| 24896 |        50 |  110 |
+| 26416 |        40 |  140 |
+| 26417 |        30 |  150 |
+| 26419 |        40 |  160 |
+| 26420 |        50 |  140 |
+| 26422 |        50 |  140 |
+| 26423 |        50 |  140 |
+|       |           |      |
+*** Risultati e figure
+    - [X] Si inserisce una figura con la correlazione vs time/lag per shot 26414 80,150 ms
+    - [X] Osservazioni: cross-correlazione fra due sonde a distanza lungo L dell'ordine > 4 mt. Bassa correlazione
+    - [X] Si aggiunge l'osservazione che eventuali burst sono da riferirsci a reconnecting events e quindi a transient pasage of current sheets
+*** DONE Versione due						       :READ:
+    CLOSED: [2010-09-20 Mon 15:39]
+    Vedi mail [[message://4C90F98F.6010509@fz-juelich.de][revised version of the IAEA paper (8 pages)]]. 
+*** DONE Talk 
+    DEADLINE: <2010-10-08 Fri> CLOSED: [2010-10-18 Mon 22:36]
+    Commenti 
+    - Pag 3 e seguenti RFX-mode
+    - 
+
+* WAITING Inter-ELM article					    :PROJECT:
+  - State "SOMEDAY"    from "STARTED"    [2011-01-20 Thu 11:50]
+:PROPERTIES:
+:ID: 1B8C9258-79C4-465B-A4DF-2A6F34501A81
+:ARCHIVE_TIME: 2011-05-25 Wed 15:18
+:ARCHIVE_FILE: ~/.emacs.d/orgfile/work.org
+:ARCHIVE_CATEGORY: work
+:ARCHIVE_TODO: WAITING
+:END:
+** Schema articolo
+*** Introduction
+    + Generalita su intermittenza/blob/universalita dell'intermittenza. Citare Carreras PoP 7 3278 (2000), poi Ben Ayed PPCF 51 035016 poi Budaev Plasma Physics Reports 34, 799 (2008) e TCBAR. Dire che si cerca di caratterizzare eventuali differenze in termini di intermittenza fra L-Mode & Inter-ELM
+    + Qualche richiamo al fatto che intermittenza--> esistenza di strutture coerenti che per quanto riguarda il SOL sono di tipo Blob (eventualmente holes?)
+    + Sottolineare che si prevederebbe fossero filamenti con una qualche corrente bipolare ma non si e misurata
+*** System description
+    + Discharge description
+    + Probe description
+    + Analysis method description
+*** Analysis
+    + PDF scaling and comparison between L-mode/inter-ELM
+    + Multifractal analysis. Comparison between L-mode/inter-ELM
+    + Coherent structure: comparison between L-mode/inter-ELM
+*** Conclusion
+* WAITING FIDA (Fast Ions D alfa Diagnostic)			    :PROJECT:
+  - State "WAITING"    from "CANCELLED"  [2010-11-13 Sat 17:57]
+:PROPERTIES:
+:ID: F4EE341D-E2D2-47CE-965E-1F26CF836101
+:ARCHIVE_TIME: 2011-05-25 Wed 15:18
+:ARCHIVE_FILE: ~/.emacs.d/orgfile/work.org
+:ARCHIVE_CATEGORY: work
+:ARCHIVE_TODO: WAITING
+:END:
+** [2/4] TODO Reading articles on Fida Diagnostic 		  :WORK:READ:
+   Article List
+    - [X] [[file:~/LN/rhome/Fisica/RFX/bibliography/HeidbrinkPlasma%20Physics%20and%20Controlled%20Fusion-46-2004.pdf][PPCF2004]] Sostanzialmente si propone di misurare con una
+      linea di vista perpendicolare alla direzione del beam e di
+      considerare lo spostamento doppler redshift blueshift dovuto al
+      moto di girazione. Il segnale dipende sia dalla velocita
+      relativa fra il neutro iniettato e lo ione veloce che determina
+      la probabilita di neutralizzazione sia dalla velocita del fotone
+      emesso dal momento che la componente della velocita del fast-ion
+      nella direzione dell'osservatore modifia lo shift Doppler del fotone.
+    - [X] [[file:~/LN/rhome/Fisica/RFX/Fida/bibliography/HeidbrinkRev.%20Sci.%20Instrum.-77-2006.pdf][RSI]] Espressamente si dice che lo shift Doppler del fotone
+      emettente e' proporzionale alla componente di velocita del
+      neutro irraggiante lungo la linea di vista. Si suggerisce una
+      risoluzione < 0.5 nm. Dal momento che ti interessa le code
+      red/blue shifted bloccano la luce derivante dall'egde e dai
+      neutri immessi con un blocco centrato nel piano focale.
+    - [ ] [[file:~/LN/rhome/Fisica/RFX/Fida/bibliography/HeidbrinkRev.%20Sci.%20Instrum.-79-2008.pdf][RSI2008]] Nota bene che si dice espressamente che il segnale
+      desiderato e' prodotto da ioni veloci che subiscono scambio
+      carica con un injected neutral beam.
+    - [ ] [[file:~/LN/rhome/Fisica/RFX/FIDA/bibliography/Van%20ZeelandPlasma%20Physics%20and%20Controlled%20Fusion-51-2009.pdf][PPCF2009]]
+** Commento Generale
+   Fattibile in linea di massima penso. Forse sarebbe necessario
+   parlare con M.Gobbin per capire come dovrebbero essere le orbite
+   degli ioni veloci e con Erica per setup sperimentale
+** TODO Preparare Nota Tecnica
+:PROPERTIES:
+:ID: EDAE69CA-D8FE-430A-9432-74B6C68D13C3
+:END:
+* STARTED EDGE TRANSPORT BARRIER				    :PROJECT:
+:PROPERTIES:
+:ID: A0F1662F-55B8-4FDD-A343-2143CC7E725E
+:ARCHIVE_TIME: 2011-05-25 Wed 15:18
+:ARCHIVE_FILE: ~/.emacs.d/orgfile/work.org
+:ARCHIVE_CATEGORY: work
+:ARCHIVE_TODO: STARTED
+:END:
+<2010-01-04 Mon 10:04>
+** DONE ANALISI CON ISIS ELETTROSTATICO				   :ANALYSIS:
+   CLOSED: [2010-01-05 Tue 18:40]
+   - State "TODO"       from "STARTED"    [2010-01-05 Tue 16:22]
+   - State "STARTED"    from "DONE"       [2010-01-05 Tue 10:45]
+   - State "DONE"       from "STARTED"    [2010-01-04 Mon 13:07]
+   - State "STARTED"    from ""           [2010-01-04 Mon 13:07]
+   Riguardo l'esistenza di barriere esterne proviamo a verificare se si vede qualcosa con ISIS elettrostatico
+   senza considerare la decomposizione modale come avevamo
+   fatto. Consideriamo la seguente Lista di Impulsi
+   |  SHOT |   TIME | COMMENTS                                                                                                          |
+   |-------+--------+-------------------------------------------------------------------------------------------------------------------|
+   | 23952 |  69.98 | In realta` forse si dovrebbe vedere piu` unaa regione a profilo toroidale uniforme (leggi zonal flow)             |
+   | 23940 |  69.98 | Attivita intorno ai 130 gradi con enhancement Vf. Rimane comunque il pattern del dominante                        |
+   | 23829 |  94.98 | Anche qui come il precedente una attivita piu intensa e sembra piu diffusa toroidalmente                          |
+   | 23825 |  44.98 | Simile ad un moto a frequenza piu` elevata tipo dente di sega. Non si capisce se e` una cosa veloce o stazionaria |
+   | 23823 |  69.98 | Si vede l'accelerazione di cui sopra fra 66.5 e 67.5 che poi continuerebbe                                        |
+   | 23817 | 219.98 |                                                                                                                   |
+   | 26558 |  68.68 | Qui non si vede nulla in realta`                                                                                  |
+   | 26557 |  68.68 | Qui non si vede nulla                                                                                             |
+
+   Non c'e` nulla di evidente, sembra che *a volte* ci sia una forma di
+   /accellerazione/ della v_{\phi} altre volte invece sembra che si
+   /fermi/ e si crei una forma di *potenziale omogeneo* che sarebbe in
+   principio piu` consistente con uno *zonal flow*. Rimane da capire a
+   che frequenza eventualmente questi flow zonali si verificano
+   Risultati finali nel file [[file:~/LN/rIsIs/EdgeBarrier/PropagationOrRest.pdf][PropagationOrRest]] 
+*** TODO Ask @ F. Sattin if k=0 oscillation are evident on his programs and eventually at which frequency :MAIL:ANALYSIS:
+:PROPERTIES:
+:ID: 1BEC8564-EB7B-49DC-9FC6-E2D49BABCD85
+:END:
+
+*** TODO Make the same analysis using bt arrays and searching for fast propagation or n=0 map :WORK:ANALYSIS:
+:PROPERTIES:
+:ID: 32EDE2C6-ADAD-442C-A377-977586F7428C
+:END:
+** CANCELLED Ask @ M.Agostini of eventual variation of GPI fluctuating velocity :MAIL:DELEGATE:
+   CLOSED: [2010-01-29 Fri 12:05]
+   - State "DELEGATED"  from "DONE"       [2010-01-29 Fri 12:05]
+   :PROPERTIES:
+   :dowith:   MatteoAgostini
+   :END:
+** DONE Ask A.Fassina of database on ETB			  :WORK:MAIL:
+   CLOSED: [2010-01-29 Fri 12:05]
+   - State "DONE"       from "STARTED"    [2010-01-29 Fri 12:05]
+   Ottenuto il [[file:~/LN/rIsIs/EdgeBarrier/lista_grad_2.xls][file]] con tutti gli spari.
+** DONE Read [[file:~/Documents/RFX/Papers/2001/Garcia/GarciaPhys.%20Plasmas-8-2001.pdf][Article]] from Garcia on magnetic island flow amplification :WORK:READ:
+   CLOSED: [2010-05-06 Thu 16:57]
+
+** DONE Spectrogram of floating potential near thomson location e/o magnetic spectrogram :WORK:ANALYSIS:
+   CLOSED: [2010-03-04 Thu 12:01]
+   - State "DONE"       from "STARTED"    [2010-03-04 Thu 12:01]
+   Sono le sonde ES178 ed ES188 
+** Analisi propagazione con ISIS
+   Mi segno gli impulsi che possono tornare utili ad una analisi
+   successiva. In realta non si vede nulla sugli spettrogrammi provero
+   con le propagazioni, poi con i poincare ed infine con il q(a) 
+   |  Shot | @t [ms] |                                                                                | crash di F | da plottare |
+   |-------+---------+--------------------------------------------------------------------------------+------------+-------------|
+   | 23771 |     145 | Forse qualche propagazione da indagare                                         |            |             |
+   | 23783 |     152 | Mhmm Forse                                                                     |            |             |
+   | 23785 |     170 | Si vede propagazione fra 169 e 170 multipla                                    |            |             |
+   | 23787 |     220 | Si vede propagazione fra 219.5 e 220.5                                         |            |             |
+   | 23800 |     145 | Si anche se sembra una propagazione piu lenta                                  |            |             |
+   | 23802 |      70 | Forse da indagare                                                              | no         |             |
+   | 23807 |     120 | Si da ampliare                                                                 | si         |             |
+   | 23817 |      70 | si si vede da ampliare                                                         | no         | si          |
+   | 23817 |     220 | si vede da ampliare                                                            |            |             |
+   | 23823 |     195 | Si bello anche se leggermente piu tardi                                        | si         |             |
+   | 23829 |      95 | Si da verificare ma sembra di si                                               |            |             |
+   | 23829 |     120 | Ok si vede da ampliare sopra i 100 gradi toroidali                             | si         |             |
+   | 23842 |     220 | E bello dopo in realta sembra avvenire tutto dopo                              |            |             |
+   | 23844 |     120 | Si da amplificare                                                              |            |             |
+   | 23844 |     220 | Si anche se relativamente lenta                                                |            |             |
+   | 23850 |     220 | Si intravede da amplificare forse                                              |            |             |
+   | 23861 |     220 | Si vede da amplificare                                                         |            |             |
+   | 23865 |     224 | Ok si vede anche se poco                                                       | no         | si          |
+   | 23879 |      49 | Ok ma poco chiaro                                                              | no         | si          |
+   | 23888 |      49 | Ok da ampliare                                                                 | no         | si          |
+   | 23940 |     145 |                                                                                | No         |             |
+   | 23941 |      49 | Qui in realta non sembra incluedere la parte corretta di angolo phi            | no         |             |
+   | 23952 |      70 | Anche questi sembrano in realta 2 current sheets                               | no         |             |
+   | 24175 |      98 | Si vede bene nella parte filtrata                                              | no         | si          |
+   | 23955 |      74 |                                                                                |            |             |
+   | 24222 |   97.29 |                                                                                |            |             |
+   | 23783 |  151.25 |                                                                                |            |             |
+   | 23823 |   69.98 |                                                                                |            |             |
+   | 23823 |   94.98 |                                                                                |            |             |
+   | 23829 |   94.98 |                                                                                |            |             |
+   | 23844 |  194.98 |                                                                                |            |             |
+   | 23883 |      70 | Si vede nel caso filtrato da ingrandire                                        | no         | si          |
+   | 23883 |     145 | Si vede nel caso filtrato da ingrandire                                        | no         | si          |
+   | 23883 |   94.98 | Si vede nel caso filtrato da ingrandire                                        | no         | si          |
+   | 23937 |      70 | Ottima rotazione                                                               | no         | si          |
+   | 23937 |      95 | Ottima rotazione                                                               | no         | si          |
+   | 23937 |  169.98 | Anche qui si riesce a vedere la propagazione addirittura con una accellerazine | no         | si          |
+   | 23952 |   69.98 |                                                                                |            |             |
+   | 23952 |  144.98 | Si vede la propagazione sul segnale filtrato ma e' un current sheet            | si         | si          |
+   | 23968 |      49 | Ok                                                                             |            |             |
+   | 23969 |     224 | OK                                                                             |            |             |
+   | 24222 |   97.29 |                                                                                |            |             |
+   | 24324 |      48 | Ok propagazion abbastanza evidente e Fast                                      | no         | si          |
+   | 24533 |   98.98 |                                                                                |            |             |
+   | 24544 |   73.98 | Propagazione                                                                   |            |             |
+   | 25216 |   75.76 | Propagazione                                                                   |            |             |
+   | 25216 |  152.68 |                                                                                |            |             |
+   | 25376 |   38.98 | Si vede                                                                        | si         |             |
+   | 25597 |  123.98 | Interessante propagazione fra 122 e 123 ms                                     |            |             |
+   | 25669 |   49.98 | si vede da amplificare                                                         | no         | si          |
+   | 25669 |      73 | si vede da amplificare contando della perturbazione a 240 gradi                | no         | si          |
+   | 25669 |      98 | si intravede                                                                   | no         | no          |
+   | 26554 |   68.98 | Propagazione localizzata ed unica tipo current sheets                          |            |             |
+   | 26558 |   69.68 | Propagazione localizzata ed unica tipo current sheets                          |            |             |
+   | 26502 |      54 | Si vede che parte e che si ferma in quello filtrato                            | no         | si          |
+
+   Si nota con dispiacere che molti dei casi segnalati sono in corrispondenza di mini-crash di F ma non tutti. 
+
+** CANCELLED Analisi propagazione da velocita di fase del modo n=7 [3/3]
+   CLOSED: [2010-06-04 Fri 18:10]
+   - State "CANCELLED"  from "STARTED"    [2010-06-04 Fri 18:10]
+   - [X] Analisi con modo n=7 calcolandosi la velocita dalla fase
+   - [X] Analsisi con altri modi nel dintorno n=6,n=8
+   - [X] Confronto con la velocita delle fluttuazioni per i casi individuati
+** DONE Creazione di un dabase piu ricco
+   CLOSED: [2010-06-03 Thu 17:34]
+   - State "DONE"       from "STARTED"    [2010-06-03 Thu 17:34]
+   |  Shot | t0 Thomson | commenti                             |
+   | 19691 |     124.99 | Stranamente hollow                   |
+   | 21645 |      53.98 | Stranamente hollow                   |
+   | 21645 |     128.98 | Stranamente e particolarmente hollow |
+   | 21695 |     199.98 | Anche questo hollow                  |
+   | 21727 |     199.98 | Anche questo hollow                  |
+   | 23727 |     194.98 | Buono                                |
+   | 23771 |     219.98 | Discreto                             |
+   | 23783 |      76.25 | Buono                                |
+   | 23783 |     176.25 | buono                                |
+   | 23785 |      44.98 | Buono                                |
+   | 23785 |     194.98 | ok                                   |
+   | 23787 |      94.98 | molto buono                          |
+   | 23787 |     144.98 | ok                                   |
+   | 23787 |     194.98 | ok                                   |
+   | 23790 |     169.98 |                                      |
+   | 23800 |      44.98 | ok                                   |
+   | 23800 |      69.98 | ok                                   |
+   | 23801 |      69.98 | ok                                   |
+   | 23801 |      144.8 | ok                                   |
+   | 23801 |     169.98 |                                      |
+   | 23802 |     194.98 |                                      |
+   | 23809 |      69.98 |                                      |
+   | 23817 |     169.98 |                                      |
+   | 23823 |      19.98 |                                      |
+   | 23823 |      69.98 |                                      |
+   | 23823 |      94.98 |                                      |
+   | 23823 |     144.98 |                                      |
+   | 23823 |     219.98 |                                      |
+   | 23825 |      44.98 |                                      |
+   | 23827 |     169.98 |                                      |
+   | 23829 |      94.98 |                                      |
+   | 23841 |      94.98 |                                      |
+   | 23847 |      69.98 |                                      |
+   | 23850 |      69.98 | Bello ETB + ITB                      |
+   | 23886 |      94.98 | ETB + ITB                            |
+   | 23931 |     178.98 |                                      |
+   | 23940 |     144.98 |                                      |
+   | 23952 |      69.98 |                                      |
+   | 24121 |      73.98 |                                      |
+   | 24121 |      98.98 |                                      |
+   | 24121 |     198.98 |                                      |
+   | 24122 |     148.98 |                                      |
+   | 24122 |     173.98 |                                      |
+   | 24123 |      99.98 |                                      |
+   | 24163 |     223.90 |                                      |
+   | 24164 |      148.9 |                                      |
+   | 24164 |     198.98 |                                      |
+   | 24222 |      73.98 |                                      |
+   | 24222 |      97.29 | ETB + ITB                            |
+   | 24233 |      48.98 |                                      |
+   | 24236 |      69.98 |                                      |
+   | 24251 |      73.98 |                                      |
+   | 24526 |      48.98 |                                      |
+   | 24526 |      73.98 |                                      |
+   | 24536 |     198.98 |                                      |
+   | 24544 |     123.98 |                                      |
+   | 24597 |     123.98 |                                      |
+   | 24622 |      71.98 |                                      |
+   | 24638 |     148.98 | ETB + ITB                            |
+   | 24914 |     161.99 |                                      |
+   | 24936 |     113.98 |                                      |
+   | 25094 |      63.98 |                                      |
+   | 25103 |      63.98 |                                      |
+   | 25103 |      88.98 |                                      |
+   | 25103 |     163.99 |                                      |
+   | 25104 |      88.98 |                                      |
+   | 25104 |     113.98 |                                      |
+   | 25110 |      63.98 |                                      |
+   | 25110 |      88.98 |                                      |
+   | 25110 |     138.98 |                                      |
+   | 25111 |      63.98 |                                      |
+   | 25129 |      63.98 |                                      |
+   | 25129 |      88.98 |                                      |
+   | 25129 |     113.98 |                                      |
+   | 25129 |     188.99 |                                      |
+   | 25130 |      63.98 |                                      |
+   | 25142 |      54.98 |                                      |
+   | 25142 |     154.98 |                                      |
+   | 25142 |     179.98 |                                      |
+   | 25198 |      77.98 |                                      |
+   | 25216 |      75.76 |                                      |
+   | 25216 |     127.98 |                                      |
+   | 25216 |     152.68 |                                      |
+   | 25360 |      75.68 |                                      |
+   | 25360 |     125.68 |                                      |
+   | 25366 |     125.68 |                                      |
+   | 25367 |      75.68 |                                      |
+   | 25401 |      41.48 |                                      |
+   | 25401 |      91.48 |                                      |
+   | 25406 |     127.48 |                                      |
+   | 25408 |     102.48 |                                      |
+   | 25419 |      77.48 |                                      |
+   | 25577 |      48.98 |                                      |
+   | 25577 |      73.98 |                                      |
+   | 25577 |     123.98 | ETB + ITB                            |
+   | 25578 |     198.98 |                                      |
+   | 25597 |      73.98 |                                      |
+   | 25597 |      98.98 |                                      |
+   | 25600 |     148.98 |                                      |
+   | 25664 |      73.98 |                                      |
+   | 25664 |     123.98 |                                      |
+   | 25669 |      73.98 |                                      |
+   | 25669 |      98.98 |                                      |
+   | 25669 |      48.98 |                                      |
+   | 27769 |     150.99 |                                      |
+   | 28065 |      84.98 |                                      |
+   | 28079 |      84.98 |                                      |
+   | 28160 |     159.98 |                                      |
+   | 28193 |     134.98 |                                      |
+   | 28193 |     184.98 |                                      |
+   | 28194 |     184.98 |                                      |
+   | 18194 |     134.98 |                                      |
+   | 28202 |      84.98 |                                      |
+   |       |            |                                      |
+
+** Studio parametrico dei casi ETB
+   Si calcola per ciascuno dei casi individuati, F, nNg, Ip, db0,db1,b0Sec,b0Dom,b1Sec e si confronta con un database piu' ricco
+*** Considerazioni
+   I casi identificati che sono completamente in MH sono pochi (anche perche' ho considerato solo impulsi con correnti I_p>1.2 MA). 
+   In quasi tutti si vede la propagazione abbastanza chiaramente anche se resta da chiarire se sia un artificio 
+   del filtraggio (sia quello a 20 kHz che quello) sia quello della edge_dog. Generalmente siamo comunque in una fase di QSH che cresce. 
+   Si puo' pensare di trovare una categoria in F-IP-Nng in cui tali impulsi sono identificabili.
+** Studio fluttuazioni ISIS
+*** DONE [#A] Esempi da confrontare con FLiT [4/4] 
+    DEADLINE: <2010-06-27 Sun> CLOSED: [2010-06-28 Mon 09:45]
+    - [X] 24229 @ 48 & 74 ms
+    - [X] 26559 @ 69 & 94 ms
+    - [X] 27868 @ 75 & 100 ms
+    - [X] 23952 @ 23 & 95 ms
+*** Studio andamento spettrogramma ISIS magnetico ed elettrostatico vicino al Thomson
+   Usiamo il mini-database di Alessandro per studiare gli spettrogrammi delle seguente sonde
+   VF_ES178, VF_ES188, VD_BT166, VD_BT162
+   |  Shot |    t0 |
+   | 23943 | 169.9 |
+   | 23952 |  69.9 |
+   | 24063 |  73.9 |
+   | 24128 |  98.9 |
+   | 24269 | 48.98 |
+   | 25110 | 88.98 |
+   | 25669 | 98.98 |
+  *Nessuno risultato eclatante*
+
+*** DONE Velocita da fluttuazioni magnetiche e confronto modi m=0, elettrostatici e magnetici ai due istanti
+    CLOSED: [2010-07-02 Fri 13:19]
+** Li Effects
+*** TODO Database S.Munaretto da MAgostini
+:PROPERTIES:
+:ID: 18A25DA2-1890-439A-A4F8-66E62E56B352
+:END:
+** Scaling [0/5]
+   - [ ] Scaling variazione flusso toroidale vs \nabla T_e
+   - [ ] Scaling \partial_t F vs \nabla T_e con F locale 
+   - [ ] Prova mappa toroidale velocita in casi con/senza
+   - [ ] GradT_e vs amplitude dominante velocita
+   - [ ] Scaling dominante velocita con S.
+* STARTED EDGE TRANSPORT BARRIER				    :PROJECT:
+:PROPERTIES:
+:ID: A0F1662F-55B8-4FDD-A343-2143CC7E725E
+:ARCHIVE_TIME: 2011-05-25 Wed 15:18
+:ARCHIVE_FILE: ~/.emacs.d/orgfile/work.org
+:ARCHIVE_CATEGORY: work
+:ARCHIVE_TODO: STARTED
+:END:
+<2010-01-04 Mon 10:04>
+** DONE ANALISI CON ISIS ELETTROSTATICO				   :ANALYSIS:
+   CLOSED: [2010-01-05 Tue 18:40]
+   - State "TODO"       from "STARTED"    [2010-01-05 Tue 16:22]
+   - State "STARTED"    from "DONE"       [2010-01-05 Tue 10:45]
+   - State "DONE"       from "STARTED"    [2010-01-04 Mon 13:07]
+   - State "STARTED"    from ""           [2010-01-04 Mon 13:07]
+   Riguardo l'esistenza di barriere esterne proviamo a verificare se si vede qualcosa con ISIS elettrostatico
+   senza considerare la decomposizione modale come avevamo
+   fatto. Consideriamo la seguente Lista di Impulsi
+   |  SHOT |   TIME | COMMENTS                                                                                                          |
+   |-------+--------+-------------------------------------------------------------------------------------------------------------------|
+   | 23952 |  69.98 | In realta` forse si dovrebbe vedere piu` unaa regione a profilo toroidale uniforme (leggi zonal flow)             |
+   | 23940 |  69.98 | Attivita intorno ai 130 gradi con enhancement Vf. Rimane comunque il pattern del dominante                        |
+   | 23829 |  94.98 | Anche qui come il precedente una attivita piu intensa e sembra piu diffusa toroidalmente                          |
+   | 23825 |  44.98 | Simile ad un moto a frequenza piu` elevata tipo dente di sega. Non si capisce se e` una cosa veloce o stazionaria |
+   | 23823 |  69.98 | Si vede l'accelerazione di cui sopra fra 66.5 e 67.5 che poi continuerebbe                                        |
+   | 23817 | 219.98 |                                                                                                                   |
+   | 26558 |  68.68 | Qui non si vede nulla in realta`                                                                                  |
+   | 26557 |  68.68 | Qui non si vede nulla                                                                                             |
+
+   Non c'e` nulla di evidente, sembra che *a volte* ci sia una forma di
+   /accellerazione/ della v_{\phi} altre volte invece sembra che si
+   /fermi/ e si crei una forma di *potenziale omogeneo* che sarebbe in
+   principio piu` consistente con uno *zonal flow*. Rimane da capire a
+   che frequenza eventualmente questi flow zonali si verificano
+   Risultati finali nel file [[file:~/LN/rIsIs/EdgeBarrier/PropagationOrRest.pdf][PropagationOrRest]] 
+*** TODO Ask @ F. Sattin if k=0 oscillation are evident on his programs and eventually at which frequency :MAIL:ANALYSIS:
+:PROPERTIES:
+:ID: 1BEC8564-EB7B-49DC-9FC6-E2D49BABCD85
+:END:
+
+*** TODO Make the same analysis using bt arrays and searching for fast propagation or n=0 map :WORK:ANALYSIS:
+:PROPERTIES:
+:ID: 32EDE2C6-ADAD-442C-A377-977586F7428C
+:END:
+** CANCELLED Ask @ M.Agostini of eventual variation of GPI fluctuating velocity :MAIL:DELEGATE:
+   CLOSED: [2010-01-29 Fri 12:05]
+   - State "DELEGATED"  from "DONE"       [2010-01-29 Fri 12:05]
+   :PROPERTIES:
+   :dowith:   MatteoAgostini
+   :END:
+** DONE Ask A.Fassina of database on ETB			  :WORK:MAIL:
+   CLOSED: [2010-01-29 Fri 12:05]
+   - State "DONE"       from "STARTED"    [2010-01-29 Fri 12:05]
+   Ottenuto il [[file:~/LN/rIsIs/EdgeBarrier/lista_grad_2.xls][file]] con tutti gli spari.
+** DONE Read [[file:~/Documents/RFX/Papers/2001/Garcia/GarciaPhys.%20Plasmas-8-2001.pdf][Article]] from Garcia on magnetic island flow amplification :WORK:READ:
+   CLOSED: [2010-05-06 Thu 16:57]
+
+** DONE Spectrogram of floating potential near thomson location e/o magnetic spectrogram :WORK:ANALYSIS:
+   CLOSED: [2010-03-04 Thu 12:01]
+   - State "DONE"       from "STARTED"    [2010-03-04 Thu 12:01]
+   Sono le sonde ES178 ed ES188 
+** Analisi propagazione con ISIS
+   Mi segno gli impulsi che possono tornare utili ad una analisi
+   successiva. In realta non si vede nulla sugli spettrogrammi provero
+   con le propagazioni, poi con i poincare ed infine con il q(a) 
+   |  Shot | @t [ms] |                                                                                | crash di F | da plottare |
+   |-------+---------+--------------------------------------------------------------------------------+------------+-------------|
+   | 23771 |     145 | Forse qualche propagazione da indagare                                         |            |             |
+   | 23783 |     152 | Mhmm Forse                                                                     |            |             |
+   | 23785 |     170 | Si vede propagazione fra 169 e 170 multipla                                    |            |             |
+   | 23787 |     220 | Si vede propagazione fra 219.5 e 220.5                                         |            |             |
+   | 23800 |     145 | Si anche se sembra una propagazione piu lenta                                  |            |             |
+   | 23802 |      70 | Forse da indagare                                                              | no         |             |
+   | 23807 |     120 | Si da ampliare                                                                 | si         |             |
+   | 23817 |      70 | si si vede da ampliare                                                         | no         | si          |
+   | 23817 |     220 | si vede da ampliare                                                            |            |             |
+   | 23823 |     195 | Si bello anche se leggermente piu tardi                                        | si         |             |
+   | 23829 |      95 | Si da verificare ma sembra di si                                               |            |             |
+   | 23829 |     120 | Ok si vede da ampliare sopra i 100 gradi toroidali                             | si         |             |
+   | 23842 |     220 | E bello dopo in realta sembra avvenire tutto dopo                              |            |             |
+   | 23844 |     120 | Si da amplificare                                                              |            |             |
+   | 23844 |     220 | Si anche se relativamente lenta                                                |            |             |
+   | 23850 |     220 | Si intravede da amplificare forse                                              |            |             |
+   | 23861 |     220 | Si vede da amplificare                                                         |            |             |
+   | 23865 |     224 | Ok si vede anche se poco                                                       | no         | si          |
+   | 23879 |      49 | Ok ma poco chiaro                                                              | no         | si          |
+   | 23888 |      49 | Ok da ampliare                                                                 | no         | si          |
+   | 23940 |     145 |                                                                                | No         |             |
+   | 23941 |      49 | Qui in realta non sembra incluedere la parte corretta di angolo phi            | no         |             |
+   | 23952 |      70 | Anche questi sembrano in realta 2 current sheets                               | no         |             |
+   | 24175 |      98 | Si vede bene nella parte filtrata                                              | no         | si          |
+   | 23955 |      74 |                                                                                |            |             |
+   | 24222 |   97.29 |                                                                                |            |             |
+   | 23783 |  151.25 |                                                                                |            |             |
+   | 23823 |   69.98 |                                                                                |            |             |
+   | 23823 |   94.98 |                                                                                |            |             |
+   | 23829 |   94.98 |                                                                                |            |             |
+   | 23844 |  194.98 |                                                                                |            |             |
+   | 23883 |      70 | Si vede nel caso filtrato da ingrandire                                        | no         | si          |
+   | 23883 |     145 | Si vede nel caso filtrato da ingrandire                                        | no         | si          |
+   | 23883 |   94.98 | Si vede nel caso filtrato da ingrandire                                        | no         | si          |
+   | 23937 |      70 | Ottima rotazione                                                               | no         | si          |
+   | 23937 |      95 | Ottima rotazione                                                               | no         | si          |
+   | 23937 |  169.98 | Anche qui si riesce a vedere la propagazione addirittura con una accellerazine | no         | si          |
+   | 23952 |   69.98 |                                                                                |            |             |
+   | 23952 |  144.98 | Si vede la propagazione sul segnale filtrato ma e' un current sheet            | si         | si          |
+   | 23968 |      49 | Ok                                                                             |            |             |
+   | 23969 |     224 | OK                                                                             |            |             |
+   | 24222 |   97.29 |                                                                                |            |             |
+   | 24324 |      48 | Ok propagazion abbastanza evidente e Fast                                      | no         | si          |
+   | 24533 |   98.98 |                                                                                |            |             |
+   | 24544 |   73.98 | Propagazione                                                                   |            |             |
+   | 25216 |   75.76 | Propagazione                                                                   |            |             |
+   | 25216 |  152.68 |                                                                                |            |             |
+   | 25376 |   38.98 | Si vede                                                                        | si         |             |
+   | 25597 |  123.98 | Interessante propagazione fra 122 e 123 ms                                     |            |             |
+   | 25669 |   49.98 | si vede da amplificare                                                         | no         | si          |
+   | 25669 |      73 | si vede da amplificare contando della perturbazione a 240 gradi                | no         | si          |
+   | 25669 |      98 | si intravede                                                                   | no         | no          |
+   | 26554 |   68.98 | Propagazione localizzata ed unica tipo current sheets                          |            |             |
+   | 26558 |   69.68 | Propagazione localizzata ed unica tipo current sheets                          |            |             |
+   | 26502 |      54 | Si vede che parte e che si ferma in quello filtrato                            | no         | si          |
+
+   Si nota con dispiacere che molti dei casi segnalati sono in corrispondenza di mini-crash di F ma non tutti. 
+
+** CANCELLED Analisi propagazione da velocita di fase del modo n=7 [3/3]
+   CLOSED: [2010-06-04 Fri 18:10]
+   - State "CANCELLED"  from "STARTED"    [2010-06-04 Fri 18:10]
+   - [X] Analisi con modo n=7 calcolandosi la velocita dalla fase
+   - [X] Analsisi con altri modi nel dintorno n=6,n=8
+   - [X] Confronto con la velocita delle fluttuazioni per i casi individuati
+** DONE Creazione di un dabase piu ricco
+   CLOSED: [2010-06-03 Thu 17:34]
+   - State "DONE"       from "STARTED"    [2010-06-03 Thu 17:34]
+   |  Shot | t0 Thomson | commenti                             |
+   | 19691 |     124.99 | Stranamente hollow                   |
+   | 21645 |      53.98 | Stranamente hollow                   |
+   | 21645 |     128.98 | Stranamente e particolarmente hollow |
+   | 21695 |     199.98 | Anche questo hollow                  |
+   | 21727 |     199.98 | Anche questo hollow                  |
+   | 23727 |     194.98 | Buono                                |
+   | 23771 |     219.98 | Discreto                             |
+   | 23783 |      76.25 | Buono                                |
+   | 23783 |     176.25 | buono                                |
+   | 23785 |      44.98 | Buono                                |
+   | 23785 |     194.98 | ok                                   |
+   | 23787 |      94.98 | molto buono                          |
+   | 23787 |     144.98 | ok                                   |
+   | 23787 |     194.98 | ok                                   |
+   | 23790 |     169.98 |                                      |
+   | 23800 |      44.98 | ok                                   |
+   | 23800 |      69.98 | ok                                   |
+   | 23801 |      69.98 | ok                                   |
+   | 23801 |      144.8 | ok                                   |
+   | 23801 |     169.98 |                                      |
+   | 23802 |     194.98 |                                      |
+   | 23809 |      69.98 |                                      |
+   | 23817 |     169.98 |                                      |
+   | 23823 |      19.98 |                                      |
+   | 23823 |      69.98 |                                      |
+   | 23823 |      94.98 |                                      |
+   | 23823 |     144.98 |                                      |
+   | 23823 |     219.98 |                                      |
+   | 23825 |      44.98 |                                      |
+   | 23827 |     169.98 |                                      |
+   | 23829 |      94.98 |                                      |
+   | 23841 |      94.98 |                                      |
+   | 23847 |      69.98 |                                      |
+   | 23850 |      69.98 | Bello ETB + ITB                      |
+   | 23886 |      94.98 | ETB + ITB                            |
+   | 23931 |     178.98 |                                      |
+   | 23940 |     144.98 |                                      |
+   | 23952 |      69.98 |                                      |
+   | 24121 |      73.98 |                                      |
+   | 24121 |      98.98 |                                      |
+   | 24121 |     198.98 |                                      |
+   | 24122 |     148.98 |                                      |
+   | 24122 |     173.98 |                                      |
+   | 24123 |      99.98 |                                      |
+   | 24163 |     223.90 |                                      |
+   | 24164 |      148.9 |                                      |
+   | 24164 |     198.98 |                                      |
+   | 24222 |      73.98 |                                      |
+   | 24222 |      97.29 | ETB + ITB                            |
+   | 24233 |      48.98 |                                      |
+   | 24236 |      69.98 |                                      |
+   | 24251 |      73.98 |                                      |
+   | 24526 |      48.98 |                                      |
+   | 24526 |      73.98 |                                      |
+   | 24536 |     198.98 |                                      |
+   | 24544 |     123.98 |                                      |
+   | 24597 |     123.98 |                                      |
+   | 24622 |      71.98 |                                      |
+   | 24638 |     148.98 | ETB + ITB                            |
+   | 24914 |     161.99 |                                      |
+   | 24936 |     113.98 |                                      |
+   | 25094 |      63.98 |                                      |
+   | 25103 |      63.98 |                                      |
+   | 25103 |      88.98 |                                      |
+   | 25103 |     163.99 |                                      |
+   | 25104 |      88.98 |                                      |
+   | 25104 |     113.98 |                                      |
+   | 25110 |      63.98 |                                      |
+   | 25110 |      88.98 |                                      |
+   | 25110 |     138.98 |                                      |
+   | 25111 |      63.98 |                                      |
+   | 25129 |      63.98 |                                      |
+   | 25129 |      88.98 |                                      |
+   | 25129 |     113.98 |                                      |
+   | 25129 |     188.99 |                                      |
+   | 25130 |      63.98 |                                      |
+   | 25142 |      54.98 |                                      |
+   | 25142 |     154.98 |                                      |
+   | 25142 |     179.98 |                                      |
+   | 25198 |      77.98 |                                      |
+   | 25216 |      75.76 |                                      |
+   | 25216 |     127.98 |                                      |
+   | 25216 |     152.68 |                                      |
+   | 25360 |      75.68 |                                      |
+   | 25360 |     125.68 |                                      |
+   | 25366 |     125.68 |                                      |
+   | 25367 |      75.68 |                                      |
+   | 25401 |      41.48 |                                      |
+   | 25401 |      91.48 |                                      |
+   | 25406 |     127.48 |                                      |
+   | 25408 |     102.48 |                                      |
+   | 25419 |      77.48 |                                      |
+   | 25577 |      48.98 |                                      |
+   | 25577 |      73.98 |                                      |
+   | 25577 |     123.98 | ETB + ITB                            |
+   | 25578 |     198.98 |                                      |
+   | 25597 |      73.98 |                                      |
+   | 25597 |      98.98 |                                      |
+   | 25600 |     148.98 |                                      |
+   | 25664 |      73.98 |                                      |
+   | 25664 |     123.98 |                                      |
+   | 25669 |      73.98 |                                      |
+   | 25669 |      98.98 |                                      |
+   | 25669 |      48.98 |                                      |
+   | 27769 |     150.99 |                                      |
+   | 28065 |      84.98 |                                      |
+   | 28079 |      84.98 |                                      |
+   | 28160 |     159.98 |                                      |
+   | 28193 |     134.98 |                                      |
+   | 28193 |     184.98 |                                      |
+   | 28194 |     184.98 |                                      |
+   | 18194 |     134.98 |                                      |
+   | 28202 |      84.98 |                                      |
+   |       |            |                                      |
+
+** Studio parametrico dei casi ETB
+   Si calcola per ciascuno dei casi individuati, F, nNg, Ip, db0,db1,b0Sec,b0Dom,b1Sec e si confronta con un database piu' ricco
+*** Considerazioni
+   I casi identificati che sono completamente in MH sono pochi (anche perche' ho considerato solo impulsi con correnti I_p>1.2 MA). 
+   In quasi tutti si vede la propagazione abbastanza chiaramente anche se resta da chiarire se sia un artificio 
+   del filtraggio (sia quello a 20 kHz che quello) sia quello della edge_dog. Generalmente siamo comunque in una fase di QSH che cresce. 
+   Si puo' pensare di trovare una categoria in F-IP-Nng in cui tali impulsi sono identificabili.
+** Studio fluttuazioni ISIS
+*** DONE [#A] Esempi da confrontare con FLiT [4/4] 
+    DEADLINE: <2010-06-27 Sun> CLOSED: [2010-06-28 Mon 09:45]
+    - [X] 24229 @ 48 & 74 ms
+    - [X] 26559 @ 69 & 94 ms
+    - [X] 27868 @ 75 & 100 ms
+    - [X] 23952 @ 23 & 95 ms
+*** Studio andamento spettrogramma ISIS magnetico ed elettrostatico vicino al Thomson
+   Usiamo il mini-database di Alessandro per studiare gli spettrogrammi delle seguente sonde
+   VF_ES178, VF_ES188, VD_BT166, VD_BT162
+   |  Shot |    t0 |
+   | 23943 | 169.9 |
+   | 23952 |  69.9 |
+   | 24063 |  73.9 |
+   | 24128 |  98.9 |
+   | 24269 | 48.98 |
+   | 25110 | 88.98 |
+   | 25669 | 98.98 |
+  *Nessuno risultato eclatante*
+
+*** DONE Velocita da fluttuazioni magnetiche e confronto modi m=0, elettrostatici e magnetici ai due istanti
+    CLOSED: [2010-07-02 Fri 13:19]
+** Li Effects
+*** TODO Database S.Munaretto da MAgostini
+:PROPERTIES:
+:ID: 18A25DA2-1890-439A-A4F8-66E62E56B352
+:END:
+** Scaling [0/5]
+   - [ ] Scaling variazione flusso toroidale vs \nabla T_e
+   - [ ] Scaling \partial_t F vs \nabla T_e con F locale 
+   - [ ] Prova mappa toroidale velocita in casi con/senza
+   - [ ] GradT_e vs amplitude dominante velocita
+   - [ ] Scaling dominante velocita con S.
+
+* WAITING RFP-Tyr comparison 					    :PROJECT:
+:PROPERTIES:
+:CATEGORY: Projects
+:ID: C6844C87-5163-4231-B6D0-1B51279305D4
+:ARCHIVE_TIME: 2011-05-25 Wed 15:19
+:ARCHIVE_FILE: ~/.emacs.d/orgfile/work.org
+:ARCHIVE_CATEGORY: Projects
+:ARCHIVE_TODO: WAITING
+:END:
+
+** WAITING Inclusion of magnetic perturbation		  :ANALYSIS:DELEGATE:
+:PROPERTIES:
+:ID: 2A04BCAA-4361-4D8E-B248-25E50AD37A0A
+:END:
+   Includi la perturbazione del potenziale vettore che simuli la
+   presenza di modi m=0 ed m=1 con la periodicita tipica di RFX
+*** CANCELLED [#C] MEETING WITH A Scaggion 
+    DEADLINE: <2010-01-30 Sat> CLOSED: [2010-01-14 Thu 09:03]
+    :PROPERTIES:
+    :on:       <2010-01-04 Mon 15:17>
+    :with:     AScaggion
+    :doat:     myoffice
+    :END:
+    
+** WAITING Nuova Geometria a tubo di Flusso	  :READING:ANALYSIS:DELEGATE:
+:PROPERTIES:
+:ID: FB0C3FD4-59E5-42FB-941A-F7A3F2199F59
+:END:
+   Leggi il [[file:~/LN/rhome/Fisica/RFX/RFX-RFP-Tyr/Lectures/predebonITG.pdf][lavoro]] di Italo Predebon per il tubo di Flusso su GS2
+   Delegate --> A.Scaggion
+
+** WAITING Crea geometrica tipica per GPI		      :MAIL:ANALYSIS:
+:PROPERTIES:
+:ID: AED2B2EF-8483-4C8B-AB77-BBD1C9F48448
+:END:
+   Tipica geometria delle linee di vista della GPI
+   
+** DONE Meeting with S.Polato for MPI cluster development      :WORK:MEETING:
+   SCHEDULED: <2010-01-05 Tue 10:30> CLOSED: [2010-01-14 Thu 09:03]
+   
+** WAITING ITB & RFP-Tyr in tube-flux geometry with \nabla T :WORK:ANALYSIS:SEARCH:
+:PROPERTIES:
+:ID: 26CA86B2-9EBF-47DF-8526-E3AD03340D14
+:END:
+* WAITING CuFieT3D HPC						    :PROJECT:
+:PROPERTIES:
+:CATEGORY: Projects
+:ID: 47DDEDBE-420E-4420-8E77-E1BAA18460A6
+:ARCHIVE_TIME: 2011-05-25 Wed 15:19
+:ARCHIVE_FILE: ~/.emacs.d/orgfile/work.org
+:ARCHIVE_CATEGORY: Projects
+:ARCHIVE_TODO: WAITING
+:END:
+  Vedi [[file:~/LN/rhome/Fisica/HPC-FF%20Project2010-CuFieT3D/Application_nivi.doc][applicazione]] fatta per utilizzare risorse HPC
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* CANCELLED APS 2011                                                :PROJECT:
+CLOSED: [2011-06-28 Tue 14:51]
+:PROPERTIES:
+:ARCHIVE_TIME: 2011-08-29 Mon 15:50
+:ARCHIVE_FILE: ~/.emacs.d/orgfile/work.org
+:ARCHIVE_CATEGORY: work
+:ARCHIVE_TODO: CANCELLED
+:END:
+**  Tentative scheduled work for possible invited talk
+*** TODO [0/4] RFX-Mod 
+- [ ] Scaling vorticita e corrente insieme
+- [ ] Profilo radiale della massima perturbazione di corrente
+- [ ] Differenza in k_{\parallel} a seconda del parametro F
+- [ ] Eventualmente due run di RFP-tyr per far vedere le differenze drift-interchange
+
+* STARTED EAST-HT7 Electromagnetic measurements                     :PROJECT:e
+  - State "SOMEDAY"    from "STARTED"    [2010-10-18 Mon 12:59]
+:PROPERTIES:
+:ID: ABA6E48C-A0F0-4A7D-9D95-800BAD7B85CF
+:ARCHIVE_TIME: 2011-11-17 Thu 14:32
+:ARCHIVE_FILE: ~/.emacs.d/orgfile/work.org
+:ARCHIVE_CATEGORY: work
+:ARCHIVE_TODO: STARTED
+:END:
+** Guo Sheng presentazione
+   Vedi Mail [[message://20100302025529.16830.qmail@ms.hfcas.ac.cn][EAST, Guosheng Xu]]. Commenti su risposta
+   + With the present arrangment you are unable to estimate directly the current. Any plan to upgrade with 3 different coils?
+   + The BN case is surrounded by graphite. Is it necessary from the power load or what? 
+   + If the cylindrical case can be incresead a bit it would be possible to put the other coil on the other side to measure the current
+   + Did you have an idea of the bandwidth? Any information on the connection or differential acquisition?
+   + Is it inserted only in the SOL or even in the confined region?
+   + How many cables your manipulator can hold? We can skip part of the magnetic field in order to have the current
+   + I would appreciate very much the possibility to look at the data if possible
+** DONE Contattare yanning@ipp.ac.cn				       :MAIL:
+   CLOSED: [2010-03-23 Tue 16:08]
+
+** DONE Download of data from HT7
+CLOSED: [2011-06-28 Tue 14:31]
+- State "DONE"       from "STARTED"    [2011-06-28 Tue 14:31]
+:PROPERTIES:
+:ID: C7AA92A9-18C2-4B6D-A3FE-6A5ECECAEEF5
+:END:
+   Vedi mail [[message://20100323143106.24181.qmail@ms.hfcas.ac.cn][Re: Re: current filaments in HT7 and East Tomaka]] per come fare
+** STARTED Read article from N Yan on type-III ELMs on East
+- The signals are integrated or not specially in the hodogram? Should it be better to use fluctuations of the signals for the hodogram?
+- It should be interesting to see the hodogram during an entire ELM phase in the case of probe inserted inside the separatrix
+- Have you tried to estimate the current? also considering the fact that your probe can give estimate of local velocity? 
+
+* DONE Stoccolma 2010                                               :PROJECT:
+CLOSED: [2012-01-19 Thu 13:42]
+- State "DONE"       from "STARTED"    [2012-01-19 Thu 13:42]
+:PROPERTIES:
+:ID: BD2D6A04-0385-4484-866B-1B12AF1F8A2D
+:ARCHIVE_TIME: 2012-01-19 Thu 13:42
+:ARCHIVE_FILE: ~/.emacs.d/orgfile/work.org
+:ARCHIVE_CATEGORY: work
+:ARCHIVE_TODO: DONE
+:END:
+** DONE Materiale Esistente
+CLOSED: [2011-03-01 Tue 13:21]
+  1. Sonda di Alfven con 16 pin elettrostatici e 2 sonde magnetiche triassiali
+  2. Manipolatore con comando a manovella terminato con 2 connettori a D da 25 e da 15
+  3. Cavo di uscita con RG174 lunghezza ~ 2 mt terminato con BNC
+
+** DONE Materiale da spedire. Segnato quello che non richede ulteriore lavoro
+CLOSED: [2011-03-01 Tue 13:21]
+  - [ ] Sistema di acquisizione: 2 yokogawa (16 canali, 8 canali) esistente in casa uno yokogawa 16 canali (R51P) 
+  - [ ] PC con MDSPLUS per controllare gli yokogawa e controllo via GPIB. Verificare la necessita di due schede di rete ed eventualmente installarla
+  - [ ] 16 Fibre ottiche
+  - [X] 16 Trasmettitori ottici teseo con relativi alimentatori
+  - [ ] 2 moduli Teseo ricevitori ottici
+  - [ ] 6 Cavi lunghezza approssimativa 40 mt RX58 + 6 terminazioni 50 Ohm per entrare negli yokogawa
+  - [ ] Partitori di tensione da verificare rapporto di partizione e massa
+  - [ ] Sistema per alimentazione sonde Isat (HVPS + LVD + HVT + CR5+ Cavetteria)
+  - [ ] Scatola in metallo
+  - [ ] Tester
+  - [ ] Cavo in uscita dal manipolatore. Schema recuperato
+
+** Lista materiale
+*** Cassa di legno. Prezzo Stimato 55 kEuro
+- Computer + cavo alimentazione
+- 3 Cavi di rete
+- 2 Cavi GPIB
+- 2 Ricevitori Teseo
+- 16 trasmettitori Teseo
+- 16 Caricabatterie Teseo
+- 2 Basi Metalliche per caricabatterie
+- Fascette
+- 16 Fibre Teseo
+- Cavi Alimentazioni teseo
+- 1 Alimentatori HVPS
+- 1 Alimentatore HVT
+- 1 Alimentatore LVD
+- 1 Scatola CR5
+- Cavi di alimentazione per misura Isat e di controllo
+- 16 Cavi BNC-BNC nominati come i teseo
+- 6 Cavi lunghezza 25 mt RX58 BNC-BNC
+- 1 Cavo DIN 25 poli + 1 Cavo DIN 15 poli RG174
+- Cavi Lemo BNC
+- Connettori LEMO 0S da cavo N. 4
+- Tester 
+*** 2 Casse Yokogawa (16 kEuro ciascuno)
+
+* DONE Torpex Cluster Probe                                         :PROJECT:
+CLOSED: [2011-08-29 Mon 15:51]
+- State "DONE"       from "STARTED"    [2011-08-29 Mon 15:51]
+:PROPERTIES:
+:CATEGORY: Projects
+:ID: FDAE6771-A922-4382-B3DC-E3B0C1867262
+:ARCHIVE_TIME: 2012-01-19 Thu 13:42
+:ARCHIVE_FILE: ~/.emacs.d/orgfile/work.org
+:ARCHIVE_CATEGORY: Projects
+:ARCHIVE_TODO: DONE
+:END:  
+** CANCELLED Realizzazione I-Probe
+   DEADLINE: <2010-01-28 Thu> CLOSED: [2010-09-24 Fri 14:52]
+   Realizzazione di una nuova sonda ad I con due sonde triassiali da
+   montare sul manipolatore 2D e fare una mappa completa da cui poi
+   ricostruire la corrente. La stima di corrente rimane sempre 10 A/m^2
+
+** DONE Analisi dati raccolti da Ivo		       :MAIL:ANALYSIS:OFFICE:
+   CLOSED: [2010-02-09 Tue 22:45]
+** Skype Conference with Ivo Furno
+   Presenti: Monica Spolaore, Ivo Furno, Paolo Ricci and Nicola Vianello
+  <2010-01-18 Mon 17:08>
+   + Sperimentalmente e' banale porsi nella condizione al di la/di qua
+     del limiter
+   + Scan radiale della sonda (r=0 e' il centro della camera)
+     -12<r<+18 (nb a = 20 cm)
+   + Ok per ruotare la sonda cercando di fare \grad_perp J_\perp
+   + Fissata per 1-5 Febbraio 2010
+ 
+** DONE Richiesta di missione e di mobility			  :WORK:MAIL:
+   DEADLINE: <2010-01-25 Mon> CLOSED: [2010-01-22 Fri 12:40]
+** DONE Prenota Radio Taxi
+   DEADLINE: <2010-01-29 Fri> CLOSED: [2010-01-29 Fri 10:12]
+** Meeting at Torpex						    :MEETING:
+   :PROPERTIES:
+   :on:       <2010-02-02 Tue 14:14>
+   :at:       Torpex Lausanne
+   :with:     Ivo Davud Monica
+   :END: 
+   + Workshop on basic plasma device
+   + Work on intensifier
+
+** Campagna Sperimentale su TORPEX
+   :PROPERTIES:
+   :on:       <2010-02-02 Tue 16:00>
+   :at:       Torpex Lausanne
+   :with:     Ivo Monica Nicola
+   :END:
+    | Probe | Coil | Name | color  | Channel | Polarity | Area [x10-3 m^2] |
+    |     1 | y    | B_1y | red    | 2       |       +1 |            2.341 |
+    |     1 | z    | B_1z | yellow | 3       |       +1 |            1.774 |
+    |     1 | x    | B_1x | green  | 4       |       -1 |            1.286 |
+    |     2 | y    | B_2y | black  | 5       |       -1 |            2.382 |
+    |     2 | z    | B_2z | violet | 7       |       +1 |            1.987 |
+    |     2 | x    | B_2x | gray   | 10      |       +1 |            1.303 |
+    |     3 | y    | B_3y | brown  | 22      |       +1 |            2.303 |
+    |     3 | z    | B_3z | orange | 31      |       +1 |            1.817 |
+    |     3 | x    | B_3x | blue   | 32      |       +1 |            1.248 |
+
+
+   + Reference shot 44500 (Mariotron)
+   + I_z 75 A
+   + Bdot array on movable system 3
+   + Gas Hydrogen
+   + 1 Limiter inside (usual position see Christian Telier)
+   + La misura segnata e' il centro della sonda numero 2
+   | Shot # |    r | theta | SLP | SLP Angle | Comments                                                                                    |
+   |  44778 |    0 |     0 |   8 |         0 | Failed                                                                                      |
+   |  44779 |    0 |     0 |   8 |         0 | Mancavano dati corretti S-Tip. Campo verticale troppo basso 72 G                            |
+   |  44780 |    0 |     0 |   8 |         0 | B_z e' cresiuto a 75                                                                        |
+   |  44781 |   18 |     0 |   8 |         0 |                                                                                             |
+   |  44782 |   18 |     0 |   8 |         0 |                                                                                             |
+   |  44783 |   18 |     0 |   8 |         0 |                                                                                             |
+   |  44784 |   18 |     0 |   8 |         0 | Pumped out and refilled                                                                     |
+   |  44785 |   13 |     0 |  10 |         0 |                                                                                             |
+   |  44786 |   11 |     0 |  10 |         0 |                                                                                             |
+   |  44787 |    8 |     0 |   9 |         0 |                                                                                             |
+   |  44788 |    7 |     0 |   7 |         0 |                                                                                             |
+   |  44789 |    5 |     0 |   5 |         0 |                                                                                             |
+   |  44790 |    3 |     0 |   3 |         0 |                                                                                             |
+   |  44791 |    1 |     0 |   1 |         0 | C'era un problema di contatto fra terminazioni per la sonda 12 e quindi sono inutilizzabili |
+   |  44792 |    3 |     0 |   3 |         0 |                                                                                             |
+   |  44793 |    3 |     0 |   3 |         0 |                                                                                             |
+   |  44794 |    3 |     0 |   3 |         0 | Inizio scan                                                                                 |
+   |  44795 |    5 |     0 |   5 |         0 |                                                                                             |
+   |  44796 |    7 |     0 |   7 |         0 |                                                                                             |
+   |  44797 |    9 |     0 |   9 |         0 |                                                                                             |
+   |  44798 |   11 |     0 |   9 |         0 |                                                                                             |
+   |  44799 |   13 |     0 |   9 |         0 |                                                                                             |
+   |  44800 |      |       |     |         0 |                                                                                             |
+   |  44801 |    7 |     0 |   7 |       180 | Ruoata SLP verso il basso  per usarla come trigger                                          |
+   |  44802 |  8.7 |     0 |   7 |       180 |                                                                                             |
+   |  44803 |  9.7 |     0 |   7 |       180 |                                                                                             |
+   |  44804 | 10.7 |     0 |   7 |       180 |                                                                                             |
+   |  44805 | 11.7 |     0 |   7 |       180 |                                                                                             |
+   |  44806 | 12.7 |     0 |   7 |       180 |                                                                                             |
+   |  44807 | 13.7 |     0 |   7 |       180 |                                                                                             |
+   |  44808 |  7.7 |     0 |   7 |       180 |                                                                                             |
+   |  44809 |  6.7 |     0 |   7 |       180 |                                                                                             |
+   |  44810 |  5.7 |     0 |   7 |       180 |                                                                                             |
+   |  44811 |  4.7 |     0 |   7 |       180 |                                                                                             |
+   |  44812 |    5 |     0 |  10 |       180 |                                                                                             |
+   |  44813 |    6 |     0 |  10 |       180 |                                                                                             |
+   |  44814 |    7 |     0 |  10 |       180 |                                                                                             |
+   |  44815 |    8 |     0 |  10 |       180 |                                                                                             |
+   |  44816 |    9 |     0 |  10 |       180 |                                                                                             |
+   |  44817 |   10 |     0 |  10 |       180 |                                                                                             |
+   |  44818 |   11 |     0 |  10 |       180 |                                                                                             |
+   |  44819 |   12 |     0 |  10 |       180 |                                                                                             |
+   |  44820 |   13 |     0 |  10 |       180 |                                                                                             |
+   |  44821 |   14 |     0 |  10 |       180 |                                                                                             |
+   |  44822 |   15 |     0 |  10 |       180 |                                                                                             |
+   |  44823 |  4.5 |     0 |   7 |         0 | Ruotata nuovamente SLP per evitare di prendere il FLR (field Line Return) Blob              |
+   |  44824 |    5 |     0 |   7 |         0 |                                                                                             |
+   |  44825 |    6 |     0 |   7 |         0 |                                                                                             |
+   |  44826 |    7 |     0 |   7 |         0 |                                                                                             |
+   |  44827 |    8 |     0 |   7 |         0 |                                                                                             |
+   |  44828 |    9 |     0 |   7 |         0 |                                                                                             |
+   |  44829 |   10 |     0 |   7 |         0 |                                                                                             |
+   |  44830 |   11 |     0 |   7 |         0 |                                                                                             |
+   |  44831 |   12 |     0 |   7 |         0 |                                                                                             |
+   |  44832 |   13 |     0 |   7 |         0 |                                                                                             |
+   |  44833 |   14 |     0 |   7 |         0 |                                                                                             |
+   |  44834 |   15 |     0 |   7 |         0 |                                                                                             |
+   |  44835 |   16 |     0 |   7 |         0 |                                                                                             |
+   |  44836 |   17 |     0 |   7 |         0 |                                                                                             |
+   |  44837 |   18 |     0 |   7 |         0 |                                                                                             |
+   |  44838 |   19 |     0 |   7 |         0 |                                                                                             |
+   |  44839 |    4 |     0 |   7 |         0 |                                                                                             |
+   |  44840 |    3 |     0 |   7 |         0 |                                                                                             |
+   |  44841 |    2 |     0 |   7 |         0 |                                                                                             |
+   |  44842 |    1 |     0 |   7 |         0 |                                                                                             |
+   |  44843 |    0 |     0 |   7 |         0 |                                                                                             |
+   |  44844 |    0 |     0 |   7 |       180 |                                                                                             |
+   |  44845 |    1 |     0 |   7 |       180 |                                                                                             |
+   |  44846 |    2 |     0 |   7 |       180 |                                                                                             |
+   |  44847 |    3 |     0 |   7 |       180 |                                                                                             |
+   |  44848 |    4 |     0 |   7 |       180 |                                                                                             |
+   |  44849 |   15 |     0 |   7 |       180 |                                                                                             |
+   |  44850 |   16 |     0 |   7 |       180 |                                                                                             |
+   |  44851 |   17 |     0 |   7 |       180 |                                                                                             |
+   |  44852 |   18 |     0 |   7 |       180 |                                                                                             |
+   |  44853 |   19 |     0 |   7 |       180 |                                                                                             |
+   |  44854 |      |       |  -3 |       180 |                                                                                             |
+   |  44855 |      |       |  -3 |       180 |                                                                                             |
+   |  44856 |    0 |    90 |   7 |         0 |                                                                                             |
+   |  44857 |    1 |    90 |   7 |         0 |                                                                                             |
+   |  44858 |    2 |    90 |   7 |         0 |                                                                                             |
+   |  44859 |    7 |    90 |   7 |         0 |                                                                                             |
+   |  44860 |    4 |    90 |   7 |         0 |                                                                                             |
+   |  44861 |    5 |    90 |   7 |         0 |                                                                                             |
+   |  44862 |    6 |    90 |   7 |         0 |                                                                                             |
+   |  44863 |    7 |    90 |   7 |         0 |                                                                                             |
+   |  44864 |    8 |    90 |   7 |         0 |                                                                                             |
+   |  44865 |    9 |    90 |   7 |         0 |                                                                                             |
+   |  44866 |   10 |    90 |   7 |         0 |                                                                                             |
+   |  44867 |   11 |    90 |   7 |         0 |                                                                                             |
+   |  44868 |   12 |    90 |   7 |         0 |                                                                                             |
+   |  44869 |   13 |    90 |   7 |         0 |                                                                                             |
+   |  44870 |   14 |    90 |   7 |         0 |                                                                                             |
+   |  44871 |   15 |    90 |   7 |         0 |                                                                                             |
+   |  44872 |   16 |    90 |   7 |         0 |                                                                                             |
+   |  44873 |   17 |    90 |   7 |         0 |                                                                                             |
+   |  44874 |   18 |    90 |   7 |         0 |                                                                                             |
+   |  44875 |   19 |    90 |   7 |         0 |                                                                                             |
+   |  44876 |   19 |    90 |   7 |       180 |                                                                                             |
+   |  44877 |   18 |    90 |   7 |       180 |                                                                                             |
+   |  44878 |   17 |    90 |   7 |       180 |                                                                                             |
+   |  44879 |   16 |    90 |   7 |       180 |                                                                                             |
+   |  44880 |   15 |    90 |   7 |       180 |                                                                                             |
+   |  44881 |   14 |    90 |   7 |       180 |                                                                                             |
+   |  44882 |   13 |    90 |   7 |       180 |                                                                                             |
+   |  44883 |   12 |    90 |   7 |       180 |                                                                                             |
+   |  44884 |   11 |    90 |   7 |       180 |                                                                                             |
+   |  44885 |   10 |    90 |   7 |       180 |                                                                                             |
+   |  44886 |    9 |    90 |   7 |       180 |                                                                                             |
+   |  44887 |    8 |    90 |   7 |       180 |                                                                                             |
+   |  44888 |    7 |    90 |   7 |       180 |                                                                                             |
+   |  44889 |    6 |    90 |   7 |       180 |                                                                                             |
+   |  44890 |    5 |    90 |   7 |       180 |                                                                                             |
+   |  44891 |    4 |    90 |   7 |       180 |                                                                                             |
+   |  44892 |    3 |    90 |   7 |       180 |                                                                                             |
+   |  44893 |    2 |    90 |   7 |       180 |                                                                                             |
+   |  44894 |    1 |    90 |   7 |       180 |                                                                                             |
+   |  44895 |    0 |    90 |   7 |       180 |                                                                                             |
+  
+** Skype Conference with Ivo				       :MEETING:
+   :PROPERTIES:
+   :on:       <2010-02-26 Fri 09:19>
+   :at:       Ufficio Nicola 
+   :with:     Monica Ivo Nicola Christian
+   :END:
+   + Calcolo Corrente da circuitazione formula corretta 
+   + Campagne sperimentali condotte logbook
+   + Accesso dati
+   + Eventualmente TTF Cordoba (da includere in un globale sui filamenti?)
+   + Si decide per una campagna sperimentale con SLP a 180 gradi
+     rispetto a Bdot probe e con due posizioni di Bdot ai due lati del
+     limiter per calcolare direttamente la divergenza di J_parallel e
+     confrontarla con la misura di n,Vp,Te a meta della linea di
+     campo. 
+   + Monica suggerisce anche di porre bdot a meta della linea di campo
+     per verificare che effettivamente non si vede nulla
+   + Confidenti che si misuri la corrente e della grandezza giusta
+** DONE Trasferimento dati [6/6]			      :WORK:ANALYSIS:
+   CLOSED: [2010-06-03 Thu 17:34]
+   - State "DONE"       from "STARTED"    [2010-06-03 Thu 17:34]
+   - [X] Creare il pulse file
+   - [X] Creare la routine matlab per creare il pulse file
+   - [X] Debug della routine[fn:1]
+   - [X] Creare la routine IDL per leggere i file txt e creare il pulse file
+   - [X] Scrivere lo script bash che esegua
+         1. Legga il database 
+         2. Si colleghi via ssh
+         3. lanci matlab per la creazione del pulse file per ogni impulso del database. A questo proposito da bash si lancia cosi ./matlab -nodisplay -nodesktop "myscript('$cfg')"[fn:2]
+         4. copi in locale il tree creato
+         5. cancelli in remoto il file creato
+   - [X] mandatre in batch con pbs questo script[fn:3]
+
+** TTF 2010
+   - [X] Spedire foto
+   - [X] Leggere presentazione Ivo
+   - [X] Schema articolo
+
+** Lavoro su misura di corrente 
+  - Misura 2D di corrente
+  - Current filaments --> velocity propagation
+  - Current filaments --> balance of polarization current
+  - Confronto con espressione linearizzata
+  - Target --> Lettera
+*** Dati Asdex
+    Verifica l'esistenza di dati del tipo n,vf,te per il calcolo durante gli ELM del contributo non lineare
+    alla densita di corrente. Per verificare se lo sbilanciamento esistente e' dovuta alle linee di campo aperte
+    Dati di rms(vf) ed rms(isat) sono disponibili. Posso prendere i dati dall rms(Te) ed rms(ne) da IAEA 2010 possiamo avere un ne 1-2 e19,
+    Te 30-40 eV ed un Vf ~ 20-40 eV.
+    | \tilde{n_e} | \tilde{T_e} | \tilde{v_f} |
+    |             |             |             |
+    |             |             |             |
+*** DONE Ask IVO pulses with flat-probe and transfer it		       :MAIL:
+    CLOSED: [2010-11-14 Sun 11:11]
+*** Considerazioni su ELM Current
+   - Valutazione sulla possibilita di simulare filamenti di corrente (vd. Huysman & Jorek)
+   - Valutazione sull'entita delle correnti in gioco con riferimento ad Asdex e TCV (vd. punto precedente) Dallo IAEA si ricava per ELM n_e ~ 1e19, T_e ~ 25 eV, VF ~30 V
+   - Impatto di correnti maggiori di quanto previsto sulla stabilita' e teorie esistenti
+**** Articoli correlati [2/7]
+   - [ ] Wingen et al. Phys. Rev. Lett. (2010) vol. 104 (17) pp. 175001
+   - [ ] Sugiyama and Strauss. Magnetic X-points, edge localized modes, and stochasticity. Phys. Plasmas (2010) vol. 17 (6) pp. 062505
+   - [X] Huysmans et al. Non-linear MHD simulations of edge localized modes (ELMs). Plasma Phys. Control. Fusion (2009) vol. 51 pp. 124012
+   - [ ] Eich et al. Journal of Nuclear Materials (2007) vol. 363-365 pp. 989-993
+   - [X] Testa and Bigi. Plasma Physics and Controlled Fusion (2005) vol. 47 pp. 733: Current up to 150 A/MA detected in regions far away from the strike point
+   - [ ] Takahashi et al. Phys. Rev. Lett. (2008) vol. 100 (20) pp. 205001
+   - [ ] Silva et al. Reciprocating probe measurements of ELM filaments on JET. Plasma Phys. Control. Fusion (2009) vol. 51 pp. 105001
+*** Skype conference call
+   :PROPERTIES:
+    :on:       <2010-10-19 Tue 15:40>
+    :at:       MyOffice
+    :with:     Ivo Monica
+    :END:
+   - Agreed for a better verification on data collected from Asdex and Jet on ELM's. Mandatory measurements of n_e, v_f, t_e and j_{\parallel}
+   - Agreed for a new meeting on <2010-10-26 Tue> at 14.30
+   - Agreed for a mail to Volker Naulin on j_sat and j_parallel on JET[fn:6] 
+*** Skype Conference call
+*** Risposa ai referee per lettera
+Vedi mail di Ivo [[message://4DB00051.9090607@epfl.ch][reply to referees]]
+**** Skype call con Ivo
+:PROPERTIES:
+:on: <2011-04-27 Wed 11:49>
+:at: MyOffice
+:with: Monica Ivo
+:END:
+- Agreed to send modification to response to referee on :
+  + Average current
+  + ...
+** Corrispondenza nomi sonde componenti
+   | Nome | Componente |
+   | B11  | B1y        |
+   | B12  | B1z        |
+   | B13  | B1x        |
+   |------+------------|
+   | B21  | B2y        |
+   | B22  | B2z        |
+   | B23  | B2x        |
+   |------+------------|
+   | B31  | B3y        |
+   | B32  | B3z        |
+   | B33  | B3x        |
+    

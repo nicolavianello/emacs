@@ -1,0 +1,99 @@
+                                 work
+                                 ====
+
+Author: Nicola Vianello <nicola.vianello@igi.cnr.it>
+Date: 2013-04-26 13:43:18 CEST
+
+
+Table of Contents
+=================
+1 Arcless Power Supply
+    1.1 Test a Banco scheda prototipo con condensatori 
+    1.2 Test della scheda prototipo sulla sonda tripla Fissa 
+    1.3 Definizione interfacce in/out per rack alimentatori 
+    1.4 Definizione ingombri e componenti       <2009-12-28 Mon 13:37>
+    1.5 Disegno CAD del rack di alimentazione 
+    1.6 Definizione specifiche e richiesta d'offerta 
+    1.7 List of action for experimental campaign 29-April 3 May 2013 [0/5] 
+2 High Frequency Timing board for edge measurements
+3 Compass Filaments Probe
+4 High Frequency Alfven Activity
+5 TJII Probe
+6 Asdex Upgrade 2011
+7 TCV
+8 JET 
+9 U-Probe campaigns 
+10 ISIS
+11 EFDA
+12 EPS 2012 
+13 IAEA 2012
+
+
+1 STARTED Arcless Power Supply :PROJECT:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  DEADLINE: <2011-03-01 Tue>
+
+1.1 DONE Test a Banco scheda prototipo con condensatori 
+========================================================
+
+1.2 DONE Test della scheda prototipo sulla sonda tripla Fissa 
+==============================================================
+
+1.3 DONE Definizione interfacce in/out per rack alimentatori 
+=============================================================
+
+1.4 DONE Definizione ingombri e componenti       <2009-12-28 Mon 13:37> :BUY:
+=============================================================================
+
+1.5 DONE Disegno CAD del rack di alimentazione 
+===============================================
+
+1.6 DONE Definizione specifiche e richiesta d'offerta 
+======================================================
+
+1.7 List of action for experimental campaign 29-April 3 May 2013 [0/5] 
+=======================================================================
+- [ ] Cavo per misura shunt -> L. Lotto
+- [ ] Alimentatore 24 Volt da comandare via segnale logico TTL per
+  inserzione alimentazione su carico delle sonde -> L. Lotto
+- [ ] Assegnazione IP su sottorete ISIS. -> R. Cavazzana e P. Barbato
+- [ ] Definizione comando di INIT e ripristino ai -60 s per Micro
+  carica condensatori -> R. Cavazzana, N. Vianello e C. Taliercio
+- [ ] Test prototipo completo in R4 -> All
+
+2 STARTED High Frequency Timing board for edge measurements :PROJECT:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+3 STARTED Compass Filaments Probe :PROJECT:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+4 STARTED High Frequency Alfven Activity :PROJECT:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+5 STARTED TJII Probe :PROJECT:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+6 STARTED Asdex Upgrade 2011 :PROJECT:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+7 TCV :PROJECT:
+~~~~~~~~~~~~~~~
+
+8 JET 
+~~~~~~
+
+9 U-Probe campaigns 
+~~~~~~~~~~~~~~~~~~~~
+
+10 STARTED ISIS :WORK:ANALYSIS:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+11 EFDA :PROJECT:
+~~~~~~~~~~~~~~~~~
+
+12 EPS 2012 
+~~~~~~~~~~~~
+
+13 STARTED IAEA 2012 :WORK:PROJECT:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+

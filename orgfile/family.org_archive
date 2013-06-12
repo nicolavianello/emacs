@@ -1,0 +1,405 @@
+
+Archived entries from file /Users/nicola/elisp/org/family.org
+
+
+
+
+* Vacanze di Natale 2010: Fie Allo Scilar, Hotel Waldsee
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2010-01-04 Mon 10:14
+  :ARCHIVE_FILE: ~/elisp/org/family.org
+  :ARCHIVE_CATEGORY: family
+  :END:
+** DONE Lista delle cose da prendere a casa
+   DEADLINE: <2009-12-28 Mon> CLOSED: [2010-01-04 Mon 10:08]
+   - [X]  prova
+   - [X]  Scarponi da Sci di Nicola
+   - [X]  Scarponi da Sci Filippo
+   - [X]  Tuta da Sci Filippo
+   - [X]  Giaccone Erica
+   - [X]  Guanti, Cappello, Sciarpa Erica/Nicola 
+   - [X]  Biberon
+   - [X]  Pantaloni da sci nicola
+   - [X]  Cartine stradali
+   - [X] Anello scatola ori scatola glitter
+   - [X] Pantaloni grigi con fascia nera
+   - [X] Calzamaglia Erica (ultimo cassetto armadio bianco)
+   - [X] Maglione a collo alto sciallato nero
+   - [X] Maglione a V III cassetto armadio bianco
+   - [X] Costume glitter/rosa/turcherse
+   - [X] Ciabatte e cuffie erica/nicola/filippo
+   - [X] Calzettoni di lana (sottotetto)
+   - [X] frutta
+   - [X] cesto biancheria
+   - [X] stivali e moomboot Filippo
+   - [X] Maglione arancione
+   - [X] Spazzolino Nicola
+   - [X] Pigiama Nicola
+   - [X] Calzettoni Nicola
+   - [X] Zaino
+** Da prendere a Bassano
+   - [X] Slittino
+** Da Comperare							    :PAY:
+   - [X]  Comprare sacco a pelo Passeggino Filippo
+   - [X]  Comprare Calzamaglie Filippo
+
+* Riduzione Asilo Nido Filippo 				
+  DEADLINE: <2010-01-05 Tue 15:00>
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2010-01-05 Tue 16:04
+  :ARCHIVE_FILE: ~/elisp/org/family.org
+  :ARCHIVE_CATEGORY: family
+  :END:
+** DONE Phone @ Comune						      :PHONE:
+   CLOSED: [2010-01-05 Tue 15:25]
+  Ufficio asili nido e scuole materne - Settore Servizi Scolastici - Comune di Padova
+  via Raggio di Sole, 2 - 35137 Padova
+  telefono 049 8204015 - 8204016 
+  fax 049 8204050
+  orario Urp Settore Servizi Scolastici: lunedì e venerdì dalle 10:00 alle 13:15, martedì dalle 15:00 alle 17:30, giovedì dalle 10:00 alle 15:00, mercoledì chiuso
+  e-mail melchiorim@comune.padova.it
+  responsabile/i: dott. Maurizio Melchiori, delegati: Fiorenza Friso
+** DONE Eventualmente spedisci Fax o Email			  :HOME:MAIL:
+   CLOSED: [2010-01-05 Tue 15:26]
+
+* DONE Cerca mercatini Epifania natale				:HOME:SEARCH:
+  DEADLINE: <2010-01-05 Tue> CLOSED: [2010-01-05 Tue 15:49]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2010-01-15 Fri 16:00
+  :ARCHIVE_FILE: ~/elisp/org/family.org
+  :ARCHIVE_CATEGORY: family
+  :ARCHIVE_TODO: DONE
+  :END:
+ 
+* DONE Verifica calendario vacanze nido Filippo			 :HOME:PHONE:
+  CLOSED: [2010-01-07 Thu 14:58]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2010-01-15 Fri 16:00
+  :ARCHIVE_FILE: ~/elisp/org/family.org
+  :ARCHIVE_CATEGORY: family
+  :ARCHIVE_TODO: DONE
+  :END:
+* Maternita Erica
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2010-08-27 Fri 09:00
+  :ARCHIVE_FILE: ~/elisp/orgfile/family.org
+  :ARCHIVE_CATEGORY: family
+  :END:
+** DONE Phone @ Erich Cosmi					      :PHONE:
+   DEADLINE: <2010-07-12 Mon> CLOSED: [2010-07-12 Mon 16:42]
+
+* Concorso Erica
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2010-08-27 Fri 09:00
+  :ARCHIVE_FILE: ~/elisp/orgfile/family.org
+  :ARCHIVE_CATEGORY: family
+  :END:
+** Tema I: Fusione termonucleare e riscaldamenti
+*** Introduzione
+    + Problema Energetico generale
+    + Soluzione da Fusione con un po di numerelli su potenza possibile
+      (--> cfr. Libretto Rosso RFX)
+    + Confinamento e criterio di Lawson
+    + Schemi di fusione magnetica current/current-free
+
+*** Descrizione generale
+    + Tokamak
+    + RFP (si allude alla problematica delle intensita di campi)
+    + Tipi di riscaldamento possibile
+      * Ohmico
+      * Radiofrequenza
+      * NBI
+*** NBI heating
+    + Cosa si ottiene dal NBI
+      * Riscaldamento
+      * Induzione di momento
+      * Current drive
+      * Fueling
+*** NBI princible
+    + Principio e schema di funzionamento di un NBI
+    + Parti caratteristiche
+    + Funzionamento di una sorgente e tipi di sorgenti
+    + Le caratteristiche dell'NBI di ITER 
+*** Conclusioni
+
+** TEMA II: Diagnostiche spettroscopiche
+*** Introduzione
+    Importanza delle quantita fisica per valutare le proprieta di
+    confinamento e trasporto
+*** Quantita Fisiche di interesse nei plasmi
+    + Temperatura ionica
+    + Velocita (--> legata ai regimi a confinamento migliorato ed
+      utile anche per il controllo)
+    + Carica efficace (problema dell'accumulo di impurezze)
+    + Campo elettrico
+*** Metodi per determinare queste grandezze
+  + Diagnostiche spettroscopiche: 
+    * Processi coinvolti: scambio carica, eccitazione diseccitazione etc.
+    * allargamento e spostamento Doppler
+  + Da sottolineare la non-intrusivita
+  + I Problemi aperti:
+    * risoluzione temporale 
+    * luminosita
+    * risoluzione spaziale (--> da associare ad un beam di potenza)
+  + Modelli interpretativi e predittivi nella realizzazione di uno strumento
+    * Modelli corona etc tc
+*** Conclusioni
+
+**  [9/16] Possibili domande ed approfondimenti 
+   - [X] Controllo --> parlare di NBI e leggere da Carolus Magnus e
+     leggi Wesson su current injection et alia. Oppure un qualcosa dall'articolo di Paolo/Matteo
+   - [X] Trasporto,  Barriere, Profili di velocita:
+     J.W. Connor et al. Nuclear Fusion (2004) vol. 44 (4) pp. R1,
+     sommario del Freidberg/Wesson
+   - [X] External Transport Barrier: BURRELL. Phys. Plasmas (1999)
+     vol. 6 (12) pp. 4418-4435, oppure G M Staebler Plasma Physics and
+     Controlled Fusion (1998) vol. 40 (5) pp. 569, Wagner. Plasma Phys. Control. Fusion (2007) vol. 49 (12B) pp. B1-B33
+   - [X] PWI: parte della tua tesi e poi vai a parlare delle
+     impurezze. Aggiungerei parte di controllo della densita' con
+     boronizzazione/Litizzazione. Vd anche Wesson
+   - [ ] Regimi a confinamento migliorato: --> vd Barriere di Trasporto
+   - [ ] Sviluppo di una diagnostica: Littrow --> finisci con Spider
+   - [X] Current drive
+   - [X] Equilibrio:sfogliare Buffa/Freidberg
+   - [X] Impurezze nei plasmi: Tesi piu spettroscopia
+   - [X] Trasporto di energia: tesi piu freidberg
+   - [ ] Trasporto di Particelle
+   - [X] Limiti di Beta degli RFP: Appunti di Buffa (?)
+   - [ ] Aspetto di Fisica rilevante per ITER: NBI ma per beam/plasma interaction
+   - [ ] Aspetti di Fisica rilevanti per un RFP: QSH/SHAx -- profili
+     di velocita
+   - [ ] Caratteristica di un RFP
+   - [ ] Termonuclear burning criteria
+
+    
+
+
+
+** DONE Curriculum Vitae Erica 
+   CLOSED: [2010-04-14 Wed 17:43]
+   - State "DONE"       from "STARTED"    [2010-04-14 Wed 17:43]
+** DONE Documenti per Concorso
+   CLOSED: [2010-04-14 Wed 17:43]
+   + Curriculum vitae 4 copie
+   + Allegato D con Titoli di studio e formazioni incluse le scuole
+   + Contratti FIRB, Co.Co.Co e Co.Pro con Copia Conforme
+     all'originale ALLEGATO B, oppure con Allegato C
+   + Allegato C deve includere anche Mobility e Conferenze
+   + Fra le pubblicazioni di cui deve essere allegata fotocopia e
+     dichiarazione di conformita includere anche copia della tesi di
+     Dottorato e di Laurea
+   + Copia Articoli dichiarati conformi agli originali
+* Daniela
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2010-09-22 Wed 17:46
+  :ARCHIVE_FILE: ~/elisp/orgfile/family.org
+  :ARCHIVE_OLPATH: Babysitting
+  :ARCHIVE_CATEGORY: family
+  :END:
+ Cell.:3467903631 - Email: acquablu21@alice.it SIGNORA ITALIANA
+ ESPERTA, CON OTTIME REFERENZE DI BABYSITTER E PARECCHI ANNI
+ LAVORATIVI CON BAMBINI/E PICCOLI OD ETA' 
+ ASILO. NON FUMATRICE ED AUTOMUNITA. IN POSSESSO DI ATTESTATO DI
+ PARTICIPAZIONE ALLA FORMAZIONE 
+ DI BABYSITTER CONSEGUITO DAL COMUNE DI PADOVA. 
+ CERCA LAVORO A PART TIME OD ORE IN ZONA PADOVA SUD E LIMITROFI. 
+ CONTATTATEMI AL CELLULARE 3467903631 O TRAMITE E-MAIL DANIELA
+** Indisponibile per tempo
+* Cell.:3481393498 -  Email: boniva@virgilio.it
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2010-09-24 Fri 11:23
+  :ARCHIVE_FILE: ~/elisp/orgfile/family.org
+  :ARCHIVE_OLPATH: Babysitting
+  :ARCHIVE_CATEGORY: family
+  :END:
+  SIGNORA SERIA,REFERENZIATA,AFFIDABILE, AMANTE BAMBINI 
+  CERCA LAVORO COME COLF, BABYSITTER, STIRO. OFFRESI ESPERIENZA 
+  E PROFESSIONALITA'. ZONA PADOVA E LIMITROFI
+* Francesca 3479224725
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2011-04-05 Tue 09:49
+  :ARCHIVE_FILE: ~/.emacs.d/orgfile/family.org
+  :ARCHIVE_OLPATH: Baby sitting
+  :ARCHIVE_CATEGORY: family
+  :END: 
+Francesca educatrice pluriennale esperienza con bambini anche 
+piccoli (ho lavorato per diversi anni in asilo nido) cerca lavoro come baby sitter
+** Non disponibile perche' lavora al nido
+* Silvia
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2011-04-05 Tue 09:49
+  :ARCHIVE_FILE: ~/.emacs.d/orgfile/family.org
+  :ARCHIVE_OLPATH: Baby sitting
+  :ARCHIVE_CATEGORY: family
+  :END:
+Laureata offresi come baby sitter. Amante dei
+bimbi. 3407749734. 
+** TODO Appuntamento 04.04 ore 18.45
+:PROPERTIES:
+:ID: 5C988AD8-10D3-4676-9FD7-2F3C50B590F9
+:END:
+* Alessandra 3396522155
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2011-04-05 Tue 10:29
+  :ARCHIVE_FILE: ~/.emacs.d/orgfile/family.org
+  :ARCHIVE_OLPATH: Baby sitting
+  :ARCHIVE_CATEGORY: family
+  :END:
+Signora quarantenne ITALIANA con esperienza e ottime referenze
+verificabili, offresi come baby sitter anche per bimbi molto piccoli. 
+Massima disponibilità. Zone Padova centro-ospedali-arcella-san
+bellino-san carlo-pontevigodarzere e limitrofi no perditempo.
+* Emanuela 3494340073
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2011-04-07 Thu 10:06
+  :ARCHIVE_FILE: ~/.emacs.d/orgfile/family.org
+  :ARCHIVE_OLPATH: Baby sitting
+  :ARCHIVE_CATEGORY: family
+  :END:
+Numero da parte di Claudia. Lei non disponibile ma forse una amica 
+* Alessandra 3396194948
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2011-05-04 Wed 17:25
+  :ARCHIVE_FILE: ~/.emacs.d/orgfile/family.org
+  :ARCHIVE_OLPATH: Baby sitting
+  :ARCHIVE_CATEGORY: family
+  :END:
+Mamma automunita, ex insegnante elementare di inglese, è 
+disponibile per tutte le mattine come baby-sitter. 
+Massima serietà ed esperienza. Zona Guizza, Albignasego, Carpanedo, Maserà.
+* 3285784256
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2011-05-04 Wed 17:29
+  :ARCHIVE_FILE: ~/.emacs.d/orgfile/family.org
+  :ARCHIVE_OLPATH: Baby sitting
+  :ARCHIVE_CATEGORY: family
+  :END:
+insegnante scuola primaria laurea psicologia offresi come baby sitter anche neonati esperienza pluriennale referenze controllabili automunita zona padova centro abano terme 
+* Elisa Bordin 3472517744
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2011-05-04 Wed 17:29
+  :ARCHIVE_FILE: ~/.emacs.d/orgfile/family.org
+  :ARCHIVE_OLPATH: Baby sitting
+  :ARCHIVE_CATEGORY: family
+  :END:
+ragazza 30 enne italiana offresi dal lunedi al 
+venerdi come baby sitter o lavori domestici part time 
+o full time ottime referenze
+** TODO Appuntamento Giovedi 07-04 ore 18.15
+:PROPERTIES:
+:ID: 4D5CB09A-4237-4A54-80FD-A20349916008
+:END:
+* Laura 3403377564
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2011-05-04 Wed 17:29
+  :ARCHIVE_FILE: ~/.emacs.d/orgfile/family.org
+  :ARCHIVE_OLPATH: Baby sitting
+  :ARCHIVE_CATEGORY: family
+  :END:
+Signora italiana referenziata automunita offresi come
+baby-sitter. Cultura universitaria.
+** TODO Appuntamento giovedi 7 ore 19.00
+:PROPERTIES:
+:ID: 4B642E2E-C7D1-4751-9E38-1FEB71AD8EAF
+:END:
+** Appuntamento cancellato con un messaggi
+* Monica 3491856153
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2011-05-04 Wed 17:38
+  :ARCHIVE_FILE: ~/.emacs.d/orgfile/family.org
+  :ARCHIVE_OLPATH: Baby sitting
+  :ARCHIVE_CATEGORY: family
+  :END:
+Mamma, 46 anni, si offre come baby-sitter al mattino 
+(+ event. qualche sera). Massima serietà e consapevolezza per 
+il delicato ruolo da svolgere. Automunita, non fumatrice. 
+Zona Vigonza, Ponte di B., Noventa Pd e limitrofi.
+* Lisa Iposi 3494533069
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2011-05-04 Wed 18:18
+  :ARCHIVE_FILE: ~/.emacs.d/orgfile/family.org
+  :ARCHIVE_OLPATH: Baby sitting
+  :ARCHIVE_CATEGORY: family
+  :END:
+34 Anni laureata in scienze educazione con esperienza
+nidi/asilo. Madre di due bambini 5 anni e 16 mesi (nonni disponibili)
+** Appuntamento venerdi 07/04 ore 18.00
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* XMAS 2011 [8%]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2011-12-22 Thu 13:54
+  :ARCHIVE_FILE: ~/.emacs.d/orgfile/family.org
+  :ARCHIVE_CATEGORY: family
+  :END:
+- [-] Filippo [4/6]
+  - [X] Macchina Telcomandata
+  - [X] Tenda indiani
+  - [X] Copricapo Indiani
+  - [X] Aereo-Shuttle Lego
+  - [ ] Libro astronomia
+  - [ ] Mini PC
+- [-] Eugenio [2/4]
+  - [X] Garage
+  - [X] macchina cars gialla
+  - [ ] magnetini frigo
+  - [ ] cubetti puzzle
+- [ ] Erica [0/2]
+  - [ ] Orologio
+  - [ ] Cellulare
+- [X] Nicoletta [1/1]
+  - [X] Cordless
+- [ ] Paolo V
+- [ ] Paolo G & Edy [0/2]
+  - [ ] Moka
+  - [ ] 
+- [-] Bruno & Stefy [1/2]
+  - [X] Vasi portasale e zucchero
+  - [ ] Foto
+
+- [ ] Anna M [0/2]
+  - [ ] Mascara Pupa
+  - [ ] Cofanetto
+- [ ] Leonardo M [0/1]
+  - [ ] Sciarpa
+
+- [ ] Giampaolo [0/1]
+  - [ ] Cluedo
+- [ ] Massimo [0/1]
+  - [ ] Libro "La bambina della sesta luna"
+- [ ] Emma [0/1]
+  - [ ] Libro
+- [ ] Vittoria [0/1]
+  - [ ]
+- [ ] Anna U [0/1]
+  - [ ] Orecchini etnici
+- [ ] Leonardo U [0/1]
+  - [ ] Cappello lungo che cade dietro
+- [ ] Francesco U [0/1]
+  - [ ] Pallone da basket
+- [ ] Lorenzo Z [0/1]
+  - [ ]
+- [ ] Riccardo Z [/]
+  - [ ]
+- [X] Viky [1/1]
+  - [X] Profumo
+- [ ] Matteo [0/0]
+- [ ]

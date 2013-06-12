@@ -1,0 +1,79 @@
+#    -*- mode: org -*-
+
+
+Archived entries from file /Users/nicola/elisp/org/personal.org
+
+* Conferenza stampa in favore di Luca Tornatore	  :MEETING(mt):WRITE:
+ :PROPERTIES:
+ :CATEGORY: Projects
+ :ARCHIVE_TIME: 2009-12-28 Mon 17:26
+ :ARCHIVE_FILE: ~/elisp/org/personal.org
+ :ARCHIVE_CATEGORY: Projects
+ :ARCHIVE_ITAGS: WRITE
+ :END:
+** DONE Scrivi alcune righe per commentare Luca
+   CLOSED: [2009-12-28 Mon 13:39]
+   Vedi [[file:~/Documents/PrivateDocuments/LucaTornatore/Luca.txt]] 
+   DEADLINE: <2009-12-28 Mon>
+
+
+* DONE prova a vedere come funziona 
+  CLOSED: [2009-12-28 Mon 19:29]
+ 
+  CLOCK: [2009-12-28 Mon 19:28]--[2009-12-28 Mon 19:29] =>  0:01
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2009-12-28 Mon 19:29
+  :ARCHIVE_FILE: ~/elisp/org/personal.org
+  :ARCHIVE_CATEGORY: personal
+  :ARCHIVE_TODO: DONE
+  :END:
+  [2009-12-28 Mon]
+  [[file:~/Library/Application%20Support/Aquamacs%20Emacs/scratch%20buffer::bin%20bash][file:~/Library/Application Support/Aquamacs Emacs/scratch buffer::bin bash]]
+
+
+
+
+* DONE Phone Albergo per conferma prenotazione e carta di credito :PHONE(ph):
+  DEADLINE: <2009-12-28 Mon> CLOSED: [2009-12-28 Mon 17:26]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2010-01-04 Mon 09:57
+  :ARCHIVE_FILE: ~/elisp/org/personal.org
+  :ARCHIVE_CATEGORY: personal
+  :ARCHIVE_TODO: DONE
+  :END:
+* DONE Stampare direzione per albergo e da albergo a La Valle  
+  DEADLINE: <2009-12-28 Mon> CLOSED: [2009-12-28 Mon 18:03]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2010-01-04 Mon 09:57
+  :ARCHIVE_FILE: ~/elisp/org/personal.org
+  :ARCHIVE_CATEGORY: personal
+  :ARCHIVE_TODO: DONE
+  :END:
+
+* Luca Tornatore
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2010-01-18 Mon 16:53
+  :ARCHIVE_FILE: ~/elisp/orgfile/personal.org
+  :ARCHIVE_CATEGORY: personal
+  :END:
+** Per le notizie riguardanti Luca vedi il[[http://www.globalproject.info/][ sito]].
+** DONE [#A] Per contribuire alle spese legali vedi			:PAY:
+   DEADLINE: <2010-01-05 Tue> CLOSED: [2010-01-08 Fri 16:51]
+   IT 23 O 05018 12101 000000106126
+   Banca Popolare Etica
+   filiale di Padova
+   Piazza Insurrezione 10 - Padovaintestato a: "COMITATO DI GESTIONE
+   CASA DELLE CULTURE" causale: "Raccolta fondi per le spese legali di
+   Luca Tornatore"
+
+** DONE Spedisci cartolina					       :HOME:
+   CLOSED: [2010-01-18 Mon 13:58]
+   Luca Tornatore 211275 ABBM - Vestre Faengsel - Vigerslev allè 1D -
+   2450 Kbh Svolta - Copenhagen - Danmarkt
+   DEADLINE: <2010-01-09 Sat>
+
+
+
+
+
+

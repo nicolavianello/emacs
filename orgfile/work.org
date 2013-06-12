@@ -1,0 +1,903 @@
+# -*- coding: utf-8; -*-
+#+LAST_MOBILE_CHANGE: 2011-03-01 13:21:18
+#+STARTUP: hidestars
+#+STARTUP: logdone
+#+PROPERTY: Effort_ALL  0:10 0:20 0:30 1:00 2:00 4:00 6:00 8:00
+#+COLUMNS: %38ITEM(Details) %TAGS(Context) %7TODO(To Do) %5Effort(Time){:} %6CLOCKSUM{Total}
+#+PROPERTY: Effort_ALL 0 0:10 0:20 0:30 1:00 2:00 3:00 4:00 8:00
+
+* STARTED Arcless Power Supply					    :PROJECT:
+  DEADLINE: <2011-03-01 Tue>
+:PROPERTIES:    
+:CATEGORY: Projects
+:ID: 44F409AE-F841-43A8-A65D-65636572EBDC
+:END:
+** DONE Test a Banco scheda prototipo con condensatori
+CLOSED: [2013-04-26 Fri 13:30]
+:PROPERTIES:
+:ID: EEDD0D99-0C99-4D5C-85E2-CFAF5A4BC1FF
+:END:
+** DONE Test della scheda prototipo sulla sonda tripla Fissa
+CLOSED: [2013-04-26 Fri 13:30]
+:PROPERTIES:
+:ID: 2C4D4228-3CF4-4269-A66C-1D3CF16DA8BD
+:END:
+** DONE Definizione interfacce in/out per rack alimentatori
+CLOSED: [2013-04-26 Fri 13:31]
+:PROPERTIES:
+:ID: 6DB04950-B55A-4736-9D9C-0F4B32B214C6
+:END:
+** DONE Definizione ingombri e componenti	<2009-12-28 Mon 13:37>	:BUY:
+CLOSED: [2013-04-26 Fri 13:31]
+- State "DONE"       from "STARTED"    [2013-04-26 Fri 13:31]
+:PROPERTIES:
+:ID: CAC68135-2B18-4EA3-9B21-85F646B82DC5
+:END:
+** DONE Disegno CAD del rack di alimentazione
+CLOSED: [2013-04-26 Fri 13:31]
+:PROPERTIES:
+:ID: 304BC054-0775-4616-8302-5C2504632712
+:END: 
+** DONE Definizione specifiche e richiesta d'offerta
+CLOSED: [2013-04-26 Fri 13:31]
+:PROPERTIES:
+:ID: 27E47E80-1289-4CAF-B370-B0DB1E96A0BD
+:END:
+** List of action for experimental campaign 29-April 3 May 2013 [6/6]
+- [X] Cavo per misura shunt -> L. Lotto
+- [X] Alimentatore 24 Volt da comandare via segnale logico TTL per
+  inserzione alimentazione su carico delle sonde -> L. Lotto
+- [X] Assegnazione IP su sottorete ISIS. -> R. Cavazzana e P. Barbato
+- [X] Definizione comando di INIT e ripristino ai -60 s per Micro
+  carica condensatori -> R. Cavazzana, N. Vianello e
+  C. Taliercio. Eventualli postponed
+- [X] Test prototipo completo in R4 -> All
+- [X] Cavi LEMO-0S/LEMO-0S
+* STARTED High Frequency Timing board for edge measurements 	    :PROJECT:
+:PROPERTIES:
+:ID: B48CBDA1-0174-44E3-AC5A-60E68D1DD6D9
+:END:
+** Scheda di timing
+   Creazione di una scheda di timing ad alta frequenza (up to 20 MHz)
+   da utilizzare per sonde di bordo e per ISIS, sincronizzata rispetto
+   al timing di RFX e fra di loro
+** DONE Comperare integrato moltiplicatore 5 MHz --> 20 MHZ    :BUY:DELEGATE:
+   CLOSED: [2010-03-02 Tue 14:20]
+   :PROPERTIES:
+   :dowith:   LucaLotto
+   :END:
+
+** DONE Manifattura schede di timing 
+   CLOSED: [2010-05-06 Thu 16:25]
+** DELEGATED Prova a banco da parte di L.Lotto
+   
+** Richiesta realizzazione pannelli
+* STARTED Compass Filaments Probe				    :PROJECT:
+:PROPERTIES:
+:ID: 558C9B5B-2E0D-4F58-A725-046F462076BE
+:END:
+** DONE Bozza sonda
+   CLOSED: [2010-02-25 Thu 14:50]
+   Spedita la prima bozza cosi come discussa con J.Brotankova.
+   Vedi file [[file:~/LN/fbOnR/COMPASS/navrh%20U-sondy%20pro%20COMPASS.ppt][powerpoint]]
+   <2010-01-05 Tue 18:50>
+
+** DONE Chiedi Viste 3D sonda U-Probe da spedire		  :WORK:MAIL:
+   CLOSED: [2010-01-25 Mon 17:38]
+
+** DONE Rispondi a commenti su calcolo Vorticita
+   CLOSED: [2010-03-03 Wed 17:11]
+   Vd [[file:~/LN/fbOnR/COMPASS/vorticity%20prediction.doc][File]]
+* STARTED High Frequency Alfven Activity			    :PROJECT:
+:PROPERTIES:
+:ID: 9F0DB476-C1C5-42AA-8AA6-BA21C4194D40
+:END:
+
+** Presentazione da S.Spagnolo 					  :WORK:READ:
+   Presentata l'evidenza di attivita alfvenica con k parallelo basso ~
+   2-3 ed un andamento della frequenza con I_p/\sqrt(\rho
+   \mu_0). Questi potrebbero essere sia TAE che "forse" Helicity
+   Induced Alfven Eigenmodes (HAE) (vd. PoFB vol 4 pag 1115 (1992),
+   oppure PRL vol 91 pag 245001 (2003)). Questi hanno un gap in
+   frequenza modificato del tipo f = |N_p\nu
+   -\mu\iota|\frac{v_a}/(4\pi R). Dove \nu e \mu e \iota sono definite
+   dal campo elicoidale B = B_0*(1+\sum_{\mu\nu} \epsilon_B^(\mu,\nu)(\psi)\cos(\mu\theta-\nuN_p\phi))
+
+** Lettura Vlad et al. Dynamics of Alfven waves in tokamaks. Riv Nuovo Cimento (1999) vol. 22 (7) pp. 1-97
+   Si parte come al solito dal caso lineare con plasma omogeneo
+   infinito ritrovando le 3 branche
+   + *Shear Alfven waves*, \omega^2 =\omega_A^2 = \k_parallel^2 v_A^2
+     che e' puramente *trasversa* con \tilde{b}\parallel\tilde{v}
+     \perp B_O. Inoltre e' *incomprimibile* e provoca un bending of
+     the field line
+   + *Fast Magnetosonic Acoustic Waves* con una frequenza \omega_A^2
+     \leq \omega_F^2. Nel caso in cui v_S^2 \ll v_A^2 allora la
+     frequenza si riduce a \omega_F^2 \approx (k_\perp^2 +ver
+     k_\parallel^2)v_A^2. E' una onda comprimibile cioe' che causa
+     compressione delle linee magnetiche
+   + *Slow Magnetoacoustic Waves* nel caso in cui \omega_S^2 \leq
+     \omega_A^2 allora si ha \omega_S^2 \approx k_\parallel^2 v_s^2
+
+   Il caso successivo e' quello *cilindrico* in cui si arriva ad una
+   espressione del tipo \omega_{A^}^{2}(r)=\frac{V_{A}^{2}}){R_{0}^{2}}(n-m/q(r)). Infine
+   si considera il caso *toroidale* che pero' e' piu' complesso. La
+   condizione di accoppiamento e nq = m+1/2 e in questo caso si
+   sviluppa un TAE con frequenza \omega_0^2 =
+   \frac{v_A^0}/(4q_0^2R_0^2). Secondo Regnoli pero' l'equazione per
+   un RFP e' modificata dal con \omega = v_A^2/(4\pi\r_{gap}). 
+
+** Nota su relazione k_parallelo ed n
+   su Heidbrink Phys. Plasmas (2008) vol. 15 (5) pp. 055501 viene
+   detto esplicitamente per i TAE che a q=(m+1/2)/n l'ampiezza di
+   k_parallel = n/2/R. Inoltre c'e anche l'osservazione che possano
+   essere *RSAE* dal momento che hanno una frequenza prossima al gap del
+   TAE ma sono indotti da min/max di q (che esiste all'estremo
+   bordo). Dubito pero'
+
+** TODO Leggi letteratura Global Alfven Eigenmodes	   :WORK:READ:SEARCH:
+:PROPERTIES:
+:ID: 75FD9CDC-C10A-4879-8DAA-129987A69467
+:END:
+* DONE TJII Probe                                                   :PROJECT:
+CLOSED: [2013-05-27 Mon 14:03]
+- State "DONE"       from "STARTED"    [2013-05-27 Mon 14:03]
+:PROPERTIES:
+:ID: 3546C6EE-4B0A-41F8-8A93-9FA5A5F4683C
+:END:
+** VideoConference Meeting
+   :PROPERTIES:
+   :on:       <2010-02-08 Mon 11:59>
+   :at:       VideoConference Padova Madrid
+   :with:     Emilio Monica Carlos Mariangeles Daniel
+   :END: 
+   Agreed the following :
+   + Magnetic probes: 8x8x8 mm
+   + Angles between the two arms to be reduced in order to miniturized the probe assemlby 
+   + To be sent the dimension of the vetronite for the cabling of the magnetic probes 
+   + Agreed for first attempt of measurements on June 2010
+** New design of probe
+   According to [[message://auto-000004816741@igi.cnr.it][Fwd: RE: vorticity probe, first draft]]. Ma rimangono alcuni punti poco chiari
+   + Anzitutto non c'e' lo spazio fisico per il collegamento dei cavi del manipolatore
+   + Manca anche la canala per far arrivare qui i cavi dei manipolatori e/o i cavi in KAP4 poi da collegare ai cavi del manipolatore in maniera poco chiara
+   + Fattibile a Madrid? Dubito in casa perche deve essere in TG > 170
+     degree ed in questo modo ci viene difficile portarla su
+** Discussione con Monica su design probe
+   :PROPERTIES:
+   :on:       <2010-03-01 Mon 15:27>
+   :at:       Mio Ufficio
+   :with:     Monica Nicola
+   :END:
+   + Ha messo erronamente 3 basette anziche una 
+   + Il pezzo che tiene le sonde e' troppo grande
+   + Il pezzo in teflon va ridotto per porre la basetta dietro lasciando una cava per i cavi 0.2 mm
+   + Si decide per un'altra teleconferenza
+   + Chiedi ad A.Barzon se esiste una foto con l'assemblaggio della parte magnetica delle sonde
+** Videoconference Meeting
+   :PROPERTIES:
+   :on:       <2010-03-09 Tue 12:28>
+   :at:       Videoconference
+   :with:     Monica Daniel Jana Kovarich
+   :END:
+   + Agree to send the details of board card design with solding point
+   + To be sent the modification of the L-shape in order to increase the free space. It is not necessary considering the fact that magnetic are integrating over some spaces
+** Videoconference Meeting
+   :PROPERTIES:
+   :on:       <2010-10-27 Wed 14:40>
+   :at:       myOffice-Ciemat
+   :with:     Monica Carlos Daniel Husto
+   :END:
+  Task agreed:
+  1. To be sent to Ciemat:
+     + Photo of the probes
+     + Photo of the card
+     + S/N ratio for Torpex & RFX
+     + Characteristics of amplifier for TORPEX
+  2. Mechanical Design Issues:
+     + Space above the card for soldering cables ~ 13 mm
+     + Space around car 22x38 mm
+     + KAP4 to be solded at the card ~ 10-20 cm
+  3. Electronic stages
+     + Differential amplifier
+     + balanced cables
+     + differential acquisition system
+  4. Scheduled
+     + 2weeks for design to be finished
+     + probe head ready for the beginning of December
+     + Late january 2011 installation
+     + Campaign: february 2011
+** Meeting @ Madrid
+:PROPERTIES:
+:on: <2011-04-15 Fri 09:56>
+:at: Ciemat, Madrid
+:with: Monica Daniel MariaAngeles ArturoAlonso
+:END:
+- Probe can be installed whenever we want on Friday, depending on the
+  use of the probe installed right now
+- Acquisition thought to have sampling at 600
+  kHz. Eventually it can be upgraded up to 1 MHz
+- Possible scan in magnetic well.
+- Possible measurement of the maxwell stress
+- Pre-amplifier with a stage of amplification of 5.
+- Amplification up to 20 or something like that
+- Change of collisionality in dependence ECRH or NBI plasma. Not
+  possible a pure change of beta
+- Possible experiment in the formation of islands (Pfirsh-Schluter current)
+- Routinely using Lithium wall which make easier L-H transition.
+  1. Different ECRH scenario in order to have different densities
+  2. Different configuration with different rational surface
+  3. Most likely commissioning of the probe should be done before
+
+** TODO Crea pulse file
+:PROPERTIES:
+:ID: ECF9F2DF-C415-4033-94BB-97E40EDEA69A
+:END:
+** List of questions for Daniel Carralero
+1. E' possibile avere il segnale del campo toroidale applicato per confrontarlo con il segnale integrato e rendere conto della eccessiva variazione
+2. Angolo di rotazione rispetto a che asse? Manipolatore? Si assumono 30 gradi fra asse manipolatore ed asse sonda?
+3. CA con densita o Isat?
+4. Su 28394 la media condizionata con differenti angoli e fatta con modo alfenico assente. Ci pare di notare una qualche struttura di densita di corrent
+5. Discharges start at 1060 ms?
+6. It is possible to compare density profiles (global) from ECH and NBI?
+7. Che la densita abbia una scala circa meta della corrente non e' strano. Sembra molto stretta invece la struttura di vorticita
+8. Confronto vorticita in segno ed in valore con lo shear medio
+ 
+*** Videoconference <2011-09-23 Fri>
+- Spedire materiale su DOP a Daniel
+- Spedire bibliografia su bipolar current associated to blobs/DKA
+- GAIN factor to be checked on b
+- Reynolds and Maxwell stress during Alfven mode activity
+** Meeting for Campaign Decembre 2011
+:PROPERTIES:
+:on: <2011-12-14 Wed 15:24>
+:at: CIEMAT Madrid
+:with: MonicaS, DanielC, ArturoA, CarlosH
+:END:
+- Just NBI number 1 whereas the other one is not operating
+- Just lithium conditioning
+- Low density transition
+- Continuous changing of the magnetic configurations. According to Carlos this experiment is easier in ECH plasma rather than NBI
+- Trying to explore the SOL beside the edge region.
+** Experimental campaign
+<2011-12-15 Thu>
+| shot | probe Position | Comments |
+|      |                |          |
+* DONE Asdex Upgrade 2011                                           :PROJECT:
+CLOSED: [2013-05-27 Mon 14:03]
+- State "DONE"       from "STARTED"    [2013-05-27 Mon 14:03]
+:PROPERTIES:
+:ID: F9D9DEFC-6C19-4E99-AF8C-35994F0928E2
+:END:
+** Experiments on Thursday and Friday 26-27 2011
+:PROPERTIES:
+:on: <2011-05-23 Mon 12:37>
+:at: Asdex Upgrade Control Room
+:with: Roman, HWMuller, FMehlman, CMaszl
+:END:
+- 4 Floating potential plus two central pins in ion saturation current
+  for poloidal flow from cross-correlation measurements
+- Density will be more or less 2.5-4\times 10^{19}m^{-3}
+- Low power 400 kW ECRH heating scheme for L-mode plasma + Ohmic
+  avoiding NBI for studies of intrinsic rotation in SOL
+- Starting from higher density and approach the shear layer location
+- Dynamic change of the density in between one single L-mode discharge
+  using gas puffing or even better to performe discharges at two
+  different density regime starting from the lower one.
+- Target densities are 2.5-3.2-4.5 \times 10^{19}. From these we then
+  start to increase the heating power to hit the L-H transition
+- On friday no ECRH available. We operate with NBI in order to obtain
+  3 types of momentum input scenario to look at the stresses
+- Development of scenario for type-III ELMs changing the density
+- Attempt to measure during RMP-Elm-Controlled discharges. We use also
+  two densities as it has been recognized also a threshold on
+  capability of controlling with the RMP.
+** TODO Experiment model for RFX analysis
+:PROPERTIES:
+:ID: 1A516715-1C9B-4444-83EF-36FE1CF818B7
+:END:
+- Includi balloning coils & separatrix position.
+- E' possibile creare uno script per l'accesso l'esecuzione di un
+  comando IDL il trasferimento dei dati e la successiva cancellazione
+** Loogbook
+- *There are some doubts on radial-toroidal exchange of the probes as the radial component does not exhibit any oscillation whereas the toroidal one yes*
+- xtip = (2181 + (1726-X probe)+L_posi+100.)
+
+Signal name 
+| Name     | Type       |
+| Ufl_m06  | Floating   |
+| Ufl_m08  | Floating   |
+| Ufl_m09  | Floating   |
+| Ufl_m11  | Floating   |
+| Isat_m07 | Saturation |
+| Isat_m10 | Saturation |
+|          |            |
+*** 24 May 2011
+|  Shot | Insertion | Comment                                                                 |
+| 26999 | @4.1s     | Conditioning. Doubts on coils connection as toroidal component too high |
+| 26700 | @4.1s     | Now Lpos signal work                                                    |
+| 26701 | @4.1s     |                                                                         |
+
+*** 26-27 May 2011
+|  Shot | X Probe | tmin | tmax |
+| 27015 |    1784 |    0 |    6 |
+| 27016 |    1788 |    0 |    7 |
+| 27017 |    1795 |    0 |    6 |
+| 27018 |    1793 |    0 |    6 |
+| 27032 |         |    0 |   10 |
+| 27033 |    1766 |    0 |    5 |
+| 27036 |    1780 |    0 |    4 |
+| 27035 |    1777 |      |      |
+| 27036 |    1777 |      |      |
+| 27041 |    1750 |    0 |   10 |
+| 27042 |    1777 |    0 |    5 |
+| 27043 |    1777 |    0 |    3 |
+| 27045 |    1770 |    0 |    7 |
+| 27046 |    1770 |    0 |    8 |
+| 27075 |         |    0 |    5 |
+| 27076 |         |    0 |   10 |
+
+** Workshop & AUG
+1. E. Wolfrum:
+   + Pedestal scaling including JET,AUG and DIII-D does not depend on
+     major radius. Interesting there is a \grad P vs P(top) linear dependence
+   + Fluctuations as seen from ECE with /blobs/ exhists only on type
+     II whereas in type I occurs before the rising of D_\alpha. There
+     is a dependence on \nu*
+   + Argue the exhistence if an inward pinch during the recovering of
+     ELM's although there is no idea of what can cause this inward pinch
+2. F. Ryter:
+   + Ptresh needed for LH transition increases with toroidal rotation
+     (P.Gohil, J.Phys. Conf Ser. 2008)
+   + Isotope effects on L-H transition
+   + minimum in the Pthreshold asa function of Density obsered in all
+     the machines
+3. G. Conway:
+   + ExB flows plus turbulence flws (ZF/GAM)
+   + Flows is essentially ExB driven with E_r induced by pressure
+     gradient + stresses
+   + Difference observed between k_{\perp} spectrum in L and H mode
+     consistent with what observed in NSTX by M. Agostini
+   + Correlation doppler reflectometry reveals an increase of the
+     negative shear during H mode
+   + Importance of contemporaneous measuremente of k_r and
+     k_{\perp}. Observation reveals an enhancement of k_r and
+     reduction of k_{\perp}
+   + Most of GAMs exists at lower densities (Conway et al, IAEA
+     2010). GAMs intensities peakes in the negative shear region
+     whereas it is almost absent in the positive one
+   + GAM do no exhists in H mode and there are some evidences that
+     they disappear before the L-H threshold (although in AUG with
+     high NBI power input observed also during the transition)
+   + Turbulence weaker but more intermittent in H mode
+   + Turbulence spreading question (?)
+4. H.W.Muller:
+   + Position of blobs/holes birth: around the separatrix
+   + GEMR investigation for the difference between the floating
+     potential and the plasma potential with strong difference in the
+     SOL and separatrix region.
+   + Ion temperature from RFA and BPB
+   + R. Wenninger: different rotation between magnetics and camera
+     (respectively electron diamagnetic and ion diamagnetic)
+   + Comparison required between N. Vianello & A. Schmid data
+5. B. Scott:
+   + L-Mode simulation: saturation of the spectra because of the
+     turbulence is almost istantaneous (starting from an almost
+     monocromatic spectrum in linear phase)
+   + Energy transfer spectra (camargo, scott, biskamp PoP 1995)
+6. C. Angioni:
+
+** DONE Talk w/ Roberto Cavazzana per cabling                         :MAIL:
+CLOSED: [2011-11-17 Thu 14:40]
+* TCV								    :PROJECT:
+:PROPERTIES:
+:ID: 295CF240-32FE-48F0-9275-43D2DBA8CFBC
+:END:
+** U-Probe for TCV
+*** Fixed Probe da movimentare inter-shot
+   - Ask @ M.Valisa
+   -      
+*** Long-term: reciprocating
+* JET
+** Jet 2011 Manning Call. Expertise required
+- Edge Pedestal, ELM and H-mode spectialist CODE EPS
+- Transport analysis and modelling specialist CODE TAMS
+- Diagnostic: PROBES + QUARTZ MP Code PQMB
+- Diagnostic: Turbulence analysis specialist TRB
+** E1/E2 Meeting
+:PROPERTIES:
+:on: <2012-02-07 Tue 17:19>
+:at: K1/0-85 Meeting room
+:with: Various
+:END: 
+1. M. Beurskens:
+   - Relative good agreement between thermal stored energy from kinetic
+   volume integrals and W_MHD
+   - Effects of radiation on confinement not seen withouth impurity peaking
+   - Generally ILW operates at higher n/nG fraction limit (there
+     exhists evidence of change of rotation?)
+2. Geoff Maddison
+   - ILW divertor fluctuations are smaller with respect to CW and out
+     of phase outboard/inboard
+   - Remember that the D_{\alpha} signals to look at are AD35/AD36
+     respectively for outboard/inboard
+   - Antiphase observed also in between ELMs evident also on BII line
+     (according to E. Solano)
+   - N seeding shift the distribution of ELMs and modifies it. If
+     additional fueling is provided also foundamental elm frequency is
+     shifted. Why not try to scale the asimmetry of the distribution
+     rather than the variance? the skewness??
+   - Probes are used during Ni-mitigated. Which ones? ask
+3. E. Solano
+   - In C wall EFCC causes an increase of ELM frequency and a
+     reduction of their size. Similar behavior for EFCC also in KIKS experiments
+   - ILW EFCC requires higher current with respect to C
+   - Look at C. Glimbett peeling model which could account for q
+     sensitivity with respect to EFCCs
+
+** Meeting with M. Groth
+- Possible work on probes to be decided with C. Silva. Mathias will
+  send an email to Carlos
+- Other possibility could be collaboration with F. Militello on ESEL
+  and comparison probe/code
+  
+** Brainstorming
+- Comparison of pedestal rotation C/ILW. Changes on rotation
+  ELM/inter-ELM and recovery phase (if any) if it is possible to
+  infer a collisional effects? or how momentum is recovered after ELM
+  crashes and does the change of first wall affects this recovery?
+- Quantify a distribution of delay of kiks in dependence of amplitude/collisionality?
+- There exhists a scaling of pedestal/SOL poloidal flow with collisionality?
+  
+** Readings
+*** Liang NF vol 51 pag 073001
+- JET experiments with scan in q_{95} suggests the exhistence of a
+  global effect, i.e. a small reduction of ELM frequency independent
+  from q_{95}, and a
+  multi-resonance effect which strongly depend on it.
+- Experiments performed in low triangularity, low electron
+  collisionality, NBI power and scan in q_{95} obtained by variating
+  the current only
+- Reports on two experiments with similar setup apart from q_{95}
+  changed from 4.5 to 4.8. ELM frequency increased by a factor of 4.5
+  in q_{95}=4.8 and a factor of about 2 in q_{95}=4.5.
+- Reduction of amplitute \Delta W_{ELM}/W is from ~ 7% to 3.5% in
+  q_{95}=4.5 and from 8.5% to 2% in the case of q_{95}=4.8
+- 
+
+**  
+* U-Probe campaigns
+** NOTA GENERALE
+Dalle indicazioni di matteo BRA03 e BPA03 sono invertite. BPA02 non funziona!
+** TOKAMAK Campaign July 2011
+|  Shot | T.L. |  X |
+| 30459 | 1460 |  0 |
+| 30460 | 1460 |  0 |
+| 30461 | 1460 |  0 |
+| 30462 | 1460 |  0 |
+| 30463 | 1460 |  0 |
+| 30464 | 1460 |  0 |
+| 30465 | 1460 |  0 |
+| 30472 | 1460 |  0 |
+| 30473 | 1460 |  0 |
+| 30474 | 1460 |  0 |
+| 30475 | 1467 |  0 |
+| 30478 | 1460 |  0 |
+| 30479 | 1460 |  0 |
+| 30480 | 1467 |  7 |
+| 30481 | 1472 | 17 |
+| 30483 | 1477 | 17 |
+| 30484 | 1482 | 22 |
+| 30485 | 1482 | 22 |
+| 30486 | 1482 | 22 |
+| 30487 | 1487 | 27 |
+| 30488 | 1487 | 27 |
+| 30489 | 1492 | 32 |
+| 30490 | 1492 | 32 |
+| 30491 | 1492 | 32 |
+| 30491 | 1497 | 37 |
+| 30492 | 1497 | 37 |
+| 30493 | 1502 | 42 |
+| 30494 | 1502 | 42 |
+| 30495 | 1507 | 47 |
+
+*** Nota sulle analisi
+In realta i segnali presentano chiaramente un andamento con un modo definito (la cui frequenza varia) che puo essere un modo (2/1) che frena e rallenta per poi loccarsi alla parete. Questo rende l'analisi spuria, nel senso che non siamo ad una turbolenza completamente sviluppata visto che nemmeno i potenziali flottanti sembrano avere una struttura ben definita.
+** RFP Campaign July 2011
+|  SHot | T.L. |  X |     |
+| 30504 | 1460 |  0 |     |
+| 30505 | 1460 |  0 |     |
+| 30506 | 1480 | 20 |     |
+| 30510 | 1460 |  0 |     |
+| 30511 | 1495 | 35 |     |
+| 30512 | 1495 | 35 |     |
+| 30513 | 1495 | 35 |     |
+| 30514 | 1495 | 35 |     |
+| 30515 | 1505 | 45 |     |
+| 30516 | 1505 | 45 |     |
+| 30518 | 1505 | 45 |     |
+| 30519 | 1505 | 45 |     |
+| 30520 | 1505 | 45 |     |
+| 30521 | 1490 | 30 |     |
+| 30522 | 1490 | 30 |     |
+| 30525 | 1460 |  0 |     |
+| 30526 | 1460 |  0 |     |
+| 30527 | 1490 | 30 |     |
+| 30528 | 1490 | 30 |     |
+| 30529 | 1505 | 45 |     |
+| 30530 | 1505 | 45 |     |
+| 30531 | 1510 | 50 |     |
+| 30532 | 1510 | 50 |     |
+| 30533 | 1485 | 25 |     |
+| 30534 | 1485 | 25 |     |
+| 30535 | 1490 | 30 |     |
+| 30536 | 1490 | 30 |     |
+| 30537 | 1490 | 30 |     |
+| 30539 | 1460 |  0 |     |
+| 30540 | 1485 | 25 |     |
+| 30541 | 1485 | 25 |     |
+| 30542 | 1480 | 20 |     |
+| 30543 | 1480 | 20 |     |
+| 30545 | 1495 | 35 |     |
+| 30546 | 1495 | 35 |     |
+| 30547 | 1495 | 35 |     |
+| 30548 | 1495 | 35 |     |
+| 30549 | 1495 | 35 |     |
+| 30540 | 1495 | 35 |     |
+|       |      |    | *** |
+|       |      |    |     |
+
+** RFP Campaign Dicembre 2011
+|  Shot |  X | Note                                                                                                |
+| 31237 |  0 | A vuoto                                                                                             |
+| 31238 |  0 | NR solo Vf                                                                                          |
+| 31239 |  0 | NR solo VF                                                                                          |
+| 31239 |  0 | NR solo VF                                                                                          |
+| 31240 |  0 | OK solo VF                                                                                          |
+| 31241 | 20 | OK solo vf                                                                                          |
+| 31242 | 20 | OK accesa alimentazione ma teseo TOGGLE OFF                                                         |
+| 31243 | 35 | OK accesa alimentazione ma TESEO TOGGLE OFF. Sbuffo di densita a 100 ms                             |
+| 31244 | 35 | Brutte misure di corrente                                                                           |
+| 31245 | 35 | Prova ad F=0     Bene ESB23. Male le altre correnti ma uno degli spinotti era mal collegato         |
+| 31246 | 20 | Ancora brutte correnti                                                                              |
+| 31247 | 20 | Funzionano solo IS_A13,IS_B23 . In realta IS_AS13 non funziona bene. F molto shallow poi F positivo |
+| 31248 | 20 | NR                                                                                                  |
+| 31249 | 20 | ok                                                                                                  |
+| 31250 | 50 | NR                                                                                                  |
+| 31251 | 50 | ok                                                                                                  |
+| 31252 | 50 | ok                                                                                                  |
+| 31253 | 20 | no                                                                                                  |
+| 31254 | 20 | Deep F OK                                                                                           |
+| 31255 | 20 | F=0                                                                                                 |
+| 31258 |  0 | Primo con plasma. No correnti per problemi Teseo    NR                                              |
+| 31259 |  0 | NR                                                                                                  |
+| 31260 |  0 | ok. No corrente                                                                                     |
+| 31261 | 35 | ok. Dubbi su un arco. Forse perso isolamento anche su ESB23                                         |
+| 31262 | 50 | (1,-7) a .9mT fra 50-180 ms  . NR                                                                   |
+| 31263 | 50 | (1,-7) a .9mT                                                                                       |
+| 31264 | 50 | (1,-7) a .9 mT                                                                                      |
+| 31265 | 50 | (1,-7)                                                                                              |
+| 31266 | 35 | (1,-7)                                                                                              |
+| 31267 | 35 | F = -0.15 (1,-7)                                                                                    |
+| 31268 | 35 | (1,-7) a .9 mT + (0,-7) a 0.7 mT \Delta phi = 60 F =-.15                                            |
+| 31269 | 35 | (1,-7) a 1.2 mT F = -0.15                                                                           |
+| 31270 | 35 | (1,-7) @1.2 mT e (0,7) @ 0.9mT F = +/- 15 Hz                                                        |
+| 31271 | 35 | F = -.15 ma senza riferimento                                                                       |
+| 31272 | 35 | F=0 (1,-7) 0.9 mT. Corta                                                                            |
+| 31273 | 35 | F=0 senza riferimento. Abortito Si reimposta 31272                                                  |
+| 31274 | 35 | F=0 Ok                                                                                              |
+| 31275 | 20 | F=0 ST prima dell'impulso                                                                           |
+| 31276 | 20 | F=0                                                                                                 |
+| 31277 | 20 | F=0 con (1,-7) 0.9 mT Abortito                                                                      |
+| 31278 | 20 | F=0 (1,-7) 0.9 mT OK                                                                                |
+| 31279 | 20 | F=-0.02 Soft Termination prima dell'impulso                                                         |
+| 31280 | 20 | F=-0.02            Corto                                                                            |
+* STARTED ISIS                                        :WORK:ANALYSIS:
+:PROPERTIES:
+:ID: A1DD2982-779B-4FE8-8E65-BF337046609C
+:END:
+** Lundquist scaling
+*** TODO [1/5] Analysis to be done
+:PROPERTIES:
+:ID: 10A6E7C1-528C-4A96-81AB-9690D335F2CB
+:END:
+  - [X] Creazione database velocita
+  - [ ] Analisi modale del campo di velocita e determinazione di lundquist negli intervalli QSH
+  - [ ] Analisi modale e calcolo del campo elettrico di dynamo con il Br e calcolo negli intervalli QSH
+  - [ ] Analisi dei secondari sia del campo di velocita che del campo di dynamo dove si considera secondari di velocita fra 8 e 16 ipotizzando che si accoppino con m=1
+  - [ ] Tentare il calcolo della mappa toroidale di dynamo con le
+    ondine di campo
+
+*** Impulsi utili per il calcolo del campo di dynamo dalla velocita di ISIS
+|  Shot | Done | tmin | tmax |
+| 28837 |    1 |      |      |
+| 28676 |    1 |      |      |
+| 28160 |    1 |      |      |
+| 28168 |    1 |      |      |
+| 24937 |    0 |      |      |
+| 28820 |    0 |      |      |
+| 29361 |      |      |      |
+| 26361 |      |      |      |
+| 26327 |      |      |      |
+| 26317 |      |      |      |
+| 26364 |      |      |      |
+
+*** Nuovo set di impulsi decisi insieme a PaoloS, MatteoA, GianlucaS
+<2011-06-28 Tue>
+|  shot | inversione |
+| 29190 | 0          |
+| 29191 | 0          |
+| 28860 | 0          |
+| 28861 | 0          |
+| 28676 | 1          |
+| 26560 | 1          |
+| 26670 | 1          |
+| 26557 | 1          |
+
+** n=6 Non-null reference experiment
+*** Shot list
+|  Shot | (1/-6) Amp |      (1/-6) Time | freq | Notes                                                                        |
+| 30923 |          9 |            0-120 |   20 | n/ng=0.07                                                                    |
+| 30924 |          9 |            0-120 |   20 | density bursts                                                               |
+| 30925 |          9 |            0-120 |   20 | n/nG=0.07                                                                    |
+| 30926 |          9 |            0-120 |   20 | n/nG=0.07                                                                    |
+| 30927 |          9 |            0-120 |   20 | n/nG=0.1                                                                     |
+| 30928 |          9 |            0-120 |   20 | n/nG=0.1 . Confronto \deltav_{\phi} vs angolo toroidale fra t[600] e t[1579] |
+| 30929 |          7 |            0-120 |   20 | n/nG=0.1, 1/-7 QSH appears                                                   |
+| 30930 |      11->9 | 0-140 -> 140-200 |   20 | Density bursts. Applied also 1/-7 7mT 20 Hz, 200-300 ms                      |
+| 30931 |          8 |            0-200 |   20 | n/nG=0.12 (1/-7) QSH appears, (1/-8), 4mT, 20 Hz, 200-300ms                  |
+| 30932 |          9 |            0-160 |   20 | n/nG=0.13, (1/-8), 4mT, 20 Hz,160-300 ms                                     |
+* EFDA                                                      :PROJECT:
+:PROPERTIES:
+:ID: 408DA63B-6B88-4FCD-AE31-664299107028
+:END:
+** 2011
+*** 2nd Efda General Planning Meeting 27-28/10/2011
+**** A1 Prediction of Material Migration and Mixed Material Formation (PWI-DIA)
+**** A3 Fuel Retention and Removal Marek Rubel
+- According to the prediction all metal machine fuel invetory will be reduced
+- 58 Proposals by 17 Association.
+- Majority of proposals on Tungsten (rather than Berillium) small amount on Carbon which is still considered for ITER Divertor or in general as important impurity species
+- Assessment of Fueld Removal Methhods and Dust Generation. -> Develop chemical and photonic non-destructive fueld removal methods
+- Dust experiment for precursors and relevant dynamics on dust
+
+**** A11 Operation with Metallic Plasma-Facing Components, including High Power ICR
+**** A10 Particle Transport Fuelling and Inner Fuel Cycle Model - V. Naulin
+- Project A10.1: Inner fueld cycle modelling:
+  + Fuelling is a matter of "kitchen receipt"
+  + Hope to develop a real knowledge base for design and operation plus result in a predictive modelling of the complete fuel cycle
+  + Creation of database for pumping system/ fueling system (including pellet fueling)/ and fuel cycle for all the machines
+- Fueling physics
+- Development of a SL turbulence code
+  + global gyrofluid code four boundary turbulence
+  + global gyrokinetic code
+  + neutral module for SOL turbulence
+  + dust module for SOL turbulence
+- *Problems of edge fueling and velocity pinch at the edge or convective term*
+**** A06 Pedestal Instabilities (ELMs), Mitigation and Heat loads - W. Fundamenski
+- A6.1: L-mode
+  + Build a predictive model for transport and heat load during L-mode
+  + Creation of a multi-machine database includin JET L-mode
+- A6.2: Steady state SOL transport: H-mode, the inter-ELM phase
+  + Develop a predictive model for natural ELM crash
+  + Indication from infrared on JET, AUG and DIII-D tha type I natural ELM could cause a lower heat load to the wall of ITER than expected.
+- A6.3: Transient SOL transport: H-mode, the ELM crash
+  + Reduction of ELM heat loads by magnetic perturbations
+  + Develop predicting model of the effect of RPM on divertor heat load
+  + Penetration of RMP is an open issue
+- Comments from A. Loarte: determination of the heat flux at the first wall (not at the divertor)
+
+**** A07 Disruptions Prediction Avoidance Mitigation and Consequences - Koslowski
+**** A2 Shaping and Controlling Performance limiting instabilities - P. Martin
+- Background: ITER needs. Resolution of issues during construction and thus we might provide resolution to the problems which might affect the design of permanent or upgradable component of ITER
+- Key H-mode: ELM Mitigation
+- Disruption
+- Topics:
+  + NTM
+  + Real time control through Coils
+  + Impact of error field and 3D perturbation
+  + Improvemenet predictive capabilities for full MHD simulation
+- 24 Proposal for Control & performance
+- 11 Proposal for feedback
+- 7 proposal for Innovative measurement capabilities
+- 3 Projects proposal
+  + NTM & sawtooth control
+    * Experiment on ST/NTM
+    * Modeling
+  + Shape and control the 3D electromagnetic boundary
+    * RWM
+    * Error fields
+  + Innovative technique towards MHD control
+    * Development on new control-oriented diagnostics
+    * Development of real time infrastructure
+- 
+*** WP-TRA-05-01 Final Meeting
+*** Programme scheduled:
+| Contribution                              | Presenter               |        Time |       |
+| Introduction and Motivation               | N. Vianello & V. Naulin |   9.00-9.15 |       |
+| Contribution from RFX-mod                 | M. Spolaore             |   9.15-9.30 |       |
+| Contribution from CCFE                    | A. Kirk                 |   9.30-9.45 |       |
+| Contribution from Julich/ERM/KMS          | Y. Xu                   |  9.45-10.00 |       |
+| Contribution from CIEMAT                  | D. Carralero            | 10.00-10.15 |       |
+| Contribution from KFKI                    | S. Zoletnik             | 10.15-10.30 |       |
+| Contribution from IPP/CR                  | J. Adamek               | 10.30-10.45 |       |
+| Contribution from UIBK                    | Schrittwieser/A.Kendl   | 10.45-11.00 |       |
+| Contribution from University of Ljubljana | T. Gyergyek             | 11.00-11.15 |       |
+| Contribution from TORPEX                  | I. Furno                | 11.15-11.30 |       |
+| Contribution from RISO                    | V.Naulin/A.Nielsen      | 11.30-11.45 |       |
+| Discussion                                |                         | 11.45-12.30 | ***** |
+|                                           |                         |             |       |
+
+*** Meeting
+:PROPERTIES:
+:on: <2011-11-22 Tue 09:24>
+:at: Videomeeting
+:with: EFDA Colleagues in videomeeting
+:END:
+- Monica: Presentation on RFX-mod activities
+- Kirk:
+  + Different heat flux through IR during the application of RMPs
+  + Strike point splitting is observed accompanied by density pump out
+  + BES exhibits a rapid change in the poloidal velocity just inside the LCFS at the onset of density pump-out. Size of bracking larger than NTV. Slower spin-up after RMP switch off
+  + 2RFEA for Ti measurements built. One is bi-directional to sample upstream-downstream
+  + 2/1 ration of Ti/Te at the midplane
+  + Screening/non screening effects: Position of the lobes are not changed by the screening of the effects
+- Xu:
+  + GPI measurements on 3/1 DED
+  + Variation of the blobs radial/poloidal velocities and of the Reynolds stress with DED application
+  + Variation of Connectin Length with DED should change Blobs dynamics
+- Daniel from TJ-II
+- Ivo from Torpex:
+- Gyeryek:
+  + Fully kinetic PIC-MCC BIT1 code to simulate medium size tokamak (AUG,COMPASS-D)
+  + Te=10 eV, Ti=20 eV, density 2 10^19 with ionization, CX excitation, elastic recombination
+- Kendl:
+  + Inclusion of RMP on GEMR but still problems of numerical instabilities
+  + Implementation of synthetic diagnostic in GEMR: Emissive probe/RFA
+  + Zonal flow from new easier code TOEFL.
+  
+*** EU-US TTF & TTG Meeting Padova
+*** Lista di possibili inviti per sessione su  Edge - SOL turbulence and transport
+- G.S.Yun Yun, G.S. et al. Two-Dimensional Visualization of Growth and Burst of the Edge-Localized Filaments in KSTAR H-Mode Plasmas. Phys. Rev. Lett. 107, 045004 (2011). Gia avuto una post-deadline invito all'ultimo APS
+- O. Schmitz TEXTOR-DIID effetti degli RMP nella modifica del bordo, campo elettrico, modulazione te/ne effetti di diversa frequenza
+- Liang ELM control?
+  
+*** WP-TRA-05 Final Report
+*** WP-TRA-05-02. RMP on AUG and RFX-mod [6/6]
+- [X] Figura time traces not in RMP
+- [X] Figura time traces with RMP
+- [X] Odogramma in AUG
+- [X] Figura impulso tipico RFX-mod tokamak
+- [X] Figura spettrogramma corrente parallela
+- [X] Figura struttura corrente e potenziale flottante
+*** WP-TRA-05-03 3D effects on RFX [5/5]
+- [X] Fluttuazioni di velocita in (t,\phi) per un caso tipico RFX-mod QSH
+- [X] Dipendenza poloidale della velocita in (t,\theta) come 
+- [X] Fluttuazioni di velocita in (t,\phi) con N=6 non risonante
+- [X] Pitch dell'angolo M_par/M_per vs B
+- [X] Dipendenza poloidale del minimo di potenziale flottante (?)
+
+*** WP-TRA-05 STAC Report
+*** Priority Support
+**** BELGIUM_ERM_KMS: 
+- Obtained measruements in TEXTOR DED with m/n=3.1 with Langmuir
+  probes and newly installed GPI. Limited in operation (excitation of
+  tearing modes which makes turbulent field behavior less clear) and m/n=6/2 is
+  foreseen for next year
+- Shortcomings: Poloidal speed reduced with application of DED
+  together with a reduction of Reynolds contribution (more flat profile)
+- Intermittency is also reduced as seen by reduction of Skewness and Flatness
+**** FZJ:
+- Doppler reflectometer experiments in DED m/n=3/1 modes.
+- Different effects in dependende on the portion of the spectrum:
+  + Broad quasi coherent mode: amplitude and frequency decrease with
+    DED application. Changes more remarkable in dc operation
+  + Low frequency turbulence (F\le 40 kHz) affected by DED in
+    particular during ac operation with reduction of the amplitude of
+    these oscillations
+  + GAM reduction is much more presente for current greater than 0.5
+    kA.Shape of the GAM (FHWM ) from 5 to 3 kHz for 0.5 k with
+    reduction greater in the low frequency part of the GAM Hihger
+    eigenmodes visible. reasonbly because of increase of temperature
+    slight increase of frequency position
+  + GAM disappears at increasing DED strength: theory explains it
+    because of additional damping
+  + GAM disappears are still observed at 5 kHz but disappear for -5kHz
+  + t_{dc} and L_{r} decreases with application of dc DED
+  + Observed change in \gamma(r) most likely due to a change of
+    inclination if eddies with respect to flux surface or change in
+    the radial propagation
+  + Change in the Long Range Correlation because of modification of
+    GAMS and also of background turbulence
+**** CIEMAT
+- Purpose was the improvement of optical diagnostic for the
+  characterization of intermittent transport.
+- Obtained with Fast Camera using Helium I line ratio method which
+  demonstrate that n_e fluctuations show somehow different sizes of
+  blobs with respect to simple emission spectroscopy due to the
+  dependence on neutral influx profiles. Density and temperature seems
+  to be in antiphase
+**** RFX_ENEA
+- New probe designed constructed and mounted as a Join collaboration
+  between RFX and Ciemat has been mounted on a fixed manipulator has
+  been succesfully used obtaining Jparallel and Vorticity
+  measuremenets in differente plasmas (ECH,NBI,high density and
+  configuration scan) obtaining information also on Reynolds and
+  Maxwell stress. Data evaluation is in progress
+- Evaluation of the effects of RMP on ELM filaments project only
+  partially fulfilled on ASDEX-Upgrade. Just very preliminary
+  observation during an ELM mitigated phase, with reduction of the
+  amplitude in particular on B_r and no evidence of phase shift
+  hinting to current filaments on b field
+- Preliminary observation of current associated to blobs in RFX-mod
+  ohmic tokamak discharges. Possibility to explore q(a)=2 regimes
+  which are dominated by parallel current associated to 2/1 modes.
+**** IPP
+- Installed the new optical head with toroidal viewing geometry for
+  fluctuations measurements of poloidal flow and density fluctuations
+  with the Li-Beam
+- Data acquisition installed and tested
+- ready for measurements in early 2012
+**** IST
+- RFA measurements tested in ISTTOK SOL plasma seems reliable and
+  gives fluctuations of the order of 30 %
+- Designed of multiple RFA for correlation measurements done
+**** RISOE
+- Extension of the ESEL code to include finite ion effects and thus
+  taking into account Hot Ion. HESEL to be benchmarked against ion
+  temperature fluctuations from AUG and COMPASS with ball pen probe
+**** OAW:
+- Measurements of density profile near and accross the shear layer region
+- Evaluation of ion temperature profile from ball pen probe. Not a
+  definite answer on the reliability of the measurement
+*** Baseline support
+**** Belgium ERM: 
+- Already included in PS as are GPI measurements
+**** CCFE:
+- RMP studies with evidences of density pump out accompained by a
+  rapid variation of poloidal velocity
+- Ion temperature measurements from RFEA with T_i > T_e in the SOL and
+  inside the LCFS
+**** Swiss: 
+- Feasibility studies  of closed field line configuration by means of
+  poloidal field on TORPEX for the studies of SOL relevant physics and
+  works on topological transition
+**** 
+** 2012
+*** Proposal activity:
+- BS support 0.4 ppy WP12-IPH-A08-2-06/BS-01/ENEA_RFX
+- PS support 0.1 ppy WP12-IPH-A06-1-1-05/PS-01/ENEA_RFX
+- PS support 0.1 ppyt 
+* EPS 2012
+** 
+* DONE IAEA 2012                                               :WORK:PROJECT:
+CLOSED: [2013-05-27 Mon 14:03]
+- State "DONE"       from "STARTED"    [2013-05-27 Mon 14:03]
+:PROPERTIES:
+:ID:       C415A1E9-1383-40D0-B9D4-193AFD655D20
+:END:
+** Brainstorming for IAEA Synopsis
+*** List of authors
+N. Vianello, M. Agostini, R. Cavazzana, G. De Masi, E. Martines, B. Momo, A. Scaggion, P. Scarin, M. Spolaore, G. Spizzo, M. Zuin
+*** Traccia ed argomenti: titolo possibile "3D effects on RFX-mod helical boundary region"
+1. Introduzione con enfasi su confronto con RMP & DED
+2. Descrizione della topologia magnetica con digressione sull'angolo elicoidale u_{1,7}
+3. Richiamo alle osservazioni su P_e & V_f & PWI. Mi raccomando confronto con Textor
+4. Osservazioni sulla velocita e sulla interpretazione in termini di campo elettrico ambipolare
+5. Osservazioni sulla dipendenza della velocita dalla collisionalita. Richiamo a differenti effetti RMP con collisionalita
+6. Trasporto di particelle e turbolenza. Ruolo delle isole m=0/m=1 e legami con L_p. Eventuali effetti elicoidali
+7. 
+* Footnotes
+
+[fn:1] Verificato che per problemi di configurazioni remote di mdsplus e' quasi impossibile creare il pulse file. Si decide per trasportare i dati ascii e lanciare qui la routine per creare il pulse file
+
+[fn:2] funziona cosi  ssh vianello@crpppc133.epfl.ch '. /home/vianello/.profile ; matlab -nodisplay -nodesktop -r "salvatorpexasci(44802);quit"'
+
+[fn:3] Si calcola che senza parallelizzazioni ci inpiega 78s per impulso e lo spazio disco necessario e' 59 MB ad impulso. Il totale di impulsi sono 1096
+
+[fn:4] Si osserva che filtrando passa basso a 10 kHz si ha una stima del campo elettrico toroidale pressoche simile usando due sonde delle sonde triple e due sonde con tegole adiacenti. Ci si domanda se la stima della velocita di propagazione puo essere fatta con 500 Hz < f < 20 kHz
+
+[fn:5] In questo caso conviene fare la velocita per tutto il periodo di inserzione della sonda e poi considerarla nell'intervallo degli ELM
+
+[fn:6] Vedi punto precedente articolo C.Silva
+
+[fn:7] Chiedi ad Ivo gli impulsi in cui era presenta anche la flat probe. Nota bene che la sonda SLP e' ferma spazialmente e si muove solo bdot. In questo modo ricostruisco in r la mappa di corrente. La mappa in z e' fatta usando i diversi pin della sonda SLP, riconsiderandoli alla posizione toroidale della sonda bdot e poi prendendo la distanza fra il centro della sonda bdot e la posizione rimappata come -z
+[fn:8] It is possible to use THB & magnetic probe at THB to make the same scaling?
