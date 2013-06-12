@@ -18,7 +18,7 @@
   )
  ((eq system-type 'gnu/linux)
   (set-face-attribute 'default nil
-		      :family "Monaco" :height 140 :weight 'normal)
+		      :family "Monaco" :height 120 :weight 'normal)
   )
 
 )
