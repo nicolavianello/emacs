@@ -1,6 +1,12 @@
 ;:*---Private-libaries
-(setq TeX-style-private   "~/Library/texmf/tex/latex:")
-(load "auctex.el" nil t t)
+(cond
+ ((eq system-type 'darwin)
+  (setq TeX-style-private   "~/Library/texmf/tex/latex:")
+  ))
+
+
+
+(ignore-errors (load "auctex.el" nil t t))
 ;(load "preview-latex.el" nil t t)
 (add-hook 'LaTeX-mode-hook (lambda ()
 			     (push 
@@ -25,4 +31,8 @@
 (setq reftex-plug-into-AUCTeX t)
 (setq TeX-save-query nil)
 (setq TeX-PDF-mode t)
-(autoload 'ebib "ebib" "Ebib, a BibTeX database manager." t)
+(when (require 'ebib nil t)
+  (progn 
+    (autoload 'ebib "ebib" "Ebib, a BibTeX database manager." t)))
+
+
