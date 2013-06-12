@@ -1,0 +1,3 @@
+[submodule "auctex"]
+	path = auctex
+	url = https://github.com/jwiegley/auctex.git
