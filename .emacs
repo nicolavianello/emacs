@@ -120,15 +120,22 @@
 
 
 ;;*----- auto-install ----------
-(require 'auto-install)
-(setq auto-install-directory "~/.emacs.d/auto-install/")
+(when (require 'auto-install nit t)
+  (progn
+    (require 'auto-install)
+    (setq auto-install-directory "~/.emacs.d/auto-install/")
+))
+
 ;(auto-install-update-emacswiki-package-name t)
 ;(setq url-proxy-services '(("http" . "intranet.igi.cnr.it:8080")))
 
 
 ;;*---------anything----------
+(when (require 'anything nil t)
+  (progn
 (require 'anything)
 (require 'anything-config)
+))
 
 ;*---------- color-theme -----------
 ;(add-to-list 'default-frame-alist '(alpha . (90 70)))
