@@ -120,7 +120,7 @@
 
 
 ;;*----- auto-install ----------
-(when (require 'auto-install nit t)
+(when (require 'auto-install nil t)
   (progn
     (require 'auto-install)
     (setq auto-install-directory "~/.emacs.d/auto-install/")
