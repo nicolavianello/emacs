@@ -2,7 +2,7 @@
 (setq load-path
       (append '(
 		"~/.emacs.d"
-                "~/.emacs.d/auctex-11.87"
+                "~/.emacs.d/auctex"
                 "~/.emacs.d/Enhanced-Ruby-Mode"
                 "~/.emacs.d/conf"
                 ) load-path))
