@@ -15,5 +15,12 @@
  ((eq system-type 'darwin)
   (set-face-attribute 'default nil
 		      :family "Inconsolata" :height 140 :weight 'normal)
-  ))
+  )
+ ((eq system-type 'gnu/linux)
+  (set-face-attribute 'default nil
+		      :family "Monaco" :height 140 :weight 'normal)
+  )
+
+)
+
 (set-face-attribute 'default nil :height 140)
