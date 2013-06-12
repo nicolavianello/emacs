@@ -138,8 +138,8 @@
       (require 'color-theme)
       (setq color-theme-is-global t)
       (setq color-theme-is-cumulative t)
+      (load-theme 'underwater t)
       ))
-(load-theme 'underwater t)
 ;*-- ruby-setup --x
 (when (require 'ruby-mode nil t)
   (progn
