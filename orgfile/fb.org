@@ -250,7 +250,6 @@ CLOSED: [2011-02-04 Fri 14:50]
  - define measurebles and methodology to be shared
  - RMP on type of turbulence on the EDGE
 
-
 * Asdex Campaign 20-23 November 2012
 ** <2012-11-20 Tue>. See email from Daniel for a complete logbook
  |  Shot | parity | XMEM | Strokes                                | Comment                                                                          |
@@ -450,5 +449,436 @@ and analysis are proposed on the following topics:
     focusing the attention on the spatial distribution of the various
     quantities with respect to the magnetic field perturbation
 
+* EURO-Fusion Consortium
+** Manning
+   | Call              | Proposal Number | Proposal Title                                                      | ppy | ECOM ppy |
+   |-------------------+-----------------+---------------------------------------------------------------------+-----+----------|
+   | MST               | 1.2_AUG_22      | Phase dependence of the E_r and transport from MP                   | 0.2 |      0.3 |
+   | MST               | 1.2_AUG_23      | Electromagnetic turbulence investigation in rotating RMP experiment | 0.2 |      0.2 |
+   | MST               | 2.2_AUG_13      | Investigation of filamentary transport in L and H Mode              | 0.2 |      0.0 |
+   | Enabling Research |                 | RMP in Tokamak & RFPs                                               | 0.5 |      0.5 |
+   | Enabling Research |                 | Filaments                                                           | 0.2 |      0.3 |
+   | Enabling Research |                 | Non-axisimmetry                                                     | 0.2 |      0.2 |
+   | Enabling Research |                 | Isotopic                                                            | 0.2 |      0.0 |
+   | Enabling Research |                 | Kendle-SOL                                                          | 0.2 |      0.0 |
+   | Enabling Research |                 | Carraro Density Limit                                               | 0.2 |      0.0 |
+   | Enabling Research |                 | Isotope RFX                                                         | 0.2 |      0.0 |
+   | JET               |                 |                                                                     | 0.1 |      0.1 |
+   | Enabling research |                 | Paolo Ricci                                                         | 0.1 |      0.0 |
+   |-------------------+-----------------+---------------------------------------------------------------------+-----+----------|
+   |                   |                 |                                                                     |     |      1.6 |
+   |-------------------+-----------------+---------------------------------------------------------------------+-----+----------|
+   #+TBLFM: @14$5=vsum(@2..@-1)
 
+** Medium-Size-Tokamak 2014 (MST)
+*** Template
+**** Proposal number
+**** Proposal Title
+**** Proposal Team
+**** Experiment Scope
+***** Goals
+***** Previous AUG experiments
+***** Related JET experiments
+***** Linked Proposals
+**** Experiment Outline
+****** Strategy
+****** Estimated number of pulses
+******* To achieve the physical goal
+******* for scenario development,  setup,  expected failures
+****** Modeling requirements
+****** Deliverables
+**** AUG Machine requirements
 
+*** Headline 1.2: Operation with reduced or suppressed ELMs
+**** Proposal title: Phase dependence of electric field and transport from Magnetic perturbation
+***** Proposal Team:
+      - N. Vianello,  G. Spizzo, M. Agostini, P. Scarin,  E. Martines, M. Zuin,
+	M. Spolaore, G. De Masi,  C. Rea
+    
+***** Experiment Scope:
+***** Goals
+     Experiments with rotating magnetic perturbation in DIII-D and TEXTOR have revealed
+     a complex response of edge pedestal and scrape off layer in dependence of the applied
+     periodicity
+     and phase. This has been for example shown in the modulation of edge density in DIII-D
+     [ Moyer, R. A. et al.,  Nuclear Fusion 52, 123019 (2012)] or in the DED experiment in
+     Textor [Stoschus, H. et al. Nuclear Fusion 53, 012001 (2013)]. This actually resembles
+     the reported effects of edge magnetic perturbation in helical plasmas in RFP 
+     [Vianello, N. et al., Nuclear Fusion 53, 073025 (2013)] or in stellarators
+     [Kobayashi, M. et al. Nuclear Fusion 53, 093032 (2013)]. 
+     Initial observation of Electric field
+     modification in presence of MP has been reported also in
+     AUG [H.W.Muller, JNM 438, S64 2013, EPS 2013]. 
+     In the case of RFP, the most
+     important observation is the response of the Electric field caused by the
+     different behavior of electron and ion to the O and X point of magnetic perturbation, or
+     generally to the phase of the perturbation. The behavior of
+     the electric field has been succesfully modeled in terms of ambipolar electric field
+     both in RFP [Spizzo, G. et al. Nuclear Fusion 52, 054015 (2012)]
+     and in tokamak [G.Ciaccio, et al, Nuclear Fusion submitted]
+     with the help of guiding centre code ORBIT. The proposal aims to:
+     1. Determine the Electric Field response to a rotating magnetic perturbation in the pedestal and
+	Scrape Off Layer region. In particular we would like to compare both parity and reconstruct the
+	profile as a function of the phase relative to the perturbation
+     2. Determine the difference (if any) in the Ion and Electron profile modification in the pedestal
+	region, also related to the relative phase of the perturbation
+     3. Determine rotating perturbation can induce a density pump-out,  up to now not observed in
+	AUG RMP experiments
+     4. Compare the results with guiding centre code ORBIT, which has been succesfully applied
+	in both tokamak/RFP helical perturbation
+     5. Determine turbulence modification in rotating RMP in pedestal/SOL in relation with the phase of the Mode. Include
+	studies of poloidal flow from GPI cross-correlation analysis
+	[see for example M. Agostini et al Nuclear Fusion 51, 053020 (2011).]
+***** Related JET Experiments
+      EFCC experiment for ELM controlled,  limited to static perturbation (see Experiment M13-35: ELM control and pacing physics)
+	 
+***** Previous AUG experiments
+      Previous experiments have been presented at the last EPS by G. Conway and H.W. Muller
+***** Experiment Outline
+***** Strategy
+      1. Low/High density RMP discharges (n=1, n=2) to investigate both the regimes with mitigated/
+	 non mitigated discharges
+      2. Vary rotation frequency in order to optimize diagnostic requirements (E_r from Doppler
+	 reflectometry),  Ti (from CXRS),  Te (Thomson & 2D ECE),  En (Thomson & Li-Beam)
+      3. Eventually combination of ICRH/ECRH heating scheme in order to observe possible variation from
+	 ion to electron dominated heating scheme
+***** Estimated number of Pulses
+****** to achieve the physical goal:
+       20 Shots,  priority to n=2/High density
+****** for scenario development, setup, expected failurs:
+       2-4 in particular if ECRH will be used
+***** Modeling Requirements
+      1. Adaptation of ORBIT code to AUG equilibrium
+      2. Determination of thermal loss time for electron and ion from ORBIT code. Comparison with FLT
+	 where available and interpretation of E_r ripple on the basis of ambipolar diffusion
+***** Deliverables
+      In the framework of the requirements for Headline 1.2 the proposal will focus on:
+      - Determine the electric field response to resonant/non resonant perturbation and eventual
+	asymmetry
+      - Determine the difference in electron/ion response to a magnetic perturbation, correlating
+	this difference with the observed magnetic field
+      - Determine the turbulence modification in pedestal and SOL and the relation with the applied
+	helical ripple
+***** Machine Requirements
+****** Plasma current:
+       0.8-1 MA
+****** BT
+       -2.5 T
+****** NBI
+       0-2.5 MW
+****** ICRH:
+       0-2.5 MW
+****** ECRH:
+       0.8-2.4 MW
+****** Plasma Configuration
+       LSN
+****** Plasma Scenario
+       H-Mode
+****** Gases
+       D
+****** Diagnostic
+       Doppler Reflectometry,  ECE, Thomson,  CXRS, GPI, MEM insertable probe,  IR Thermography, SXR,
+       Divertor and X-Point manipulator if availabe
+****** Further needs:
+       Rotating RMP with n=1, 2
+       
+**** Proposal title: Electromagnetic turbulence investigation in rotating RMP experiments
+***** Proposal Team:
+      Nicola Vianello, Volker Naulin, Jens Juul Rasmussen, Anders H. Nielse,
+      Roman Schrittwieser, Codrina Ionita, Franz Mehlmann, Stefan Costea,
+      Emilio Martines,  Matteo Zuin,  Monica Spolaore
+***** Experiment Scope:
+***** Goals
+      Aim of the proposal is a complete characterization of the effect of MP (magnetic perturbation,  both
+      Resonant Magnetic Perturbation (RMP) and Non Resonant Magnetic Perturbation (nRMP)) on the
+      electromagnetic characteristics of
+      filaments observed during ELM
+      [see N.Vianello et al,  PRL 106, 125002 (2011)] or with Solitary Magnetic Perturbation
+      [see R. Wenninger, NF 52,  114025 (2012)].
+      Investigation will be based on measurements with insertable probe (Innsbruk-Padua probe),
+      which provides information on both
+      electrostatic and magnetic turbulence. The probe is presently being repared but will be available
+      by beginning of next year.
+      We propose experiments with comparison between stationary and rotating RMP: in the latter case
+      manipulator strokes should
+      be syncronized in order to expolore different spatial phase of the magnetic perturbation. 
+***** Previous AUG Experiment
+      A long collaboration betweeen IPP/Garching,  OAW Innsbruk,  RFX Padua and DTU-Riso
+      is already established for the investigation
+      of electromagnetic turbulence in the SOL of AUG, based on the information provided by
+      the aforementioned probe. See paper presented
+      in EPS 2012-2013,  CPP 52 391 (2012), JNM 415 S869 (2011)
+***** Related JET Experiments
+      EFCC experiment for ELM controlled,  limited to static perturbation
+      (see Experiment M13-35: ELM control and pacing physics). JET experiment can't provide
+      such information using JET RCP
+      because of the lack of insertable pick-up oil
+***** Experiment Outline
+***** Strategy
+      Experiment with MP and probe has already been done during 2012 campaign.
+      Reference pulse is #28861 in even configuation.
+      Rotating perturbation scenario has to be developed. We suggest the contemporaneous use of
+      Doppler Reflectometry for perpendicular
+      velocity and electric field estimate to be compared with probe measurements.
+      We also propose the possibility to operate at
+      power close but below to the LH power threshold,  in order to insert the probe as close as
+      possible to the separatrix and shear
+      layer
+***** Estimated number of Pulses
+****** to achieve physical goal:Approximately 15 pulses
+****** for scenario development, setup, expected failurs: 5
+***** Deliverables
+      In the framework of the requirements for Headline 1.2 the proposal will focus on:
+      - Determine the effect of RMP mitigation on electromagnetic properties of ELM filaments, comparing
+	mitigated and un-mitigated discharge and possible toroidal asymmetries due to the mode phase
+      - Contribute to the analysis of electric field response, flow and momentum flux in the SOL during MP experiment
+***** Machine Requirements:
+****** Plasma current:
+       0.8-1 MA
+****** BT
+       -2.5 T
+****** NBI
+       0-2.5 MW
+****** ICRH:
+       0-2.5 MW
+****** ECRH:
+       0.8-2.4 MW
+****** Plasma Configuration
+       LSN
+****** Plasma Scenario
+       H-Mode
+****** Gases
+       D
+****** Diagnostic
+       Doppler Reflectometry,  ECE, Thomson,  CXRS, GPI, MEM insertable probe with Padua-Inssbruck probe,  IR Thermography, SXR,
+       Divertor and X-Point manipulator if availabe
+****** Further needs:
+       Rotating RMP with n=1, 2
+       
+*** Headline 2.2: Prepare efficient PFC operation for ITER and DEMO
+**** Proposal title: Investigation of filamentary transport in L and H Mode
+***** Proposal Team:
+     - Nicola Vianello, Volker Naulin, Jens Juul Rasmussen, Anders H. Nielse,
+       Roman Schrittwieser, Codrina Ionita,
+       Franz Mehlmann, Stefan Costea,
+       Emilio Martines,  Matteo Zuin,  Monica Spolaore
+***** Experiment Scope:
+****** Goals
+      We propose to investigate electromagnetic properties of turbulent filaments in the edge/SOL regions
+      in L and H mode.
+      Particula goals:
+      - Provide detailed information on the particle and momentum transport and the association to blob
+       	filaments observed in L-mode,  ELM filaments in the H-Mode and the variation of the fluxes in the
+       	transiition from L to H mode
+      - Provide a detailes on the momentum transport accross LCFS in response to varying momentum input
+****** Previous AUG Experiment
+       A long collaboration betweeen IPP/Garching,  OAW Innsbruk,  RFX Padua and DTU-Riso is
+       already established for the investigation
+       of electromagnetic turbulence in the SOL of AUG, based on the information provided by the
+       aforementioned probe. See paper presented
+       in EPS 2012-2013,  CPP 52 391 (2012), JNM 415 S869 (2011),
+       PRL 106, 125002 (2011), Nucl. Fus. 53, 043021 (2013)
+****** Related JET Experiments
+       - None (or eventually studies of L-H Transition studues M13-23 or H14-06 Fluctuations and GAMs ?)
+***** Experiment Outline:
+****** Strategy
+       We propose an experiment with modulated NBI power,  with increasing step around the Pthr. Strokes
+       of the manipulator should be syncronized in order to obtain measurements in all the 4 level of
+       Input power,
+       2 in L-Mode and 2 in H-Mode. The experiment will allow exploration of electromagnetic turbulence
+       in the SOL
+       at 4 different level of applied external torque and in two different confinement regime.
+       In particular we are interested
+       in determining radial propagation of the blobs from cross-correlation measurements of radially
+       separated probe, and
+       determination of Momentum flux as a function of external torque
+****** Estimated number of Pulses
+******* To achieve the physical goal:
+       	Approximately 10 shots
+******* for scenario development, setup, expected failurs: 2
+****** Deliverables:
+       - Properties of Edge filaments in L and H regimes. Associated particle and momentum transport in order
+	 to provide information for adimensional scaling (any possibility to determine scaling of v_r/flux/momentum
+         as a function of adimensional parameter, let's say rho_s or other?)
+***** Machine Requirements:
+****** Plasma current:
+       0.8-1 MA
+****** BT
+       -2.5 T
+****** NBI
+       0-2.5 MW
+****** ICRH:
+       0-2.5 MW
+****** ECRH:
+       0.8-2.4 MW
+****** Plasma Configuration
+       LSN
+****** Plasma Scenario
+       H-Mode
+****** Gases
+       D
+****** Diagnostic
+       Doppler Reflectometry,  ECE, Thomson,  CXRS, GPI, MEM insertable probe with Padua-Inssbruck probe,  IR Thermography, SXR,
+       Divertor and X-Point manipulator if availabe
+****** Further needs:
+*** Proposed research activity:
+**** On-Site:
+     Activity proposed focused on two different topics:
+      1. Active collaboration during the campaign for Filaments studies. On-line evaluation of the data collected by MEM probes,
+         exploitation of the Innsbruck-Padua for electromagnetic turbulence studies,
+         evaluation of heat, particle and momentum losses due to turbulence in L and H mode.
+      2. Collaboration during rotating RMP experiment for the evalulation of the radial electric field as a function of the
+	 phase of the mode. Estimate in the pedestal and SOL. Evaluation of SOL turbulence response to the applied RMP experiment as
+	 function of the phase of the mode.
+      
+**** Off-Site:
+     1. Reassembly and test of the Innsbruck-Padua probe. Data evaluation of electromagnetic properties of turbulence
+     and filaments in L and H Mode and during mitigation RMP experiment. Experiment preparation
+
+*** Experiment AUG14-1.2-5
+**** Kick-off Meeting <2014-01-27 Mon>
+     - Presentation from H.W.Mueller
+       1. N.B. This is very low density so there are questions regarding the penetration
+       2. Comment on the change of Electric Field and theory: change explained with plasma response to the RMP in presence of
+	  resonances. Different with NTV
+       3. As the density is increasing the effect of MP on Electric field is different. The negative Er well varies smoothly with n_e
+       4. Comment on the fact that the density threshold observed is a matter of field penetration
+       5. In order to have tail of the discharge in H-Mode raise of the Pnbi (but it will change the density)
+          otherwise ICRH (but very high power needed)
+       6. Rotation very slow 1 turn in 2 second
+       7. Li-Beam and GPI seems to be compatible
+*** Experiment AUG-2.2-3
+**** SC Remote Meeting <2014-01-29 Wed>
+     Possible plan for the discharge will be in the form:
+            _____       ______
+        ___/     |     |      |
+     __/ ECRH    |_____| NBI  |
+       1         3.2   4.2    > 5 s
+     Possible shotlist of the form:
+     1. # 2 shot for different probe starting point
+     2. # 2 shots at different density
+     3. # 2 Shot at different Bt/Ip in order to have a new point in Greenwald Fraction
+     4. # 2 Shots for Ni seeding for change of edge collisionality
+     5. # 1 Shot for momentum studiees
+     6. # 1 Shot Contingency: again momentum or a different intermediate density
+
+     F. Militello ask for two particular diagnostic:
+     - HRTS in the edge regin including SOL
+     - Infrared termography on the divertor plates (inner/outer)
+     - X-Point reciprocating
+	
+** Enabling Research 2014
+*** Electromagnetic filaments
+**** Background and motivation
+     A blob or filament is a magnetic-field aligned plasma structure which is considerably denser
+     than the surrouinding plasma, localized on the perpendicular plane and with a distinctive dynamics. They
+     have been observed in all the magnetic configuration with very similar feature despite the difference in
+     the magnetic geometry. 
+     Theory and experiments suggest these blobs exhibit a radial convective motion accros the SOL, and the
+     interest is blobs dynamics is further motivated by their interaction with first wall and divertor. Indeed
+     by increasing particle and heat flux into the far SOL blobs can increase interaction with limiters,  RF
+     antennas and first wall [Myra, PoP 18 060501 (2011)]. It is interesting to note that, deespite their different
+     genearion mechanism, blobs and Edge Localized Mode (ELM) filaments share some commonalities, being
+     for example well localized in the perpendicular plane,  with an associated parallel current and with a
+     convective radial velocity components somehow related to their dimension. Interestingly the role of these turbulent
+     eddies in providing substantial sheared flow in the external region has been recently
+     advocated as important in the process of LH transition [Xu, M.,  et al. (2012).
+     Proceedings of the 24th IAEA Fusion Energy Conference, San Diego (CA), paper EX/7-2Rb, G. Tynan et al, Nuclear
+     Fusion vol 53, 073053 (2013)]. Indeed since the vorticity drive provided
+     by turbulent eddies gets stronger as heating power is increase, it should naturally lead to a very strong shear
+     flow which can ultimately lead to an H-Mode with sufficient heating. On the other side, a foundamental aspect of
+     blob studies need to be further investigated, namely the electromagnetic effects on blob-filaments. These studies,
+     only recently addressed from the experimental point of view [Vianello,
+     N., et al. (2011) Physical Review
+     Letters, 106, 125002; Spolaore, M.et al. (2009) Physical Review Letters, 102(16), 165001] deserve additional
+     effort, in particular for the implication they could have for ELM filaments. Indeed it is supposed, and
+     experimentally observed, that at sufficiently high beta blobs can transport current, and the role of these current
+     in ELM filaments dynamics is still a largerly open issue. On the other hand at sufficiently high beta blob can
+     also carry "frozen in" magnetic field lines,  thus eventually causing line bending which could enhance the
+     interaction of blobs with the first wall, without letting those blob to hit divertor plates
+     [Myra, PoP 18 060501 (2011).
+     Thus detailed comprehension of generation
+     mechanism, dynamics and characteristic of blobs and filaments (also ELM filaments)
+     is consequently a foundamental physical issue for both present and future devices
+**** Videoconference meeting with A. Alonso <2014-02-04 Tue>
+     3 Different deliverables identified for TJ-II:
+     1. H-Mode
+     2. High Density
+     3. Magnetic topology
+     It has been asked 1 session of operation where we claimed we would like to investigate both SOL and confined
+     region. Carlos asked regarding the possibility to build a new less invasive probe because it claims probe seems
+     too insensible to plasma condition (?). The restart of the machine is planned at the end of february
+	
+*** Comparative studies on the effect of (n)RMP in Reversed Field Pinch and Tokamak plasmas
+**** Brainstorming
+     - [ ] Edge and core NTV torque due to (n)RMP. Comparative studies RFP/Tokamak
+     - [ ] Screening of RMP and reconstruction of magnetic field response
+     - [ ] Parallel current estimate in penetrated/non penetrated perturbation. Tokamak/RFP
+     - [ ] Energy scattering operator
+     - [ ] Effect of edge turbulence
+     - [ ] Effect of resonance proximity in flow and turbulence properties
+
+**** Abstract
+     The paradigm of 2D axisymmetry in magnetically fusion devices is
+     being progressively abandoned in favor of a more realistic description
+     of the 3D geometry of the magnetic field. Indeed, apart from intrinsic 3D configurations
+     such as stellarators  \cite{0741-3335-44-11-306}, 
+     the effects of non-axisymmetric magnetic field or magnetic fields 
+     ergodization are becoming a
+     fundamental issue in the fusion community also in previously assumed 2D
+     geometries such as tokamaks, where magnetic perturbations are used for ELMs
+     control \cite{Evans:2006p2554}. Furthermore, the observation of a 
+     spontaneous self organized helical state in high current regimes in Reversed
+     Field Pinches (RFPs) \cite{Lorenzini:2009p4248} exhibits numerous
+     analogies with the other major configurations, contributing to the
+     general studies on realistic 3D magnetic field effect. 
+
+     The 3D magnetic perturbations and their effects on toroidal
+     plasmas can be classified approximately by their toroidal mode number $n$
+     \cite{Callen:2011ku}: in the tokamak scheme of reference, they can be divided approximately in:
+     low $n$ ($1\le q \lesssim 5$) resonant and non-resonant fields, medium $n$ mainly
+     due to ripple or high $n$ due to microturbulence. This classification scheme can be applied also to RFPs although with
+     different mode numbers. As a general observation the presence of non-axysimmetric magnetic field may have a
+     profound influence on main plasma parameters, as rotation and transport \cite{Callen:2011ku}
+
+     The external region of a plasma is strongly modified in presence of
+     non axisymmetric magnetic perturbation. Experimental observations in
+     the RFPs \cite{Vianello:2013jt} have
+     revealed that a magnetic island or an edge helical ripple,  generate a three dimensional flow pattern as the result of
+     ambipolar constraints \cite{Spizzo:2012hw}. This mechanism is
+     likely to act independently of the configuration, and it is observed also in other
+     configuration \cite{Muller:2013hq}. 
+     
+     Aim of the contribution is to present the 
+     most recent experimental results and physical 
+     interpretation of the phenomena observed in the edge region of the
+     RFX-mod experiment, 
+     with a strong emphasis on the effects of magnetic perturbation on the
+     flow and turbulence and parallel current perturbation. 
+     
+     Experiments with spontaneous and induced magnetic perturbations will
+     be presented in  both
+     Reversed Field Pinch and low-current circular ohmic
+     Tokamak discharges. Information on the edge flow are compared with the magnetic topology, 
+     with emphasis on the phase relation between flow and magnetic
+     field. This information is provided both for natural and stimulated
+     helical discharges in RFPs, and also for tokamak operated at
+     $q(a)\simeq 2$ thanks to the MHD control of the $(m, n)=(2, 1)$ mode,
+     where a small amplitude (2, 1) magnetic island is found to modulate the
+     plasma flow and associated shear. Emphasis will be devoted to the mutual
+     interaction between macroscopic flow, modified by the magnetic
+     perturbation, and small scale vortex like blobs/filaments. Their
+     population and dynamic are influenced by the magnetic perturbation,
+     which acts on pressure
+     profile and perpendicular flow shear. All the experimental observation
+     can draw a light on the transport mechanism in the presence of 3D
+     magnetic perturbation also in view of the effects of RMPs in pedestal
+     physics.
+
+*** Understanding, predicting and utilising non-axisymmetry in tokamak plasmas
+**** Kick-off meeting <2014-01-23 Thu>
+     - Revision of each Scientific and Technical Deliverables
+     - Not a priority ANIMEC and XTOR on RFPs
+     - Look at KSTAR,  RMP can change the toroidal mode number spectrum of ELMs
+* RFX-mod campaign
+** Tokamak campaign Decembere 201 

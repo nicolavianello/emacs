@@ -13,8 +13,10 @@
 ; In MaxOsX where font is installed use the Inconsolata
 (cond
  ((eq system-type 'darwin)
+  ;; (set-face-attribute 'default nil
+  ;; 		      :family "Inconsolata" :height 140 :weight 'normal)
   (set-face-attribute 'default nil
-		      :family "Inconsolata" :height 140 :weight 'normal)
+  		      :family "Ubuntu mono" :height 140 :weight 'normal)
   )
  ((eq system-type 'gnu/linux)
   (set-face-attribute 'default nil

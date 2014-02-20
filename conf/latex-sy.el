@@ -4,7 +4,7 @@
   (setq TeX-style-private   "~/Library/texmf/tex/latex:")
   ))
 
-
+(setq ispell-program-name "/usr/local/bin/ispell")
 
 (ignore-errors (load "auctex.el" nil t t))
 ;(load "preview-latex.el" nil t t)
@@ -28,6 +28,7 @@
 (setq TeX-parse-self t)
 (add-hook 'LaTeX-mode-hook 'LaTeX-math-mode)
 (add-hook 'LaTeX-mode-hook 'turn-on-auto-fill)
+(add-hook 'LaTeX-mode-hook 'turn-on-reftex)
 (setq reftex-plug-into-AUCTeX t)
 (setq TeX-save-query nil)
 (setq TeX-PDF-mode t)

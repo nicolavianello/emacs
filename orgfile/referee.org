@@ -224,8 +224,6 @@ the suggestion given will help in this.
  8. How the velocity is of the pulses is calculated? It is possible to provide a distribution of this velocity? How this
     distribution change with the Source?
 
-    
-
 * FIRB 2013: Protocollo RBFR13MXVQ
 ** Innovativita' e originalita della proposta e della sua metodologia:
 La proposta scientifica verte sull'interpretazione teorica/numerica
@@ -313,7 +311,6 @@ Valutazione complessiva 3
 
 Valutazione complessiva 3
 
-
 * PRIN 2012: Protocollo 2012XAS7WZ
 ** Innovativita e originalita della proposta e della sua metodologia:
 Il progetto si propone una indagine su sistemi dusty plasma che
@@ -372,4 +369,98 @@ rendono la proposta all'avanguardia.
    alle sorgenti ed accelleratori) a mio avviso fornisce un punto di
    forza della proposta dal momento che permette di ampliare i
    confronti e suggerire possibili collegamenti con gli altri ambiti
-   della fisica in cui i dusty plasmas sono coinvolti. 
+   della fisica in cui i dusty plasmas sono coinvolti.
+
+* PPCF-479886
+  - Pag 2,  Line 5 from the top: it is claimed that neoclassical viscosity,
+    which acts as restoring force for Er deviations from quasi-neutrality can
+    go to zero. How? and in which way the quasi-neutrality is preserved?
+  - Pag 3,  2 line from the top: it is claimed that sheared propagating E_r
+    appears: at the same time it is also claimed that E_r changes sign almost
+    simultaneously in all the region \rho>0.5. So the sheared E_r occurs because the
+    variation at a single location is not homogeneous? Please clarify
+  - Concernign the comment on the bottom panel of Fig 1,  the spectrogram,  according
+    to me the most clear observation is that the variation of the spectal
+    amplitude is not homogeneous in the frequency domain but more evident on the region
+    10-20 kHz. Can the authors comment on that? Indeed what happens for f> 30 kHz
+    in figure 2 top?
+  - Concerning the comment on the bottom panel of Fig. 3 the authors claims there
+    is only an overestimate of E_r in the region 0.5<\rho<0.8. Honestly I
+    must admit I barely observe a comparison between measurements and predicted
+    result, in particular in this region also because numerical simulation would
+    predicted a positive shear region which can't be recognized in the data.
+    I think furthermore,  that a more detailed comment on how FLR effect may
+    overcome the discrepancy should be put into the text
+  - Pag 10: the discussion of Fig 5 is unclear so as the figure where the different
+    colors are not explained in detailed.
+  
+* NF/481582/LET 
+  <2013-08-13 Tue>
+  The letter provides state of the art analysis of the appearence of three-dimensional structure
+  during the application of Resonant Magnetic Perturbation in a tokamak plasma. The paper is well,
+  written and interesting: it deserves publication although I think the authors should address some
+  minor points before the publication. I list them below:
+  1. First of all in paragraph 2 the paper claims that the plasma response decay observed after 1830 ms is
+     potentially caused by the decrease of the core plasma rotation. Actually from the figure a reader
+     may think that this fast decrease is barely compatible with a slow toroidal bracking which
+     continues also after 1830. Maybe one can argue on a sort of threshold on the velocity which can cause this
+     abrupt variation. May the authors comment on that?
+  2. I think that figure 4 can be graphically enhanced highlighting the striation commented on the text
+  3. I would like to authors to comment on figure 6 on the fact that the total emission of CII (estimated
+     as an integral over Delta(ISP)) is reducing in time after the application of RMP.
+* PPCF-100023
+  <2013-12-06 Fri>
+** Comment to manuscript PPCF-100023
+   The paper summarizes the recent experimental observation obtained in the
+   FlareLab experiment. In particular it reports 
+   that as the axial plasma current is rising the apex of the arches is found to
+   expand with constant velocity, and this result is claimed to be in contrast with
+   the common model of hoop force driven expansion. I found the article interesting
+   but there are some points which deserve further investigation and clarification.
+   I mention here some of them:
+   1. In commenting figure 4(b) the author claims that "Following the contour of zero-crossing in the plot it is apparent that the velocity is constant at roughly 1.1 cm/mus [...]". I must admit that I can't recognize this value. Indeed if I correcly read the figure, the 0-lines starts approximately at 10.7 mus andstops around 15 (I think that the color-code is somehow misleading as one as to consider the evolution between two contiguous hues of red (the second and third in order of darkness)). Thus the corresponding velocity should be somewhat higher than 1.1.
+   2. I would like the authors to report also on what they mentioned as "detailed measurements with " miniaturized current probes "
+   3. I understand giving a detailed explanation of the missing current mechanism could be out of the scope of the present paper, but an hypothesis or at least a further comment mentioning the possible mechanism should be given
+   4. I know that the authors are using idel MHD also in the numerical simulation associated with this experimental investigation: nevertheless also in other papers of the same group it is mentioned that ideal MHD could not be the more appropriate framework, because of resistivity effect. Could the author comment on that? furthermore they only consider ExB drift but a  gradP could also play a role,  considering that a gradient of density is likely to exhist inside the arch. Could the author comment on that? Can they have an estimate from their interferometric measurements?
+   5. In the scheme reported in Fig 6 (b),  if I interpret correctly a sort of compression due to the ExB drif should occur. Is this compression compensate somehow?
+   6. I must admit,  I can't understand why the possible kink-like structures observed in the Caltech experiment should explain the differences observed between that experiment and the one exposed in the text. I also do not found too appropriate the way the authors claims in the conclusion that the scaling observed in the Caltech experiment is due to "outwards-bending plasma instabilities". Indeed these conclusions are not reported by the original authors and I think there should be a public discussion on this interpretation. 06/12/2013
+* PPCF-100146
+  <2014-01-23 Thu>
+** Comments to paper PPCF-100146 by P.W. Terry and G.G.Whelan
+   This paper reports an interesting attempt to model the temporal behavior
+   of Quasi-Single-helicity state in Reversed Field Pinch. The proposed model
+   is able to catch some of the foundamental aspects, such as the oscillatory
+   behavior and the dependence from the plasma current, in terms actually of
+   poloidal field. Although interesting, I think the paper should be improved
+   before accepting the publishing. In particular I would like the authors to
+   address the questions listed below:
+   1. Does the authors have an idea if the condition v/L_{\phi} \geq V_a/a is
+      experimentally satisfied. I think that a comparison with available and published data
+      could help the reader to identify the main mechanism (velocity/magneti shear)
+      in the experimental contest
+   2. I must admit I have some difficulties in follwing the deduction of the Reduced model.
+      First if all I think that in deriving equation 10 the authors should postulate a time
+      dependence of \omega_m of the type exp(i\gamma t) and should also postulate the same
+      time scaling associated to the dinamycs of \psi (derived from the j=\nabla_{\perp}^2 \psi)
+      If this is the case I can't understand while afterwards they are not considering
+      this time dependence in Eq. 11
+   3. Still concerning Eq.11 I think the authors should clarify the reason for negleting the
+      linear term. Indeed any further derivation of the effects of a large shearing rate
+      lacks of the behavior of this linear term which dominate in the case of large
+      \Omega^{'}.
+   4. The terms representing Ohmic free energy introduced in Eq (13) and (14) are, to my comprehension
+      a little bit artificial. In particular as energy Eq (12) is derived from (11) by
+      multiplying for \psi_{-m} this, still to my understand, implies that if one would like
+      to go back to the original equations should introduced an Ohmic free energy Q of the
+      Q/\psi_m, thus depending on the mode. And this I believe should be explained in much
+      more detailed.
+   5. How does the authors reconcile the fact that according to M. Gobbin, PRL 106 025001 (2011) the ITB
+      position exhibits a linear trend with respect to a local maxima of helical q (or equivalently with a
+      a region of weak shear)?
+   6. As a final comment I think that the quality of Fig 1 should be improved as it is hard to observe
+      the detailed description of the Analysis paragraphi in such a figure
+   
+   In summary I believe that the article is very interesting and poses the basis for a complete
+   dynamical understanding of the QSH state, but I think it needs further improvement and clarification
+   before publishing
+       

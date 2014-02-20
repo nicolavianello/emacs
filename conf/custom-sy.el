@@ -7,7 +7,7 @@
  '(auto-compression-mode t nil (jka-compr))
  '(case-fold-search t)
  '(column-number-mode t)
- '(custom-safe-themes (quote ("7a2c92b6267b84ae28a396f24dd832e29a164c1942f1f8b3fe500f1c25f8e09d" "06f5145c01ec774a0abb49eeffa3980743ce2f997112b537effeb188b7c51caf" default)))
+ ;; '(custom-safe-themes (quote ("7a2c92b6267b84ae28a396f24dd832e29a164c1942f1f8b3fe500f1c25f8e09d" "06f5145c01ec774a0abb49eeffa3980743ce2f997112b537effeb188b7c51caf" default)))
  '(debug-on-error t)
  '(delete-key-deletes-forward t)
  '(global-font-lock-mode t nil (font-lock))
