@@ -10,7 +10,8 @@
                            ("marmalade" . "http://marmalade-repo.org/packages/")
 			   ("org" . "http://orgmode.org/elpa/")
 			   ("melpa" . "http://melpa.milkbox.net/packages/")
-                           ))
+                           ("elpy" . "http://jorgenschaefer.github.io/packages/")
+			   ))
 
   (when (< emacs-major-version 24)
     (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/"))
