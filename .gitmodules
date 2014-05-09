@@ -1,3 +1,9 @@
 [submodule "auctex"]
 	path = auctex
 	url = https://github.com/jwiegley/auctex.git
+[submodule "emacs-color-themes"]
+	path = emacs-color-themes
+	url = https://github.com/owainlewis/emacs-color-themes
+[submodule "orgmode-mediawiki"]
+	path = orgmode-mediawiki
+	url = https://github.com/craftkiller/orgmode-mediawiki
