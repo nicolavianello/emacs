@@ -418,12 +418,26 @@ rendono la proposta all'avanguardia.
    the common model of hoop force driven expansion. I found the article interesting
    but there are some points which deserve further investigation and clarification.
    I mention here some of them:
-   1. In commenting figure 4(b) the author claims that "Following the contour of zero-crossing in the plot it is apparent that the velocity is constant at roughly 1.1 cm/mus [...]". I must admit that I can't recognize this value. Indeed if I correcly read the figure, the 0-lines starts approximately at 10.7 mus andstops around 15 (I think that the color-code is somehow misleading as one as to consider the evolution between two contiguous hues of red (the second and third in order of darkness)). Thus the corresponding velocity should be somewhat higher than 1.1.
+   1. In commenting figure 4(b) the author claims that "Following the contour of zero-crossing in the plot
+   it is apparent that the velocity is constant at roughly 1.1 cm/mus [...]". I must admit that I can't recognize
+   this value. Indeed if I correcly read the figure, the 0-lines starts approximately at 10.7 mus andstops around 15
+   (I think that the color-code is somehow misleading as one as to consider the evolution between two contiguous hues of red
+   (the second and third in order of darkness)). Thus the corresponding velocity should be somewhat higher than 1.1.
    2. I would like the authors to report also on what they mentioned as "detailed measurements with " miniaturized current probes "
-   3. I understand giving a detailed explanation of the missing current mechanism could be out of the scope of the present paper, but an hypothesis or at least a further comment mentioning the possible mechanism should be given
-   4. I know that the authors are using idel MHD also in the numerical simulation associated with this experimental investigation: nevertheless also in other papers of the same group it is mentioned that ideal MHD could not be the more appropriate framework, because of resistivity effect. Could the author comment on that? furthermore they only consider ExB drift but a  gradP could also play a role,  considering that a gradient of density is likely to exhist inside the arch. Could the author comment on that? Can they have an estimate from their interferometric measurements?
-   5. In the scheme reported in Fig 6 (b),  if I interpret correctly a sort of compression due to the ExB drif should occur. Is this compression compensate somehow?
-   6. I must admit,  I can't understand why the possible kink-like structures observed in the Caltech experiment should explain the differences observed between that experiment and the one exposed in the text. I also do not found too appropriate the way the authors claims in the conclusion that the scaling observed in the Caltech experiment is due to "outwards-bending plasma instabilities". Indeed these conclusions are not reported by the original authors and I think there should be a public discussion on this interpretation. 06/12/2013
+   3. I understand giving a detailed explanation of the missing current mechanism could be out of the scope of the present paper,
+   but an hypothesis or at least a further comment mentioning the possible mechanism should be given
+   4. I know that the authors are using idel MHD also in the numerical simulation associated with this experimental investigation:
+   nevertheless also in other papers of the same group it is mentioned that ideal MHD could not be the more appropriate framework,
+   because of resistivity effect. Could the author comment on that? furthermore they only consider ExB drift but a  gradP could also
+   play a role,  considering that a gradient of density is likely to exhist inside the arch. Could the author comment on that?
+   Can they have an estimate from their interferometric measurements?
+   5. In the scheme reported in Fig 6 (b),  if I interpret correctly a sort of compression due to the ExB drif should occur.
+   Is this compression compensate somehow?
+   6. I must admit,  I can't understand why the possible kink-like structures observed in the Caltech
+   experiment should explain the differences observed between that experiment and the one exposed in the text.
+   I also do not found too appropriate the way the authors claims in the conclusion that the scaling observed in the
+   Caltech experiment is due to "outwards-bending plasma instabilities". Indeed these conclusions are not reported
+   by the original authors and I think there should be a public discussion on this interpretation. 06/12/2013
 * PPCF-100146
   <2014-01-23 Thu>
 ** Comments to paper PPCF-100146 by P.W. Terry and G.G.Whelan
