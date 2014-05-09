@@ -1,0 +1,8 @@
+* Experimental campaign in COMPASS with U-Probe
+** Note on the data acquisition
+   We still have the same program to read the data which is named basic_anal_v2.
+   The channels have not been changed but calibration are now different
+
+** <2013-09-30 Mon>
+ | Shot | Probe Insertion | Comments |
+ |      |                 |          |
